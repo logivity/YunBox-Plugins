@@ -115,58 +115,6 @@ class WPSEO_Help_Center {
 
 		$id = sprintf( 'tab-help-center-%s-%s', $this->group_name, $this->tab->get_name() );
 		?>
-		<div class="wpseo-tab-video-container">
-			<button type="button" class="wpseo-tab-video-container__handle" aria-controls="<?php echo $id ?>"
-			        aria-expanded="false">
-					<span
-						class="dashicons-before dashicons-editor-help"><?php _e( 'Help center', 'wordpress-seo' ) ?></span>
-				<span class="dashicons dashicons-arrow-down toggle__arrow"></span>
-			</button>
-			<div id="<?php echo $id ?>" class="wpseo-tab-video-slideout">
-				<div class="yoast-help-center-tabs">
-					<ul>
-						<?php
-						$class = 'active wpseo-help-center-item';
-
-						foreach ( $help_center_items as $help_center_item ) {
-							$id = $help_center_item->get_identifier();
-							$dashicon = $help_center_item->get_dashicon();
-							if ( ! empty( $dashicon ) ) {
-								$dashicon = 'dashicons-before ' . $dashicon;
-							}
-							$link_id  = "tab-link-{$this->group_name}_{$this->tab->get_name()}__{$id}";
-							$panel_id = "tab-panel-{$this->group_name}_{$this->tab->get_name()}__{$id}";
-							?>
-
-							<li id="<?php echo esc_attr( $link_id ); ?>" class="<?php echo $class; ?>">
-								<a href="<?php echo esc_url( "#$panel_id" ); ?>"
-								   class="<?php echo $id . ' ' . $dashicon?>"
-								   aria-controls="<?php echo esc_attr( $panel_id ); ?>"><?php echo esc_html( $help_center_item->get_label() ); ?></a>
-							</li>
-							<?php
-							$class = 'wpseo-help-center-item';
-						}
-						?>
-					</ul>
-				</div>
-				<div class="contextual-help-tabs-wrap">
-					<?php
-					$classes = 'help-tab-content active';
-					foreach ( $help_center_items as $help_center_item ) {
-						$id = $help_center_item->get_identifier();
-
-						$panel_id = "tab-panel-{$this->group_name}_{$this->tab->get_name()}__{$id}";
-						?>
-						<div id="<?php echo esc_attr( $panel_id ); ?>" class="<?php echo $classes; ?>">
-							<?php echo $help_center_item->get_content(); ?>
-						</div>
-						<?php
-						$classes = 'help-tab-content';
-					}
-					?>
-				</div>
-			</div>
-		</div>
 		<?php
 	}
 
