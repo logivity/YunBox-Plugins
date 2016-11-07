@@ -218,6 +218,7 @@ class WPSEO_Admin {
 				array( $this->admin_features['google_search_console'], 'display' ),
 				array( array( $this->admin_features['google_search_console'], 'set_help' ) ),
 			),
+			/*
 			array(
 				self::PAGE_IDENTIFIER,
 				'',
@@ -227,6 +228,7 @@ class WPSEO_Admin {
 				array( $this, 'load_page' ),
 				null,
 			),
+			 */
 		);
 
 		// Allow submenu pages manipulation.
