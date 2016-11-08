@@ -2,22 +2,26 @@
 # Copyright (C) 2015 Photocrati Media
 # This file is distributed under the same license as the NextGEN Gallery package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: NextGEN Gallery\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/nextgen-gallery\n"
 "POT-Creation-Date: 2014-02-20 19:45-0800\n"
-"PO-Revision-Date: 2016-05-03 11:18+47\n"
+"PO-Revision-Date: 2016-11-08 10:52+0800\n"
 "Last-Translator: Imagely\n"
 "Language-Team: Imagely\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Language: zh_CN\n"
 
 #: nggallery.php:289
 #, php-format
-msgid "NextGEN Gallery %s is incompatible with this version of NextGEN Pro. Please update NextGEN Pro to version %s or higher to restore NextGEN Gallery functionality."
+msgid ""
+"NextGEN Gallery %s is incompatible with this version of NextGEN Pro. Please "
+"update NextGEN Pro to version %s or higher to restore NextGEN Gallery "
+"functionality."
 msgstr ""
 
 #: nggallery.php:372
@@ -132,7 +136,9 @@ msgid "(optional)"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/attach_to_post/templates/display_tab_js.php:657
-msgid "Sets an SEO-friendly name to this gallery for URLs. Currently only in use by the Pro Lightbox."
+msgid ""
+"Sets an SEO-friendly name to this gallery for URLs. Currently only in use by "
+"the Pro Lightbox."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/attach_to_post/templates/display_tab_js.php:658
@@ -275,7 +281,9 @@ msgid "Go to the Highslide JS homepage"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/lightbox/class.lightbox_library_manager.php:103
-msgid "Click to close image, click and drag to move. Use arrow keys for next and previous."
+msgid ""
+"Click to close image, click and drag to move. Use arrow keys for next and "
+"previous."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/lightbox/class.lightbox_library_manager.php:55
@@ -337,7 +345,9 @@ msgid "&lt; Prev"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/lightbox/class.lightbox_library_manager.php:170
-msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/lightbox/class.lightbox_library_manager.php:110
@@ -377,7 +387,9 @@ msgid "An unexpected error occured."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/adapter.nextgen_addgallery_ajax.php:80
-msgid "No permissions to upload images. Try refreshing the page or ensuring that your user account has sufficient roles/privileges."
+msgid ""
+"No permissions to upload images. Try refreshing the page or ensuring that "
+"your user account has sufficient roles/privileges."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/adapter.nextgen_addgallery_ajax.php:123
@@ -389,7 +401,9 @@ msgid "No directory specified."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/adapter.nextgen_addgallery_ajax.php:131
-msgid "No permissions to browse folders. Try refreshing the page or ensuring that your user account has sufficient roles/privileges."
+msgid ""
+"No permissions to browse folders. Try refreshing the page or ensuring that "
+"your user account has sufficient roles/privileges."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/adapter.nextgen_addgallery_ajax.php:163
@@ -397,7 +411,9 @@ msgid "No folder specified"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/adapter.nextgen_addgallery_ajax.php:166
-msgid "No permissions to import folders. Try refreshing the page or ensuring that your user account has sufficient roles/privileges."
+msgid ""
+"No permissions to import folders. Try refreshing the page or ensuring that "
+"your user account has sufficient roles/privileges."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/adapter.upload_images_form.php:7
@@ -405,7 +421,9 @@ msgid "Upload Images"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:1
-msgid "Select a folder to import. The folder name will be used as the title of the gallery."
+msgid ""
+"Select a folder to import. The folder name will be used as the title of the "
+"gallery."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:11
@@ -413,7 +431,10 @@ msgid "Keep images in original location."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:5
-msgid "Caution: If you keep images in the original folder and later delete the gallery, the images in that folder might be deleted depending on your settings."
+msgid ""
+"Caution: If you keep images in the original folder and later delete the "
+"gallery, the images in that folder might be deleted depending on your "
+"settings."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:39
@@ -426,7 +447,9 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:56
 #, php-format
-msgid "Done! Successfully imported %s images. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgid ""
+"Done! Successfully imported %s images. <a href=\"%s\" target=\"_blank"
+"\">Manage gallery</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/attach_to_post/templates/attach_to_post.php:12
@@ -461,11 +484,15 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:164
 #, php-format
-msgid "%s images were uploaded successfully. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgid ""
+"%s images were uploaded successfully. <a href=\"%s\" target=\"_blank"
+"\">Manage gallery</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:167
-msgid "1 image was uploaded successfully. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgid ""
+"1 image was uploaded successfully. <a href=\"%s\" target=\"_blank\">Manage "
+"gallery</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:170
@@ -477,7 +504,10 @@ msgid "Upload complete"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:206
-msgid "An unexpected error occured. This is most likely due to a server misconfiguration. Check your PHP error log or ask your hosting provider for assistance."
+msgid ""
+"An unexpected error occured. This is most likely due to a server "
+"misconfiguration. Check your PHP error log or ask your hosting provider for "
+"assistance."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_admin/class.admin_notification_manager.php:121
@@ -494,7 +524,11 @@ msgid "Override thumbnail settings"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_admin/class.form.php:240
-msgid "This does not affect existing thumbnails; overriding the thumbnail settings will create an additional set of thumbnails. To change the size of existing thumbnails please visit 'Manage Galleries' and choose 'Create new thumbnails' for all images in the gallery."
+msgid ""
+"This does not affect existing thumbnails; overriding the thumbnail settings "
+"will create an additional set of thumbnails. To change the size of existing "
+"thumbnails please visit 'Manage Galleries' and choose 'Create new "
+"thumbnails' for all images in the gallery."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_admin/class.form.php:248
@@ -653,7 +687,9 @@ msgid "Maximum dimensions"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/adapter.nextgen_basic_slideshow_form.php:83
-msgid "Certain themes may allow images to flow over their container if this setting is too large"
+msgid ""
+"Certain themes may allow images to flow over their container if this setting "
+"is too large"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/adapter.nextgen_basic_slideshow_form.php:100
@@ -685,7 +721,9 @@ msgid "Add Hidden Images"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/adapter.nextgen_basic_thumbnail_form.php:105
-msgid "If pagination is used this option will show all images in the modal window (Thickbox, Lightbox etc.) This increases page load."
+msgid ""
+"If pagination is used this option will show all images in the modal window "
+"(Thickbox, Lightbox etc.) This increases page load."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/adapter.nextgen_basic_thumbnail_form.php:114
@@ -693,7 +731,9 @@ msgid "Use imagebrowser effect"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/adapter.nextgen_basic_thumbnail_form.php:116
-msgid "When active each image in the gallery will link to an imagebrowser display and lightbox effects will not be applied."
+msgid ""
+"When active each image in the gallery will link to an imagebrowser display "
+"and lightbox effects will not be applied."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/adapter.nextgen_basic_thumbnail_form.php:133
@@ -718,7 +758,9 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/module.nextgen_basic_gallery.php:366
 #, php-format
-msgid "Flash slideshow support has been removed from NextGEN Gallery. Please see <a href='%s'>this blog post</a> for more information."
+msgid ""
+"Flash slideshow support has been removed from NextGEN Gallery. Please see <a "
+"href='%s'>this blog post</a> for more information."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_basic_gallery/templates/slideshow/nextgen_basic_slideshow_settings_gallery_dimensions.php:15
@@ -846,7 +888,9 @@ msgstr ""
 #: products/photocrati_nextgen/modules/nextgen_data/class.gallerystorage_driver_base.php:648
 #: products/photocrati_nextgen/modules/nextgen_data/class.ngglegacy_gallerystorage_driver.php:706
 #: products/photocrati_nextgen/modules/ngglegacy/lib/multisite.php:23
-msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
+msgid ""
+"Sorry, you have used your space allocation. Please delete some files to "
+"upload more files."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_data/class.gallerystorage_driver_base.php:1092
@@ -1074,7 +1118,8 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_data/class.ngglegacy_gallerystorage_driver.php:698
 #, php-format
-msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgid ""
+"Unable to write to directory %s. Is this directory writable by the server?"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_data/class.ngglegacy_gallerystorage_driver.php:732
@@ -1198,7 +1243,8 @@ msgid "Delete Image Files?"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.image_options_form.php:90
-msgid "When enabled, image files will be removed after a Gallery has been deleted"
+msgid ""
+"When enabled, image files will be removed after a Gallery has been deleted"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.image_options_form.php:92
@@ -1206,7 +1252,9 @@ msgid "Show Related Images on Posts?"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.image_options_form.php:93
-msgid "When enabled, related images will be appended to each post by matching the posts tags/categories to image tags"
+msgid ""
+"When enabled, related images will be appended to each post by matching the "
+"posts tags/categories to image tags"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.image_options_form.php:95
@@ -1250,7 +1298,9 @@ msgid "What should images be resized to?"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.image_options_form.php:114
-msgid "After images are uploaded, they will be resized to the above dimensions and quality"
+msgid ""
+"After images are uploaded, they will be resized to the above dimensions and "
+"quality"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.image_options_form.php:115
@@ -1286,7 +1336,9 @@ msgid "Add MediaRSS link?"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.miscellaneous_form.php:22
-msgid "When enabled, adds a MediaRSS link to your header. Third-party web services can use this to publish your galleries"
+msgid ""
+"When enabled, adds a MediaRSS link to your header. Third-party web services "
+"can use this to publish your galleries"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.miscellaneous_form.php:26
@@ -1294,7 +1346,9 @@ msgid "Display galleries in feeds"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.miscellaneous_form.php:27
-msgid "NextGEN hides its gallery displays in feeds other than MediaRSS. This enables image galleries in feeds."
+msgid ""
+"NextGEN hides its gallery displays in feeds other than MediaRSS. This "
+"enables image galleries in feeds."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.miscellaneous_form.php:30
@@ -1317,11 +1371,15 @@ msgid "Maximum image count"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.miscellaneous_form.php:45
-msgid "This is the maximum limit of images that NextGEN will restrict itself to querying"
+msgid ""
+"This is the maximum limit of images that NextGEN will restrict itself to "
+"querying"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.miscellaneous_form.php:47
-msgid "Note: This limit will not apply to slideshow widgets or random galleries if/when those galleries specify their own image limits"
+msgid ""
+"Note: This limit will not apply to slideshow widgets or random galleries if/"
+"when those galleries specify their own image limits"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.other_options_controller.php:22
@@ -1338,7 +1396,8 @@ msgid "Reset all options to default settings"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.reset_form.php:16
-msgid "Replace all existing options and gallery options with their default settings"
+msgid ""
+"Replace all existing options and gallery options with their default settings"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.reset_form.php:17
@@ -1443,7 +1502,9 @@ msgid "An absolute or relative (to the site document root) file system path"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.watermarks_form.php:71
-msgid "An absolute or relative (to the site document root) file system path or an HTTP url"
+msgid ""
+"An absolute or relative (to the site document root) file system path or an "
+"HTTP url"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.watermarks_form.php:74
@@ -1471,7 +1532,9 @@ msgid "Opacity:"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.watermarks_form.php:126
-msgid "Please note: You can only activate the watermark under Manage Gallery. This action cannot be undone."
+msgid ""
+"Please note: You can only activate the watermark under Manage Gallery. This "
+"action cannot be undone."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/nextgen_other_options/adapter.watermarks_form.php:127
@@ -1561,11 +1624,15 @@ msgid "A failure occurred"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/admin.php:379
-msgid "<a href=\"https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery/\" target=\"_blank\">Introduction</a>"
+msgid ""
+"<a href=\"https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery/"
+"\" target=\"_blank\">Introduction</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/admin.php:382
-msgid "<a href=\"https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery//languages\" target=\"_blank\">Languages</a>"
+msgid ""
+"<a href=\"https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery//"
+"languages\" target=\"_blank\">Languages</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/admin.php:387
@@ -1577,7 +1644,9 @@ msgid "More Help & Info"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/admin.php:393
-msgid "<a href=\"http://wordpress.org/tags/nextgen-gallery?forum_id=10\" target=\"_blank\">Support Forums</a>"
+msgid ""
+"<a href=\"http://wordpress.org/tags/nextgen-gallery?forum_id=10\" target="
+"\"_blank\">Support Forums</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/admin.php:394
@@ -1697,7 +1766,9 @@ msgid "[Minimize]"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/album.php:482
-msgid "After you create and select a album, you can drag and drop a gallery or another album into your new album below"
+msgid ""
+"After you create and select a album, you can drag and drop a gallery or "
+"another album into your new album below"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/album.php:508
@@ -1823,7 +1894,9 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/functions.php:119
 #, php-format
-msgid "Gallery ID %1$s successfully created. You can show this gallery in your post or page with the shortcode %2$s.<br/>"
+msgid ""
+"Gallery ID %1$s successfully created. You can show this gallery in your post "
+"or page with the shortcode %2$s.<br/>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/functions.php:122
@@ -1911,7 +1984,9 @@ msgid "Sorry, NextGEN Gallery works only with a role called administrator"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/install.php:92
-msgid "NextGEN Gallery : Tables could not created, please check your database settings"
+msgid ""
+"NextGEN Gallery : Tables could not created, please check your database "
+"settings"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/manage-galleries.php:99
@@ -2342,6 +2417,7 @@ msgstr ""
 msgid "Go to the last page"
 msgstr ""
 
+#. Plugin Name of the plugin/theme
 #: products/photocrati_nextgen/modules/ngglegacy/admin/media-upload.php:11
 msgid "NextGEN Gallery"
 msgstr ""
@@ -2422,24 +2498,41 @@ msgid "Server Settings"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:97
-msgid "NextGEN Gallery is one of the most popular WordPress plugins of all time with over 14 million downloads."
+msgid ""
+"NextGEN Gallery is one of the most popular WordPress plugins of all time "
+"with over 14 million downloads."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:97
-msgid "It is developed and supported by Imagely. We'd like to offer a special thanks to Alex Rabe, who first developed the plugin and maintained it through 2011."
+msgid ""
+"It is developed and supported by Imagely. We'd like to offer a special "
+"thanks to Alex Rabe, who first developed the plugin and maintained it "
+"through 2011."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:98
-msgid "<strong>NEED  HELP?</strong> If you need help or assistance please visit the <a href='http://wordpress.org/support/plugin/nextgen-gallery'>NextGEN Gallery forums on WordPress.org</a>. Please note that we actively monitor and  participate in the forums, but given that NextGEN Gallery is a free product, we don't guarantee replies to support queries."
+msgid ""
+"<strong>NEED  HELP?</strong> If you need help or assistance please visit the "
+"<a href='http://wordpress.org/support/plugin/nextgen-gallery'>NextGEN "
+"Gallery forums on WordPress.org</a>. Please note that we actively monitor "
+"and  participate in the forums, but given that NextGEN Gallery is a free "
+"product, we don't guarantee replies to support queries."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:99
-msgid "<strong>EXTENDING NEXTGEN?</strong> There are many third party plugins that add displays and functionality for NextGEN Gallery. See our <a href='https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery//nextgen-gallery-extension-plugins/'>Complete List of NextGEN Extension  Plugins</a>."
+msgid ""
+"<strong>EXTENDING NEXTGEN?</strong> There are many third party plugins that "
+"add displays and functionality for NextGEN Gallery. See our <a href='https://"
+"www.imagely.com/wordpress-gallery-plugin/nextgen-gallery//nextgen-gallery-"
+"extension-plugins/'>Complete List of NextGEN Extension  Plugins</a>."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:107
 #, php-format
-msgid "This plugin is primarily developed, maintained, supported and documented by <a href=\"%s\" target=\"_blank\">Imagely</a> with a lot of love & effort. Any kind of contribution would be highly appreciated. Thanks!"
+msgid ""
+"This plugin is primarily developed, maintained, supported and documented by "
+"<a href=\"%s\" target=\"_blank\">Imagely</a> with a lot of love & effort. "
+"Any kind of contribution would be highly appreciated. Thanks!"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:112
@@ -2482,7 +2575,9 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:226
 #, php-format
-msgid "Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to check for updates."
+msgid ""
+"Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to "
+"check for updates."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:238
@@ -2506,7 +2601,8 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:364
 #, php-format
-msgid "<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB</a>"
+msgid ""
+"<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:365
@@ -2515,7 +2611,9 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:372
 #, php-format
-msgid "<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB (%3$s%%)</a>"
+msgid ""
+"<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB (%3$s"
+"%%)</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:373
@@ -2618,7 +2716,11 @@ msgid "PHP XML support"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/overview.php:495
-msgid "NextGEN Gallery contains some functions which are only available under PHP 5.2. You are using the old PHP 4 version, upgrade now! It's no longer supported by the PHP group. Many shared hosting providers offer both PHP 4 and PHP 5, running simultaneously. Ask your provider if they can do this."
+msgid ""
+"NextGEN Gallery contains some functions which are only available under PHP "
+"5.2. You are using the old PHP 4 version, upgrade now! It's no longer "
+"supported by the PHP group. Many shared hosting providers offer both PHP 4 "
+"and PHP 5, running simultaneously. Ask your provider if they can do this."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/publish.php:35
@@ -2638,7 +2740,9 @@ msgid "Draft"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/roles.php:26
-msgid "Select the lowest role which should be able to access the following capabilities. NextGEN Gallery supports the standard roles from WordPress."
+msgid ""
+"Select the lowest role which should be able to access the following "
+"capabilities. NextGEN Gallery supports the standard roles from WordPress."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/roles.php:31
@@ -2786,7 +2890,10 @@ msgid "Rename Tag"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/tags.php:192
-msgid "Enter the tag to rename and its new value.  You can use this feature to merge tags too. Click \"Rename\" and all posts which use this tag will be updated."
+msgid ""
+"Enter the tag to rename and its new value.  You can use this feature to "
+"merge tags too. Click \"Rename\" and all posts which use this tag will be "
+"updated."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/tags.php:193
@@ -2811,7 +2918,9 @@ msgid "Delete Tag"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/tags.php:218
-msgid "Enter the name of the tag to delete.  This tag will be removed from all posts."
+msgid ""
+"Enter the name of the tag to delete.  This tag will be removed from all "
+"posts."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/tags.php:219
@@ -2827,7 +2936,10 @@ msgid "Edit Tag Slug"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/tags.php:240
-msgid "Enter the tag name to edit and its new slug. This will be used in tagcloud links. <a href=\"http://codex.wordpress.org/Glossary#Slug\" target=\"_blank\">Slug definition</a>"
+msgid ""
+"Enter the tag name to edit and its new slug. This will be used in tagcloud "
+"links. <a href=\"http://codex.wordpress.org/Glossary#Slug\" target=\"_blank"
+"\">Slug definition</a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/tags.php:245
@@ -2871,7 +2983,9 @@ msgid "Gallery path"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/wpmu.php:56
-msgid "This is the default path for all blogs. With the placeholder %BLOG_ID% you can organize the folder structure better."
+msgid ""
+"This is the default path for all blogs. With the placeholder %BLOG_ID% you "
+"can organize the folder structure better."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/admin/wpmu.php:57
@@ -2929,7 +3043,9 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/lib/core.php:214
 #, php-format
-msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgid ""
+"Note : Based on your server memory limit you should not upload larger images "
+"then <strong>%d x %d</strong> pixel"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/lib/ngg-db.php:208
@@ -2987,7 +3103,8 @@ msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/lib/tags.php:143
 #, php-format
-msgid "Merge tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;. %3$s objects edited."
+msgid ""
+"Merge tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;. %3$s objects edited."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/lib/tags.php:146
@@ -3025,11 +3142,15 @@ msgid "%s slug(s) edited."
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/nggallery.php:60
-msgid "<strong>Translation by : </strong><a target=\"_blank\" href=\"https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery//languages/\">See here</a>"
+msgid ""
+"<strong>Translation by : </strong><a target=\"_blank\" href=\"https://www."
+"imagely.com/wordpress-gallery-plugin/nextgen-gallery//languages/\">See here</"
+"a>"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/nggallery.php:122
-msgid "Sorry, NextGEN Gallery works only with a Memory Limit of 16 MB or higher"
+msgid ""
+"Sorry, NextGEN Gallery works only with a Memory Limit of 16 MB or higher"
 msgstr ""
 
 #: products/photocrati_nextgen/modules/ngglegacy/nggallery.php:148
@@ -3198,16 +3319,14 @@ msgstr ""
 msgid "Limit"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-msgid "NextGEN Gallery"
-msgstr ""
-
 #. Plugin URI of the plugin/theme
 msgid "https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "The most popular gallery plugin for WordPress and one of the most popular plugins of all time with over 14 million downloads."
+msgid ""
+"The most popular gallery plugin for WordPress and one of the most popular "
+"plugins of all time with over 14 million downloads."
 msgstr ""
 
 #. Author of the plugin/theme
