@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TinyMCE Advanced\n"
+"POT-Creation-Date: 2016-11-08 09:45+0800\n"
+"PO-Revision-Date: 2016-11-08 09:47+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../tadv_admin.php:40
+msgid "Default settings restored."
+msgstr "默认设置已成功还原"
+
+#: ../tadv_admin.php:52
+msgid "TinyMCE Advanced Settings Export"
+msgstr "导出 TinyMCE Advanced 设置"
+
+#: ../tadv_admin.php:56
+msgid "The settings are exported as a JSON encoded string."
+msgstr "设置会被导出为 JSON 编码的字符串。"
+
+#: ../tadv_admin.php:57
+msgid ""
+"Please copy the content and save it in a <b>text</b> (.txt) file, using a "
+"plain text editor like Notepad."
+msgstr ""
+"请复制内容，并将其保存在一个<b>文本</b>文件（.txt），使用纯文本编辑器如记事"
+"本。"
+
+#: ../tadv_admin.php:58
+msgid ""
+"It is important that the export is not changed in any way, no spaces, line "
+"breaks, etc."
+msgstr "请勿变更内容，如空白、下划线等等"
+
+#: ../tadv_admin.php:63
+msgid "Select All"
+msgstr "全选"
+
+#: ../tadv_admin.php:65 ../tadv_admin.php:91
+msgid "Back to Editor Settings"
+msgstr "返回编辑器设定"
+
+#: ../tadv_admin.php:77
+msgid "TinyMCE Advanced Settings Import"
+msgstr "TinyMCE的高级设置导入"
+
+#: ../tadv_admin.php:80
+msgid ""
+"The settings are imported from a JSON encoded string. Please paste the "
+"exported string in the text area below."
+msgstr "设置导入从 JSON 编码的字符串。请在下面的文本区域中粘贴的导出的字符串。"
+
+#: ../tadv_admin.php:85
+msgid "Verify"
+msgstr "验证"
+
+#: ../tadv_admin.php:86
+msgid "Import"
+msgstr "导入"
+
+#: ../tadv_admin.php:104
+msgid "Importing of settings failed."
+msgstr "设置导入失败。"
+
+#: ../tadv_admin.php:117
+msgid "ERROR: All toolbars are empty. Default settings loaded."
+msgstr "错误：所有的工具栏都是空的。已加载默认设置。"
+
+#: ../tadv_admin.php:128
+msgid "Editor Settings"
+msgstr "编辑器设定"
+
+#: ../tadv_admin.php:135
+msgid "Settings saved."
+msgstr "设定已保存"
+
+#: ../tadv_admin.php:144 ../tadv_admin.php:440
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: ../tadv_admin.php:151
+msgid "Enable the editor menu."
+msgstr "启用编辑菜单。"
+
+#: ../tadv_admin.php:263
+msgid ""
+"Drag buttons from the unused buttons below and drop them in the toolbars "
+"above, or drag the buttons in the toolbars to rearrange them."
+msgstr ""
+"从下面的未使用的按钮拖动按钮，将它们置于工具栏上面，或者拖动工具栏的按钮来重"
+"新排列它们。"
+
+#: ../tadv_admin.php:266
+msgid "Unused Buttons"
+msgstr "未使用的按钮"
+
+#: ../tadv_admin.php:308
+msgid "Options"
+msgstr "选项"
+
+#: ../tadv_admin.php:311
+msgid "List Style Options"
+msgstr "样式选项"
+
+#: ../tadv_admin.php:313
+msgid ""
+"Enable more list options: upper or lower case letters for ordered lists, "
+"disk or square for unordered lists, etc."
+msgstr "启用更多的列表选项：如字母大写或小写、列表、序列等等。"
+
+#: ../tadv_admin.php:318
+msgid "Context Menu"
+msgstr "內容菜单"
+
+#: ../tadv_admin.php:320
+msgid "Replace the browser context (right-click) menu."
+msgstr "替换浏览器上下文 （右键单击） 菜单。"
+
+#: ../tadv_admin.php:325
+msgid "Alternative link dialog"
+msgstr "替代链接对话框"
+
+#: ../tadv_admin.php:327
+msgid ""
+"Open the TinyMCE link dialog when using the link button on the toolbar or "
+"the link menu item."
+msgstr "使用链接按钮的工具栏或链接菜单项上时，请打开 TinyMCE 链接对话框。"
+
+#: ../tadv_admin.php:332
+msgid "Font sizes"
+msgstr "字体大小"
+
+#: ../tadv_admin.php:333
+msgid ""
+"Replace the size setting available for fonts with: 8px 10px 12px 14px 16px "
+"20px 24px 28px 32px 36px 48px 60px."
+msgstr ""
+"更改字型大小设定：8px 10px 12px 14px 16px 20px 24px 28px 32px 36px 48px "
+"60px。"
+
+#: ../tadv_admin.php:341
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: ../tadv_admin.php:359
+msgid "Create CSS classes menu"
+msgstr "创建 CSS 类菜单"
+
+#: ../tadv_admin.php:363
+msgid ""
+"Load the CSS classes used in editor-style.css and replace the Formats menu."
+msgstr "加载主编style.css中所使用的CSS类和替换格式菜单。"
+
+#: ../tadv_admin.php:368 ../tadv_admin.php:374
+msgid "ERROR:"
+msgstr "错误："
+
+#: ../tadv_admin.php:369
+msgid "Your theme does not support editor-style.css."
+msgstr "你的主题不支持主编的style.css。"
+
+#: ../tadv_admin.php:375
+msgid "A stylesheet file named editor-style.css was not added by your theme."
+msgstr "不是由你的主题添加了一个样式表文件命名为主编的style.css。"
+
+#: ../tadv_admin.php:380
+msgid ""
+"To use this option, add editor-style.css to your theme or a child theme. "
+"Enabling this option will also load that stylesheet in the editor."
+msgstr ""
+"要使用此选项，添加主编的style.css你的主题或子主题。启用这个选项也将加载在编辑"
+"器样式表。"
+
+#: ../tadv_admin.php:388
+msgid "Keep paragraph tags"
+msgstr "保持段落标记"
+
+#: ../tadv_admin.php:390
+msgid ""
+"Stop removing the &lt;p&gt; and &lt;br /&gt; tags when saving and show them "
+"in the Text editor."
+msgstr "编辑器保存时禁止刪除 < p > 和 < br / >"
+
+#: ../tadv_admin.php:391
+msgid ""
+"This will make it possible to use more advanced coding in the Text editor "
+"without the back-end filtering affecting it much."
+msgstr "這將使 HTML 編輯器使用更先進的編碼， 而且不影響後端過濾器"
+
+#: ../tadv_admin.php:392
+msgid ""
+"However it may behave unexpectedly in rare cases, so test it thoroughly "
+"before enabling it permanently."
+msgstr "在极少数的情況下有可能会出現意外，请在启用前测试它。"
+
+#: ../tadv_admin.php:393
+msgid ""
+"Line breaks in the Text editor would still affect the output, in particular "
+"do not use empty lines, line breaks inside HTML tags or multiple &lt;br /"
+"&gt; tags."
+msgstr ""
+"在文本编辑器换行仍然会影响输出，特别是不要使用空行，HTML标记或多个<br />标记"
+"内换行。"
+
+#: ../tadv_admin.php:398
+msgid "Enable pasting of image source"
+msgstr "启用图像源的粘贴"
+
+#: ../tadv_admin.php:400
+msgid ""
+"Works only in Firefox and Safari. These browsers support pasting of images "
+"directly in the editor and convert them to base64 encoded text."
+msgstr ""
+"仅在Firefox和Safari。这些浏览器支持图像直接粘贴在编辑器中，并将其转换成编码文"
+"本的base64。"
+
+#: ../tadv_admin.php:401
+msgid ""
+"This is not acceptable for larger images like photos or graphics, but may be "
+"useful in some cases for very small images like icons, not larger than 2-3KB."
+msgstr ""
+"这不是像照片或图形放大图片上可接受的，但可为非常小的图像，例如图标，不大于"
+"2-3KB大在某些情况下是有用的。"
+
+#: ../tadv_admin.php:402
+msgid "These images will not be available in the Media Library."
+msgstr "这些图像将无法在媒体库中使用。"
+
+#: ../tadv_admin.php:408
+msgid "Administration"
+msgstr "管理"
+
+#: ../tadv_admin.php:410
+msgid "Settings import and export"
+msgstr "设置的导入和导出"
+
+#: ../tadv_admin.php:412
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: ../tadv_admin.php:413
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: ../tadv_admin.php:417
+msgid "Enable the editor enhancements for:"
+msgstr "启用编辑器增强功能︰"
+
+#: ../tadv_admin.php:420
+msgid "The main editor (Add New and Edit posts and pages)"
+msgstr "主编辑器 （新添加和编辑文章和网页）"
+
+#: ../tadv_admin.php:424
+msgid "Other editors in wp-admin"
+msgstr "其他在wp-admin的编辑器"
+
+#: ../tadv_admin.php:428
+msgid "Editors on the front end of the site"
+msgstr "网站前端的编辑器"
+
+#: ../tadv_admin.php:439
+msgid "Restore Default Settings"
+msgstr "恢复默认设置"
+
+#: ../tadv_admin.php:445
+msgid ""
+"The [Toolbar toggle] button shows or hides the second, third, and forth "
+"button rows. It will only work when it is in the first row and there are "
+"buttons in the second row."
+msgstr ""
+"在[工具栏切换]按钮​​显示或隐藏第二，第三和第四按钮行。当它是第一行中和有第二行"
+"中的按钮它将只工作。"
+
+#: ../tinymce-advanced.php:282
+#, php-format
+msgid ""
+"TinyMCE Advanced requires WordPress version %1$s or newer. It appears that "
+"you are running %2$s. This can make the editor unstable."
+msgstr ""
+"TinyMCE 只支持 WordPress 版本 %1$s 或更高版本。目前您正使用 %2$s 版本，会使编"
+"辑器不稳定。"
+
+#: ../tinymce-advanced.php:289
+#, php-format
+msgid ""
+"Please upgrade your WordPress installation or download an <a href=\"%s"
+"\">older version of the plugin</a>."
+msgstr "请升级您的WordPress安装或下载<a href=\"%s\">该插件的旧版本</a> 。"
+
+#: ../tinymce-advanced.php:844
+msgid "Settings"
+msgstr "设置"
+
+#~ msgid ""
+#~ "Load the CSS classes used in editor-style.css and replace the Formats "
+#~ "button and sub-menu."
+#~ msgstr "加载编辑器 style.css 中使用的 CSS 类和替换格式按钮和子菜单。"
+
+#~ msgid ""
+#~ "This will make it possible to use more advanced coding in the HTML editor "
+#~ "without the back-end filtering affecting it much."
+#~ msgstr "这将使它能够使用更高级编码在 HTML 编辑器中没有多影响它的后端过滤。"
+
+#~ msgid ""
+#~ "Line breaks in the HTML editor would still affect the output, in "
+#~ "particular do not use empty lines, line breaks inside HTML tags or "
+#~ "multiple &lt;br /&gt; tags."
+#~ msgstr ""
+#~ "在 HTML 编辑器中的换行符将仍然影响输出，特别是做不使用空行，内部 HTML 标记"
+#~ "或多个换行符 < br / > 标记。"
