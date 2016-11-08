@@ -300,12 +300,14 @@ function wpseo_admin_bar_menu() {
 			'title'  => __( 'Search Console', 'wordpress-seo' ),
 			'href'   => admin_url( 'admin.php?page=wpseo_search_console' ),
 		) );
+		/*
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'wpseo-settings',
 			'id'     => 'wpseo-licenses',
 			'title' => '<span style="color:#f18500">' . __( 'Go Premium', 'wordpress-seo' ) . '</span>',
 			'href'   => admin_url( 'admin.php?page=wpseo_licenses' ),
 		) );
+		 */
 	}
 
 }
