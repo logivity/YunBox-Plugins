@@ -2,297 +2,597 @@ msgid ""
 msgstr ""
 "Project-Id-Version: add-to-any\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-23 20:40-0800\n"
+"POT-Creation-Date: 2016-11-08 10:25+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pat <no@no.com>\n"
 "Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: ../\n"
-"X-Poedit-Language: Chinese\n"
-"X-Poedit-Country: CHINA\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: add-to-any.php:322
+#: add-to-any.php:550 addtoany.admin.php:315 addtoany.admin.php:508
+#: addtoany.admin.php:510 addtoany.admin.php:513 addtoany.admin.php:515
+#: addtoany.admin.php:544
 msgid "Share"
 msgstr "分享"
 
-#: add-to-any.php:323
+#: add-to-any.php:551
 msgid "Save"
 msgstr "收藏"
 
-#: add-to-any.php:324
+#: add-to-any.php:552
 msgid "Subscribe"
 msgstr "订阅"
 
-#: add-to-any.php:325
-msgid "E-mail"
+#: add-to-any.php:553
+msgid "Email"
 msgstr "电子邮件"
 
-#: add-to-any.php:326
+#: add-to-any.php:554
 msgid "Bookmark"
 msgstr "书签"
 
-#: add-to-any.php:327
+#: add-to-any.php:555
 msgid "Show all"
 msgstr "显示全部服务"
 
-#: add-to-any.php:328
+#: add-to-any.php:556
 msgid "Show less"
 msgstr "显示部分服务"
 
-#: add-to-any.php:329
+#: add-to-any.php:557
 msgid "Find service(s)"
 msgstr "查找服务"
 
-#: add-to-any.php:330
+#: add-to-any.php:558
 msgid "Instantly find any service to add to"
 msgstr "动态查找任何用以添加的服务"
 
-#: add-to-any.php:331
+#: add-to-any.php:559
 msgid "Powered by"
-msgstr "Powered by"
+msgstr "技術提供"
 
-#: add-to-any.php:332
-msgid "Share via e-mail"
+#: add-to-any.php:560
+msgid "Share via email"
 msgstr "通过电子邮件分享"
 
-#: add-to-any.php:333
-msgid "Subscribe via e-mail"
+#: add-to-any.php:561
+msgid "Subscribe via email"
 msgstr "通过电子邮件订阅"
 
-#: add-to-any.php:334
+#: add-to-any.php:562
 msgid "Bookmark in your browser"
 msgstr "添加为浏览器书签"
 
-#: add-to-any.php:335
-msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+#: add-to-any.php:563
+msgid "Press Ctrl+D or \\u2318+D to bookmark this page"
 msgstr "按下 [Ctrl+D] 或 [Cmd+D] 将本页加为书签"
 
-#: add-to-any.php:336
+#: add-to-any.php:564
 msgid "Add to your favorites"
 msgstr "添加至收藏夹"
 
-#: add-to-any.php:337
-msgid "Send from any e-mail address or e-mail program"
+#: add-to-any.php:565
+msgid "Send from any email address or email program"
 msgstr "从任何电子邮件地址或电子邮件程序发送"
 
-#: add-to-any.php:338
-msgid "E-mail program"
+#: add-to-any.php:566
+msgid "Email program"
 msgstr "电子邮件程序"
 
-#: add-to-any.php:363
-msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
-msgstr ""
+#: add-to-any.php:567
+msgid "More&#8230;"
+msgstr "更多&#8230;"
 
-#: add-to-any.php:520
+#: add-to-any.php:996
 #, php-format
-msgid "Unable to create directory %s. Is its parent directory writable by the server?"
-msgstr ""
+msgid ""
+"Unable to create directory %s. Is its parent directory writable by the "
+"server?"
+msgstr "无法创建目录 %s"
 
-#: add-to-any.php:654
-#: add-to-any.php:778
-#: add-to-any.php:782
-#: add-to-any.php:786
-#: add-to-any.php:790
-#: add-to-any.php:822
-msgid "Share/Bookmark"
-msgstr "书签"
-
-#: add-to-any.php:667
-msgid "Settings saved."
-msgstr "设置已保存"
-
-#: add-to-any.php:688
-msgid "bottom"
-msgstr ""
-
-#: add-to-any.php:692
-msgid "top"
-msgstr ""
-
-#: add-to-any.php:696
-msgid "top &amp; bottom"
-msgstr ""
-
-#: add-to-any.php:727
-msgid "AddToAny: Share/Save "
+#: add-to-any.php:1041 addtoany.admin.php:421
+msgid "AddToAny Share Settings"
 msgstr "AddToAny: 分享/收藏"
 
-#: add-to-any.php:727
-#: add-to-any.php:1132
-#: add-to-any.php:1163
+#: add-to-any.php:1042 addtoany.admin.php:12
+msgid "AddToAny"
+msgstr "AddToAny 设置"
+
+#: add-to-any.php:1074
 msgid "Settings"
 msgstr "设置"
 
-#: add-to-any.php:736
-msgid "Standalone Services"
+#: addtoany.admin.php:40
+msgid "Show sharing buttons."
+msgstr "显示全部服务"
+
+#: addtoany.admin.php:365
+msgid "Settings saved."
+msgstr "设置已保存"
+
+#: addtoany.admin.php:386
+msgid "bottom"
+msgstr "底部"
+
+#: addtoany.admin.php:390
+msgid "top"
+msgstr "顶部"
+
+#: addtoany.admin.php:394
+msgid "top &amp; bottom"
+msgstr "顶部和底部"
+
+#: addtoany.admin.php:436
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: addtoany.admin.php:438
+msgid "Large"
+msgstr "大"
+
+#: addtoany.admin.php:440
+msgid "Small"
+msgstr "小"
+
+#: addtoany.admin.php:442
+msgid "Custom"
+msgstr "自定义"
+
+#: addtoany.admin.php:449
+msgid "Standalone Buttons"
+msgstr "标准按钮"
+
+#: addtoany.admin.php:454
+msgid ""
+"Choose the services you want below. &nbsp;Click a chosen service again to "
+"remove. &nbsp;Reorder services by dragging and dropping as they appear above."
 msgstr ""
+"选择你想要下面的服务。单击某个空房的服务，又要删除。通过拖放，他们在其上方显"
+"示排序服务。"
 
-#: add-to-any.php:741
-msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
-msgstr ""
+#: addtoany.admin.php:495
+msgid "Universal Button"
+msgstr "通用按鈕"
 
-#: add-to-any.php:773
-msgid "Button"
-msgstr "按钮"
-
-#: add-to-any.php:812
+#: addtoany.admin.php:536
 msgid "Image URL"
 msgstr "图片 URL"
 
-#: add-to-any.php:819
+#: addtoany.admin.php:542
 msgid "Text only"
 msgstr "仅用文字"
 
-#: add-to-any.php:827
+#: addtoany.admin.php:547
+msgid ""
+"This option will disable universal sharing. Are you sure you want to disable "
+"universal sharing?"
+msgstr "此选项会禁用通用分享。你确定你想要禁用通用分享？"
+
+#: addtoany.admin.php:548 addtoany.admin.php:740 addtoany.admin.php:776
+msgid "None"
+msgstr "沒有"
+
+#: addtoany.admin.php:561
+msgid "Sharing Header"
+msgstr "分享标题"
+
+#: addtoany.admin.php:570 addtoany.admin.php:734 addtoany.admin.php:770
 msgid "Placement"
 msgstr "按钮位置"
 
-#: add-to-any.php:832
-#, fuzzy, php-format
-msgid "Display at the %s of posts"
-msgstr "在文章底部显示 分享/收藏 按钮"
-
-#: add-to-any.php:839
+#: addtoany.admin.php:575
 #, php-format
-msgid "Display at the %s of post excerpts"
-msgstr ""
+msgid "Display at the %s of posts"
+msgstr "在文章底部显示 %s"
 
-#: add-to-any.php:846
-#, fuzzy, php-format
+#: addtoany.admin.php:583
+#, php-format
 msgid "Display at the %s of posts on the front page"
-msgstr "在首页的文章底部显示 分享/收藏 按钮"
+msgstr "在首页的文章底部显示 %s"
 
-#: add-to-any.php:854
-#, fuzzy, php-format
+#: addtoany.admin.php:591
+#, php-format
+msgid "Display at the %s of posts on archive pages"
+msgstr "在文章归档页底部显示 %s"
+
+#: addtoany.admin.php:599
+#, php-format
 msgid "Display at the %s of posts in the feed"
-msgstr "在 Feed 的文章底部显示 分享/收藏 按钮"
+msgstr "在 Feed 的文章底部显示 %s"
 
-#: add-to-any.php:858
-#, fuzzy, php-format
+#: addtoany.admin.php:606
+#, php-format
+msgid "Display at the %s of excerpts"
+msgstr "在文章摘要里显示 %s"
+
+#: addtoany.admin.php:611
+#, php-format
 msgid "Display at the %s of pages"
-msgstr "在页面底部显示 分享/收藏 按钮"
+msgstr "在页面底部显示 %s"
 
-#: add-to-any.php:862
-msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
-msgstr "如果不选，请确定将以下代码置入于 <a href=\"theme-editor.php\">您的模板页面</a> 中 (包括 <code>index.php</code>，<code>single.php</code>，与/或 <code>page.php</code>)"
+#: addtoany.admin.php:618
+#, php-format
+msgid "Display at the %s of media pages"
+msgstr "在媒体页面底部显示 %s"
 
-#: add-to-any.php:871
-msgid "Menu Style"
-msgstr "菜单风格"
+#: addtoany.admin.php:630
+#, php-format
+msgid "Display at the %s of %s"
+msgstr "显示在%s的%s"
 
-#: add-to-any.php:873
-msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
-msgstr "使用 AddToAny 的菜单风格设置器，您可以自定义您的 分享/收藏 菜单的颜色！完成后，请将生成的代码粘贴于下方 <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">附加选项</a> 框内。"
+#: addtoany.admin.php:636
+msgid ""
+"See <a href=\"widgets.php\" title=\"Theme Widgets\">Widgets</a> and <a href="
+"\"options-general.php?page=addtoany&action=floating\" title=\"AddToAny "
+"Floating Share Buttons\">Floating</a> for additional placement options. For "
+"advanced placement, see <a href=\"http://wordpress.org/plugins/add-to-any/"
+"faq/\">the FAQs</a>."
+msgstr ""
+"额外的放置选项，请参阅<a href=\"widgets.php\" title=\"Theme Widgets\">小部件"
+"</a>和<a href=\"options-general.php?page=addtoany&action=floating\" title="
+"\"AddToAny Floating Share Buttons\">浮动</a>。为先进的位置，请参见<a href="
+"\"http://wordpress.org/plugins/add-to-any/faq/\">常见问题解答</a>。"
 
-#: add-to-any.php:875
-msgid "Open the AddToAny Menu Styler in a new window"
-msgstr "在新窗口中打开 AddToAny 菜单风格设置器"
-
-#: add-to-any.php:877
-msgid "Open Menu Styler"
-msgstr "打开菜单风格设置器"
-
-#: add-to-any.php:882
+#: addtoany.admin.php:642
 msgid "Menu Options"
 msgstr "菜单选项"
 
-#: add-to-any.php:887
-msgid "Only show the menu when the user clicks the Share/Save button"
-msgstr "仅当用户点击 分享/收藏 按钮时显示菜单"
+#: addtoany.admin.php:646
+msgid ""
+"Only show the universal share menu when the user <em>clicks</em> the "
+"universal share button"
+msgstr "当用户<em>单击</em>通用共享时只显示全民共享菜单按钮"
 
-#: add-to-any.php:892
-msgid "Show the title of the post (or page) within the menu"
-msgstr "菜单中显示文章(或页面)的标题"
+#: addtoany.admin.php:649
+msgid ""
+"You can use AddToAny's Menu Styler to customize the colors of your universal "
+"share menu. When you're done, be sure to paste the generated code in the <a "
+"href=\"#\" onclick=\"document."
+"getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false"
+"\">Additional JavaScript</a> box below."
+msgstr ""
+"你可以使用 AddToAny 的菜单格式自定义您的普遍共享菜单的颜色。当你完成后时，请"
+"务必将生成的代码粘贴在下面的<a href=\"#\" onclick=\"document."
+"getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false"
+"\">附加 JavaScript</a>框中。"
 
-#: add-to-any.php:897
-msgid "Additional Options"
-msgstr "附加选项"
+#: addtoany.admin.php:652
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "在新窗口中打开 AddToAny 菜单风格设置器"
 
-#: add-to-any.php:901
+#: addtoany.admin.php:652
+msgid "Open Menu Styler"
+msgstr "打开菜单风格设置器"
+
+#: addtoany.admin.php:658
+msgid "Additional JavaScript"
+msgstr "额外的 JavaScript"
+
+#: addtoany.admin.php:662
 msgid "Paste the code from AddToAny's Menu Styler in the box below!"
 msgstr "粘贴 AddToAny 菜单风格设置器生成的代码于下方框内！"
 
-#: add-to-any.php:905
-msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
-msgstr "您可以设置特殊 JavaScript 变量以应用于全部 分享/收藏 菜单。"
+#: addtoany.admin.php:666
+msgid "Below you can add special JavaScript code for AddToAny."
+msgstr "下面您可以新增特殊的 JavaScript 簡碼至 AddToAny。"
 
-#: add-to-any.php:906
-msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
-msgstr "高级用户可能希望尝试 AddToAny 的 <a href=\"http://www.addtoany.com/buttons/customize/\">JavaScript API</a> 所生成的代码。"
+#: addtoany.admin.php:667 addtoany.admin.php:679
+msgid ""
+"Advanced users should explore AddToAny's <a href=\"https://www.addtoany.com/"
+"buttons/customize/wordpress\" target=\"_blank\">additional options</a>."
+msgstr ""
+"高级的用户应该探讨 AddToAny 的<a href=\"https://www.addtoany.com/buttons/"
+"customize/wordpress\" target=\"_blank\">附加选项</a>。"
 
-#: add-to-any.php:912
-msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
-msgstr "<strong>注意</strong>: 如果您打算添加新代码，请小心不要意外覆盖任何先前代码。</label>"
+#: addtoany.admin.php:675
+msgid "Additional CSS"
+msgstr "附加CSS类"
 
-#: add-to-any.php:917
-#, fuzzy
+#: addtoany.admin.php:678
+msgid "Below you can add special CSS code for AddToAny."
+msgstr "下面您可以新增特殊的 CSS 簡碼至 AddToAny"
+
+#: addtoany.admin.php:687
 msgid "Advanced Options"
-msgstr "附加选项"
+msgstr "高级选项"
 
-#: add-to-any.php:922
-msgid "Use CSS stylesheet"
+#: addtoany.admin.php:691
+msgid "Use custom icons. URL:"
+msgstr "使用自定义图标。URL:"
+
+#: addtoany.admin.php:695
+msgid "Filename extension"
+msgstr "文件扩展名"
+
+#: addtoany.admin.php:697
+msgid "Width"
+msgstr "寬度"
+
+#: addtoany.admin.php:699
+msgid "Height"
+msgstr "高度"
+
+#: addtoany.admin.php:702
+msgid ""
+"Specify the URL of the directory containing your custom icons. For example, "
+"a URL of <code>//example.com/blog/uploads/addtoany/icons/custom/</code> "
+"containing <code>facebook.png</code> and <code>twitter.png</code>. Be sure "
+"that custom icon filenames match the icon filenames in <code>plugins/add-to-"
+"any/icons</code>. For AddToAny's Universal Button, select Image URL and "
+"specify the URL of your AddToAny universal share icon (<a href=\"#\" onclick="
+"\"document.getElementsByName('A2A_SHARE_SAVE_button_custom')[0].focus();"
+"return false\">above</a>)."
 msgstr ""
+"Specify the URL of the directory containing your custom icons. For example, "
+"a URL of <code>//example.com/blog/uploads/addtoany/icons/custom/</code> "
+"containing <code>facebook.png</code> and <code>twitter.png</code>. Be sure "
+"that custom icon filenames match the icon filenames in <code>plugins/add-to-"
+"any/icons</code>. For AddToAny's Universal Button, select Image URL and "
+"specify the URL of your AddToAny universal share icon (<a href=\"#\" onclick="
+"\"document.getElementsByName('A2A_SHARE_SAVE_button_custom')[0].focus();"
+"return false\">above</a>)."
 
-#: add-to-any.php:927
+#: addtoany.admin.php:707
+msgid "Use default CSS"
+msgstr "使用預設"
+
+#: addtoany.admin.php:710
+msgid ""
+"Only disable AddToAny's default stylesheet if you already have the necessary "
+"CSS code applied to your AddToAny buttons."
+msgstr ""
+"如果你已经有了所需的 CSS 代码应用于您的 AddToAny 按钮，仅禁用 AddToAny 的默认"
+"样式表。"
+
+#: addtoany.admin.php:715
 msgid "Cache AddToAny locally with daily cache updates"
-msgstr ""
+msgstr "与每日缓存更新本地缓存 AddToAny"
 
-#: add-to-any.php:931
-msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+#: addtoany.admin.php:718
+msgid ""
+"Most sites should not use this option. By default, AddToAny loads "
+"asynchronously and most efficiently. Since many visitors will have AddToAny "
+"cached in their browser already, serving AddToAny locally from your site "
+"will be slower for those visitors. If local caching is enabled, be sure to "
+"set far future cache/expires headers for image files in your <code>uploads/"
+"addtoany</code> directory."
 msgstr ""
+"大多数网站不应使用此选项。默认情况下，AddToAny 加载以异步方式和效率最高。由于"
+"许多游客将有 AddToAny 已经在他们的浏览器缓存，供应本地从您的网站 AddToAny 将"
+"较慢的访问者。如果启用了本地缓存，请务必设置为图像文件在遥远的未来缓存过期标"
+"头你 <code>uploads/addtoany</code> 目录。"
 
-#: add-to-any.php:938
+#: addtoany.admin.php:728
+msgid ""
+"AddToAny &quot;floating&quot; share buttons stay in a fixed position even "
+"when the user scrolls."
+msgstr "AddToAny\"浮动\"分享按钮停留在一个固定的位置，甚至当用户滚动。"
+
+#: addtoany.admin.php:729
+msgid ""
+"Large icons from your currently selected buttons are displayed in your "
+"floating bar(s). 3rd party buttons (Like, Tweet, etc.) are not displayed."
+msgstr ""
+"大图标从你当前所选的按钮会显示在你浮动的金条。（比如，微博等） 的第三方按钮不"
+"会显示。"
+
+#: addtoany.admin.php:731
+msgid "Vertical Buttons"
+msgstr "垂直按钮"
+
+#: addtoany.admin.php:736 addtoany.admin.php:772
+msgid "Left docked"
+msgstr "左停靠"
+
+#: addtoany.admin.php:738 addtoany.admin.php:774
+msgid "Right docked"
+msgstr "右停靠"
+
+#: addtoany.admin.php:744 addtoany.admin.php:780
+msgid "Responsiveness"
+msgstr "自适应性"
+
+#: addtoany.admin.php:754 addtoany.admin.php:790
+msgid "Position"
+msgstr "位置"
+
+#: addtoany.admin.php:760 addtoany.admin.php:796
+msgid "Offset"
+msgstr "偏移"
+
+#: addtoany.admin.php:767
+msgid "Horizontal Buttons"
+msgstr "水平的按钮"
+
+#: addtoany.admin.php:808
 msgid "Save Changes"
 msgstr "保存更改"
 
-#: add-to-any.php:939
+#: addtoany.admin.php:809
 msgid "Are you sure you want to delete all AddToAny options?"
-msgstr ""
+msgstr "你确定你想要删除所有的 AddToAny 选项？"
 
-#: add-to-any.php:939
+#: addtoany.admin.php:809
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
-#: add-to-any.php:944
-msgid "Like this plugin?"
-msgstr ""
-
-#: add-to-any.php:945
-msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
-msgstr ""
-
-#: add-to-any.php:946
-msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
-msgstr ""
-
-#: add-to-any.php:948
-msgid "Need support?"
-msgstr ""
-
-#: add-to-any.php:949
-msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
-msgstr ""
-
-#: add-to-any.php:950
-msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
-msgstr ""
-
-#: add-to-any.php:1075
+#: addtoany.admin.php:1115
 msgid "Add/Remove Services"
-msgstr ""
+msgstr "添加或删除服务"
 
-#: add-to-any.php:1132
-msgid "Share/Save"
-msgstr "分享/收藏"
+#: addtoany.widgets.php:88 addtoany.widgets.php:202
+msgid "Title:"
+msgstr "标题："
 
-#: add-to-any.php:1133
-msgid "Share/Save Buttons"
-msgstr "分享/收藏 按钮"
+#: addtoany.widgets.php:92 addtoany.widgets.php:218
+msgid "AddToAny Settings"
+msgstr "AddToAny 设置"
+
+#: addtoany.widgets.php:208
+#, php-format
+msgid "%s URL:"
+msgstr "%s URL:"
+
+#: addtoany.widgets.php:208
+#, php-format
+msgid "%s ID:"
+msgstr "%s ID:"
+
+#~ msgid "E-mail"
+#~ msgstr "电子邮件"
+
+#~ msgid "Share via e-mail"
+#~ msgstr "通过电子邮件分享"
+
+#~ msgid "Subscribe via e-mail"
+#~ msgstr "通过电子邮件订阅"
+
+#~ msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+#~ msgstr "按下 [Ctrl+D] 或 [Cmd+D] 将本页加为书签"
+
+#~ msgid "Send from any e-mail address or e-mail program"
+#~ msgstr "从任何电子邮件地址或电子邮件程序发送"
+
+#~ msgid "E-mail program"
+#~ msgstr "电子邮件程序"
+
+#~ msgid ""
+#~ "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-"
+#~ "editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;"
+#~ "</code> just before the <code>&lt;/body&gt;</code> line of your theme's "
+#~ "<code>footer.php</code> file."
+#~ msgstr ""
+#~ "你的主题需要修理。若要修复你的主题，使用<a href=\"theme-editor.php\">主题"
+#~ "编辑器</a>插入 <code><?php wp_footer(); ?></code> 只是之前 <code></body></"
+#~ "code> 线你的主题的 <code>footer.php</code> 文件。"
+
+#~ msgid "Share/Bookmark"
+#~ msgstr "书签"
+
+#~ msgid "AddToAny: Share/Save "
+#~ msgstr "AddToAny: 分享/收藏"
+
+#~ msgid "Standalone Services"
+#~ msgstr "独立的服务"
+
+#~ msgid "Button"
+#~ msgstr "按钮"
+
+#~ msgid "Display at the %s of post excerpts"
+#~ msgstr "在文章摘要里显示 %s"
+
+#~ msgid ""
+#~ "If unchecked, be sure to place the following code in <a href=\"theme-"
+#~ "editor.php\">your template pages</a> (within <code>index.php</code>, "
+#~ "<code>single.php</code>, and/or <code>page.php</code>)"
+#~ msgstr ""
+#~ "如果不选，请确定将以下代码置入于 <a href=\"theme-editor.php\">您的模板页面"
+#~ "</a> 中 (包括 <code>index.php</code>，<code>single.php</code>，与/或 "
+#~ "<code>page.php</code>)"
+
+#~ msgid "Menu Style"
+#~ msgstr "菜单风格"
+
+#~ msgid ""
+#~ "Using AddToAny's Menu Styler, you can customize the colors of your Share/"
+#~ "Save menu! When you're done, be sure to paste the generated code in the "
+#~ "<a href=\"#\" onclick=\"document."
+#~ "getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return "
+#~ "false\">Additional Options</a> box below."
+#~ msgstr ""
+#~ "使用 AddToAny 的菜单风格设置器，您可以自定义您的 分享/收藏 菜单的颜色！完"
+#~ "成后，请将生成的代码粘贴于下方 <a href=\"#\" onclick=\"document."
+#~ "getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return "
+#~ "false\">附加选项</a> 框内。"
+
+#~ msgid "Only show the menu when the user clicks the Share/Save button"
+#~ msgstr "仅当用户点击 分享/收藏 按钮时显示菜单"
+
+#~ msgid "Show the title of the post (or page) within the menu"
+#~ msgstr "菜单中显示文章(或页面)的标题"
+
+#~ msgid "Additional Options"
+#~ msgstr "附加选项"
+
+#~ msgid ""
+#~ "Below you can set special JavaScript variables to apply to each Share/"
+#~ "Save menu."
+#~ msgstr "您可以设置特殊 JavaScript 变量以应用于全部 分享/收藏 菜单。"
+
+#~ msgid ""
+#~ "Advanced users might want to explore AddToAny's <a href=\"http://www."
+#~ "addtoany.com/buttons/customize/\" target=\"_blank\">additional options</"
+#~ "a>."
+#~ msgstr ""
+#~ "高级用户可能希望尝试 AddToAny 的 <a href=\"http://www.addtoany.com/"
+#~ "buttons/customize/\">JavaScript API</a> 所生成的代码。"
+
+#~ msgid ""
+#~ "<strong>Note</strong>: If you're adding new code, be careful not to "
+#~ "accidentally overwrite any previous code.</label>"
+#~ msgstr ""
+#~ "<strong>注意</strong>: 如果您打算添加新代码，请小心不要意外覆盖任何先前代"
+#~ "码。</label>"
+
+#~ msgid "Use CSS stylesheet"
+#~ msgstr "使用 CSS 样式表"
+
+#~ msgid ""
+#~ "Only consider for sites with frequently returning visitors. Since many "
+#~ "visitors will have AddToAny cached in their browser already, serving "
+#~ "AddToAny locally from your site will be slower for those visitors.  Be "
+#~ "sure to set far future cache/expires headers for image files in your "
+#~ "<code>uploads/addtoany</code> directory."
+#~ msgstr ""
+#~ "只考虑为经常返回访客访问的网站。由于许多游客将有 AddToAny 已经在他们的浏览"
+#~ "器缓存，供应本地从您的网站 AddToAny 将较慢的访问者。 一定要设置为图像文件"
+#~ "在遥远的未来缓存过期标头你 <code>uploads/addtoany</code> 目录。"
+
+#~ msgid "Like this plugin?"
+#~ msgstr "喜欢这个插件吗?"
+
+#~ msgid ""
+#~ "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a "
+#~ "good rating</a> on WordPress.org."
+#~ msgstr "在wordpress.org上给它一个好评"
+
+#~ msgid ""
+#~ "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share"
+#~ "%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F"
+#~ "%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with "
+#~ "your friends."
+#~ msgstr ""
+#~ "与你的朋友<a href=\"http://www.addtoany.com/share_save?linkname=WordPress"
+#~ "%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A"
+#~ "%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">分享它</a>。"
+
+#~ msgid "Need support?"
+#~ msgstr "需要帮助吗？"
+
+#~ msgid ""
+#~ "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/"
+#~ "\">FAQs</a>."
+#~ msgstr ""
+#~ "请参阅<a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">常见"
+#~ "问题解答</a>。"
+
+#~ msgid ""
+#~ "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support "
+#~ "forums</a>."
+#~ msgstr "搜索<a href=\"http://wordpress.org/tags/add-to-any\">支持论坛</a>。"
+
+#~ msgid "Share/Save"
+#~ msgstr "分享/收藏"
+
+#~ msgid "Share/Save Buttons"
+#~ msgstr "分享/收藏 按钮"
 
 #~ msgid ""
 #~ "Open the addtoany.com menu page in a new tab or window if the user clicks "
