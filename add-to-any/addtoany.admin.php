@@ -810,16 +810,7 @@ function A2A_SHARE_SAVE_options_page() {
 		</p>
 	
 	</form>
-	
-	<h2><?php _e('Like this plugin?','add-to-any'); ?></h2>
-	<p><?php _e('<a href="https://wordpress.org/support/view/plugin-reviews/add-to-any#postform" target="_blank">Give it a 5 star rating</a> on WordPress.org.','add-to-any'); ?></p>
-	<p><?php _e('<a href="https://www.addtoany.com/share_save#title=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;url=http%3A%2F%2Fwordpress.org%2Fplugins%2Fadd-to-any%2F">Share it</a> and follow <a href="https://www.addtoany.com/">AddToAny</a> on <a href="https://www.facebook.com/AddToAny" target="_blank">Facebook</a> &amp; <a href="https://twitter.com/AddToAny" target="_blank">Twitter</a>.','add-to-any'); ?></p>
-	
-	<h2><?php _e('Need support?','add-to-any'); ?></h2>
-	<p><?php _e('See the <a href="http://wordpress.org/extend/plugins/add-to-any/faq/">FAQs</a>.','add-to-any'); ?></p>
-	<p><?php _e('Search the <a href="http://wordpress.org/tags/add-to-any">support forums</a>.','add-to-any'); ?></p>
-	</div>
-	
+
 	<script src="http<?php if ( is_ssl() ) echo 's'; ?>://static.addtoany.com/menu/page.js"></script>
 	<script>
 	if ( window.a2a && a2a.svg_css ) a2a.svg_css();

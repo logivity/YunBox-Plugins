@@ -236,36 +236,6 @@ class Yoast_Form {
 		shuffle( $service_banners );
 		shuffle( $plugin_banners );
 		?>
-		<div class="wpseo_content_cell" id="sidebar-container">
-			<div id="sidebar">
-		<?php
-
-		$i = 0;
-		foreach ( $service_banners as $service_banner ) {
-			if ( $i == 2 ) {
-				break;
-			}
-			echo '<a target="_blank" href="' . esc_url( $service_banner['url'] ) . '"><img width="261" height="190" src="' . plugins_url( 'images/' . $service_banner['img'], WPSEO_FILE ) . '" alt="' . esc_attr( $service_banner['alt'] ) . '"/></a><br/><br/>';
-			$i ++;
-		}
-
-		$i = 0;
-		foreach ( $plugin_banners as $banner ) {
-			if ( $i == 2 ) {
-				break;
-			}
-			echo '<a target="_blank" href="' . esc_url( $banner['url'] ) . '"><img width="261" height="152" src="' . plugins_url( 'images/' . $banner['img'], WPSEO_FILE ) . '" alt="' . esc_attr( $banner['alt'] ) . '"/></a><br/><br/>';
-			$i ++;
-		}
-		?>
-				<p class="wpseo-remove-ads">
-				<strong><?php _e( 'Remove these ads?', 'wordpress-seo' ); ?></strong><br/>
-				<a target="_blank" href="https://yoast.com/wordpress/plugins/seo-premium/#utm_source=wordpress-seo-config&amp;utm_medium=textlink&amp;utm_campaign=remove-ads-link"><?php
-				 /* translators: %1$s expands to Yoast SEO Premium */
-				printf( __( 'Upgrade to %1$s &raquo;', 'wordpress-seo' ), 'Yoast SEO Premium' ); ?></a>
-			</p>
-			</div>
-		</div>
 	<?php
 	}
 
