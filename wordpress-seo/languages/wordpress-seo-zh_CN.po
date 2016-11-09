@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Yoast SEO (for WordPress) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-08 16:57+0800\n"
+"PO-Revision-Date: 2016-11-09 14:15+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3669,7 +3669,7 @@ msgstr "关键词密度是%1$s，即劝%3$s最大;重点关键字是发现的%2$
 
 #: js/assessments/keyphraseLengthAssessment.js:18
 msgid "No focus keyword was set for this page. If you do not set a focus keyword, no score can be calculated."
-msgstr "%s 没有设置目标关键字，无法计算分数"
+msgstr "没有设置目标关键字，无法计算分数"
 
 #: frontend/class-frontend.php:528 frontend/class-frontend.php:531
 #: frontend/class-frontend.php:534

@@ -208,10 +208,11 @@ class WPSEO_Taxonomy_Metabox {
 	 * @return string
 	 */
 	private function get_buy_premium_link() {
-		return sprintf( "<div class='%s'><a href='#wpseo-meta-section-premium' class='wpseo-meta-section-link'><span class='dashicons dashicons-star-filled wpseo-buy-premium'></span>%s</a></div>",
-			'wpseo-metabox-buy-premium',
-			__( 'Go Premium', 'wordpress-seo' )
-		);
+		return sprintf("");
+		//return sprintf( "<div class='%s'><a href='#wpseo-meta-section-premium' class='wpseo-meta-section-link'><span class='dashicons dashicons-star-filled wpseo-buy-premium'></span>%s</a></div>",
+		//	'wpseo-metabox-buy-premium',
+		//	__( 'Go Premium', 'wordpress-seo' )
+		//);
 	}
 
 	/**
@@ -236,11 +237,11 @@ class WPSEO_Taxonomy_Metabox {
 					<strong>%s</strong> - %s
 				</li>
 			</ul>
-			
+
 			<a target='_blank' id='wpseo-buy-premium-popup-button' class='button button-buy-premium wpseo-metabox-go-to' href='%s'>
 				%s
 			</a>
-			
+
 			<p><a target='_blank' class='wpseo-metabox-go-to' href='%s'>%s</a></p>
 		</div>",
 			__( 'You\'re not getting the benefits of Yoast SEO Premium yet. If you had Yoast SEO Premium, you could use its awesome features:', 'wordpress-seo' ),

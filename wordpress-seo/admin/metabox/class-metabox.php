@@ -410,10 +410,11 @@ class WPSEO_Metabox extends WPSEO_Meta {
 	 * @return string
 	 */
 	private function get_buy_premium_link() {
-		return sprintf( "<div class='%s'><a href='#wpseo-meta-section-premium' class='wpseo-meta-section-link'><span class='dashicons dashicons-star-filled wpseo-buy-premium'></span>%s</a></div>",
-			'wpseo-metabox-buy-premium',
-			__( 'Go Premium', 'wordpress-seo' )
-		);
+		return sprintf("");
+		//return sprintf( "<div class='%s'><a href='#wpseo-meta-section-premium' class='wpseo-meta-section-link'><span class='dashicons dashicons-star-filled wpseo-buy-premium'></span>%s</a></div>",
+		//	'wpseo-metabox-buy-premium',
+		//	__( 'Go Premium', 'wordpress-seo' )
+		//);
 	}
 
 	/**
