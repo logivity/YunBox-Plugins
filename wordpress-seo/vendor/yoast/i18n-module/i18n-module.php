@@ -119,7 +119,7 @@ class yoast_i18n {
 		$this->init( $args );
 
 		if ( ! $this->hide_promo() ) {
-			add_action( $this->hook, array( $this, 'promo' ) );
+			//add_action( $this->hook, array( $this, 'promo' ) );
 		}
 	}
 
