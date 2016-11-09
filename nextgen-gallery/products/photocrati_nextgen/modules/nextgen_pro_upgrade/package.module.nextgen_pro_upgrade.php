@@ -39,7 +39,8 @@ class A_NextGen_Pro_Upgrade_Controller extends Mixin
     }
     function get_page_title()
     {
-        return __('Upgrade to Pro', 'nggallery');
+		return '';
+        /* return __('Upgrade to Pro', 'nggallery'); */
     }
     function get_required_permission()
     {
