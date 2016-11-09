@@ -1,0 +1,934 @@
+# Copyright (C) 2016 Members
+# This file is distributed under the same license as the Members package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Members 1.1.1-dev\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/members\n"
+"POT-Creation-Date: 2016-11-09 09:40+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-11-09 10:20+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+#: _assets/class-cap-new.php:64 _assets/class-cap-new.php:158
+msgid "Add New Capability"
+msgstr "新增新权限"
+
+#: _assets/class-cap-new.php:102
+msgid "Please input a valid capability."
+msgstr "请输入一个有效的权限。"
+
+#: _assets/class-cap-new.php:106
+msgid "The %s capability already exists."
+msgstr "%s 的权限已经存在。"
+
+#: _assets/class-cap-new.php:110
+msgid "Please select at least one role."
+msgstr "请至少选择一个角色。"
+
+#: _assets/class-cap-new.php:123
+msgid "The %s capability has been created."
+msgstr "%s 的权限已经创建。"
+
+#: _assets/class-cap-new.php:172 admin/tmpl/cap-section.php:19
+#: admin/tmpl/cap-section.php:27
+msgid "Capability"
+msgstr "权限"
+
+#: _assets/class-cap-new.php:178
+msgid ""
+"The capability should be unique and contain only alphanumeric characters and "
+"underscores."
+msgstr "权限名称必须是唯一的，并且只包含字母、数字、字符和下划线。"
+
+#: _assets/class-cap-new.php:185 admin/class-manage-roles.php:84
+#: admin/class-manage-roles.php:90 admin/class-roles.php:168
+#: admin/class-user-edit.php:87 admin/functions-admin.php:151
+msgid "Roles"
+msgstr "角色"
+
+#: _assets/class-cap-new.php:189
+msgid ""
+"Select at least one role. Because of the way capabilities work in WordPress, "
+"they can only exist if assigned to a role."
+msgstr "至少选择一个角色，因为只有分配了角色属性才有权限在wordpress中工作。"
+
+#: _assets/class-cap-new.php:209
+msgid "Add Capability"
+msgstr "添加权限"
+
+#: _assets/class-capability-list-table.php:264
+#: _assets/class-capability-list-table.php:387
+#: admin/class-role-list-table.php:338 admin/class-role-list-table.php:463
+msgid "Delete"
+msgstr "删除"
+
+#: _assets/class-capability-list-table.php:319
+#: admin/class-role-list-table.php:408
+msgid "All %s"
+msgid_plural "All %s"
+msgstr[0] "全部 %s"
+
+#: _assets/class-capability-list-table.php:320
+#: admin/functions-role-groups.php:112
+msgid "Mine %s"
+msgid_plural "Mine %s"
+msgstr[0] "我的 %s"
+
+#: _assets/class-capability-list-table.php:321
+#: admin/functions-role-groups.php:158
+msgid "WordPress %s"
+msgid_plural "WordPress %s"
+msgstr[0] "WordPress %s"
+
+#: _assets/class-capability-list-table.php:322
+msgid "Members %s"
+msgid_plural "Members %s"
+msgstr[0] "用户 %s"
+
+#: _assets/class-capability-list-table.php:349
+msgid "View all roles"
+msgstr "查看所有角色"
+
+#: _assets/class-capability-list-table.php:359
+msgid "Filter"
+msgstr "筛选"
+
+#: _assets/page-capabilities.php:45 _assets/page-capabilities.php:93
+#: admin/class-settings.php:133
+msgid "Capabilities"
+msgstr "权限"
+
+#: _assets/page-capabilities.php:69
+msgid ""
+"%s capability deleted. Not really. This is just a message to output until "
+"the functionality is working."
+msgstr "%s 權限刪除，這只是一則插件正式工作前輸出的測試訊息"
+
+#: _assets/page-capabilities.php:73
+msgid "No capability selected to delete."
+msgstr "未选择需要删除的权限"
+
+#: _assets/page-capabilities.php:96 admin/class-meta-box-custom-cap.php:88
+#: admin/class-role-edit.php:260 admin/class-roles.php:171
+msgid "Add New"
+msgstr "新添加"
+
+#: _assets/page-capabilities.php:116
+msgid ""
+"Are you sure you want to delete this capability? This is a permanent action "
+"and cannot be undone."
+msgstr "请确认删除这个权限？这个操作不能撤销！"
+
+#: admin/class-cap-control.php:115 admin/functions-admin.php:51
+msgid "Grant %s capability"
+msgstr "授予 %s 权限"
+
+#: admin/class-cap-control.php:116 admin/functions-admin.php:52
+msgid "Deny %s capability"
+msgstr "撤回 %s 权限"
+
+#: admin/class-cap-tabs.php:174
+msgid "Edit Capabilities: %s"
+msgstr "编辑权限：%s"
+
+#: admin/class-manage-roles.php:87 admin/class-role-edit.php:257
+msgid "Edit Role"
+msgstr "编辑角色"
+
+#: admin/class-meta-box-content-permissions.php:99 admin/class-settings.php:125
+#: admin/class-settings.php:398
+msgid "Content Permissions"
+msgstr "内容权限"
+
+#: admin/class-meta-box-content-permissions.php:132
+msgid "Limit access to this post's content to users of the selected roles."
+msgstr "限制所选角色对此文章的访问。"
+
+#: admin/class-meta-box-content-permissions.php:152
+msgid ""
+"If no roles are selected, everyone can view the content. The post author, "
+"any users who can edit this post, and users with the %s capability can view "
+"the content regardless of role."
+msgstr ""
+"如果不选择任何角色，所有用户均可以查看内容。文章作者、可以编辑此文章的用户、"
+"以及任何有%s权限查看此内容的角色的用户"
+
+#: admin/class-meta-box-content-permissions.php:156
+msgid "Custom error message:"
+msgstr "自定义错误消息："
+
+#: admin/class-meta-box-content-permissions.php:158
+msgid "Message shown to users that do not have permission to view the post."
+msgstr "向不具备查看权的用户显示消息。"
+
+#: admin/class-meta-box-custom-cap.php:71 admin/functions-help.php:94
+msgid "Custom Capability"
+msgstr "自定义权限"
+
+#: admin/class-meta-box-publish-role.php:65 admin/class-roles.php:66
+#: inc/functions-admin-bar.php:35
+msgid "Role"
+msgstr "角色"
+
+#: admin/class-meta-box-publish-role.php:98
+msgid "Users:"
+msgstr "用户:"
+
+#: admin/class-meta-box-publish-role.php:104
+msgid "Granted:"
+msgstr "已授权："
+
+#: admin/class-meta-box-publish-role.php:110
+msgid "Denied:"
+msgstr "已禁止："
+
+#: admin/class-meta-box-publish-role.php:121
+msgctxt "delete role"
+msgid "Delete"
+msgstr "删除（角色）"
+
+#: admin/class-meta-box-publish-role.php:128
+msgid "Update"
+msgstr "更新"
+
+#: admin/class-meta-box-publish-role.php:128
+msgid "Add Role"
+msgstr "添加角色"
+
+#: admin/class-role-edit.php:90 members.php:165 members.php:176
+msgid "Whoah, partner!"
+msgstr "哇，伙伴！"
+
+#: admin/class-role-edit.php:97
+msgid "The requested role to edit does not exist."
+msgstr "所要编辑的角色不存在。"
+
+#: admin/class-role-edit.php:189
+msgid "%s role updated."
+msgstr "%s角色已更新"
+
+#: admin/class-role-edit.php:193
+msgid ""
+"The %s role is not editable. This means that it is most likely added via "
+"another plugin for a special use or that you do not have permission to edit "
+"it."
+msgstr ""
+"%s角色无法编辑。这很可能是其它插件为一个特殊用途而添加的，也或者你没有权限编"
+"辑它。"
+
+#: admin/class-role-edit.php:197 admin/class-role-new.php:224
+msgid "The %s role has been created."
+msgstr "%s 角色已创建。"
+
+#: admin/class-role-edit.php:279 admin/class-role-new.php:325
+#: admin/class-roles.php:65 admin/functions-help.php:62
+msgid "Role Name"
+msgstr "角色名称:"
+
+#: admin/class-role-edit.php:285 admin/class-role-new.php:331
+#: inc/class-widget-users.php:227
+msgid "Role:"
+msgstr "角色："
+
+#: admin/class-role-list-table.php:229
+msgid "Default Role"
+msgstr "默认角色"
+
+#: admin/class-role-list-table.php:233
+msgid "Your Role"
+msgstr "你的角色"
+
+#: admin/class-role-list-table.php:334 admin/class-role-new.php:333
+#: admin/functions-admin.php:49
+msgid "Edit"
+msgstr "编辑"
+
+#: admin/class-role-list-table.php:344
+msgid "View"
+msgstr "查看"
+
+#: admin/class-role-list-table.php:349
+msgid "Clone"
+msgstr "克隆"
+
+#: admin/class-role-list-table.php:353
+msgid "Change Default"
+msgstr "更改默认设置"
+
+#: admin/class-role-list-table.php:357 admin/class-roles.php:67
+#: admin/functions-cap-groups.php:193 inc/class-widget-users.php:57
+msgid "Users"
+msgstr "用户"
+
+#: admin/class-role-new.php:107 admin/class-role-new.php:308
+msgid "Add New Role"
+msgstr "增加一个用户组"
+
+#: admin/class-role-new.php:233
+msgid "You must enter a valid role."
+msgstr "你必须输入一个有效的角色"
+
+#: admin/class-role-new.php:237
+msgid "The %s role already exists."
+msgstr "角色 %s 已存在"
+
+#: admin/class-role-new.php:241
+msgid "You must enter a valid role name."
+msgstr "你必须输入一个有效的角色名称"
+
+#: admin/class-role-new.php:308
+msgid "Clone Role"
+msgstr "复制角色"
+
+#: admin/class-role-new.php:326
+msgid "%s Clone"
+msgstr "复制 %s"
+
+#: admin/class-role-new.php:326
+msgid "Enter role name"
+msgstr "输入角色名称"
+
+#: admin/class-roles.php:68
+msgid "Granted"
+msgstr "已授权："
+
+#: admin/class-roles.php:69
+msgid "Denied"
+msgstr "已禁止"
+
+#: admin/class-roles.php:110
+msgid "Selected roles deleted."
+msgstr "选定的角色已删除。"
+
+#: admin/class-roles.php:129
+msgid "%s role deleted."
+msgstr "角色 %s 已删除。"
+
+#: admin/class-roles.php:208 admin/functions-help.php:46
+msgid "Overview"
+msgstr "概述"
+
+#: admin/class-roles.php:217
+msgid "Screen Content"
+msgstr "显示内容"
+
+#: admin/class-roles.php:226
+msgid "Available Actions"
+msgstr "可用操作"
+
+#: admin/class-roles.php:235
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: admin/class-roles.php:254
+msgid ""
+"This screen provides access to all of your user roles. Roles are a method of "
+"grouping users. They are made up of capabilities (caps), which give "
+"permission to users to perform specific actions on the site."
+msgstr ""
+"该屏幕可以访问所有的用户角色。角色是用户分组的方法。它们由权限组成，以允许用"
+"户在网站上执行特定操作。"
+
+#: admin/class-roles.php:268
+msgid ""
+"You can customize the display of this screen&#8216;s contents in a number of "
+"ways:"
+msgstr "你可以通过多种方式来自定义此页&#8216;s的显示："
+
+#: admin/class-roles.php:272
+msgid ""
+"You can hide/display columns based on your needs and decide how many roles "
+"to list per screen using the Screen Options tab."
+msgstr "您可以根据你的需要隐藏/显示列，通过显示选项决定每页显示多少个角色。"
+
+#: admin/class-roles.php:273
+msgid ""
+"You can filter the list of roles by types using the text links in the upper "
+"left. The default view is to show all roles."
+msgstr "您可以使用在左上角的文本链接来过滤角色列表。默认视图是显示所有角色。"
+
+#: admin/class-roles.php:287
+msgid ""
+"Hovering over a row in the roles list will display action links that allow "
+"you to manage your role. You can perform the following actions:"
+msgstr ""
+"鼠标悬停在角色列表中的一行将显示操作链接，允许您管理您的角色。您可以执行以下"
+"操作："
+
+#: admin/class-roles.php:291
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that role. You can "
+"also reach that screen by clicking on the role name."
+msgstr ""
+"点击<strong>编辑</strong>带您到该角色的编辑界面。你也可以通过点击角色名来达到"
+"这个界面。"
+
+#: admin/class-roles.php:292
+msgid ""
+"<strong>Delete</strong> removes your role from this list and permanently "
+"deletes it."
+msgstr "点击<strong>删除</strong>从这个列表中删除您的角色，并永久删除它。"
+
+#: admin/class-roles.php:293
+msgid ""
+"<strong>Clone</strong> copies the role and takes you to the new role screen "
+"to further edit it."
+msgstr ""
+"点击<strong>复制</strong>以复制角色并将打开新界面去进一步编辑你的新角色。"
+
+#: admin/class-roles.php:294
+msgid ""
+"<strong>Users</strong> takes you to the users screen and lists the users "
+"that have that role."
+msgstr "点击<strong>用户</strong>进入用户界面并列出该角色下的用户。"
+
+#: admin/class-roles.php:308
+msgid ""
+"You can permanently delete multiple roles at once. Select the roles you want "
+"to act on using the checkboxes, then select the action you want to take from "
+"the Bulk Actions menu and click Apply."
+msgstr ""
+"你可以一次性删除多个角色，请选中需要生效的用户角色复选框，然后在批量操作菜单"
+"中选择你的操作并且点击应用。"
+
+#: admin/class-settings.php:70 admin/class-settings.php:362
+msgid "Members Settings"
+msgstr "设置"
+
+#: admin/class-settings.php:71
+msgctxt "admin screen"
+msgid "Members"
+msgstr "成员（管理界面）"
+
+#: admin/class-settings.php:124
+msgid "Roles and Capabilities"
+msgstr "角色和权限"
+
+#: admin/class-settings.php:126 admin/class-settings.php:407
+msgid "Sidebar Widgets"
+msgstr "边栏小工具"
+
+#: admin/class-settings.php:127 admin/class-settings.php:416
+msgid "Private Site"
+msgstr "私有站点"
+
+#: admin/class-settings.php:132
+msgid "Role Manager"
+msgstr "角色管理"
+
+#: admin/class-settings.php:134
+msgid "Multiple User Roles"
+msgstr "多用户角色"
+
+#: admin/class-settings.php:137
+msgid "Enable Permissions"
+msgstr "启用权限"
+
+#: admin/class-settings.php:138
+msgid "Error Message"
+msgstr "错误提示消息："
+
+#: admin/class-settings.php:141
+msgid "Login Widget"
+msgstr "登录控件"
+
+#: admin/class-settings.php:142
+msgid "Users Widget"
+msgstr "用户控件"
+
+#: admin/class-settings.php:145
+msgid "Enable Private Site"
+msgstr "启用私有网站"
+
+#: admin/class-settings.php:146
+msgid "Disable Feed"
+msgstr "禁止Feed"
+
+#: admin/class-settings.php:147
+msgid "Feed Error Message"
+msgstr "Feed错误消息"
+
+#: admin/class-settings.php:188
+msgid ""
+"Your roles and capabilities will not revert back to their previous settings "
+"after deactivating or uninstalling this plugin, so use this feature wisely."
+msgstr ""
+"您的用户组和权限设置即使在该插件卸载后也不会失效，因此，该插件是您明智的选"
+"择！"
+
+#: admin/class-settings.php:203
+msgid "Enable the role manager."
+msgstr "启用角色管理器。"
+
+#: admin/class-settings.php:218
+msgid "Denied capabilities should always overrule granted capabilities."
+msgstr "禁用的权限的优先级始终高于允许的权限"
+
+#: admin/class-settings.php:233
+msgid "Allow users to be assigned more than a single role."
+msgstr "允许用户被分配一个以上的角色。"
+
+#: admin/class-settings.php:248
+msgid "Enable the content permissions feature."
+msgstr "启用内容权限功能。"
+
+#: admin/class-settings.php:283
+msgid "Enable the login form widget."
+msgstr "启用登录表单控件。"
+
+#: admin/class-settings.php:298
+msgid "Enable the users widget."
+msgstr "启用用户控件。"
+
+#: admin/class-settings.php:313
+msgid ""
+"Redirect all logged-out users to the login page before allowing them to view "
+"the site."
+msgstr "在允许浏览网站之前为注销用户重定向到登录界面。"
+
+#: admin/class-settings.php:328
+msgid "Show error message for feed items."
+msgstr "为feed条目显示错误信息。"
+
+#: admin/class-settings.php:367
+msgid "Update Settings"
+msgstr "更新设置"
+
+#: admin/class-settings.php:389
+msgid "Role and Capabilities"
+msgstr "角色和权限"
+
+#: admin/class-settings.php:422 admin/functions-help.php:23
+msgid "Documentation"
+msgstr "帮助文档"
+
+#: admin/class-settings.php:423 admin/functions-help.php:24
+msgid "Support Forums"
+msgstr "支持论坛"
+
+#: admin/class-settings.php:424
+msgid "Users, Roles, and Capabilities"
+msgstr "用户、角色和权限"
+
+#: admin/class-settings.php:440
+msgid ""
+"The role manager allows you to manage roles on your site by giving you the "
+"ability to create, edit, and delete any role. Note that changes to roles do "
+"not change settings for the Members plugin. You are literally changing data "
+"in your WordPress database. This plugin feature merely provides an interface "
+"for you to make these changes."
+msgstr ""
+"<strong>角色管理器:</strong>此功能允许您通过使您能够创建、 编辑和删除管理您站"
+"点上的任何角色。角色的变化不会影响成员插件的设置。从字面上改变你的WordPress数"
+"据库数据。此插件功能只提供一个接口，使您能够进行这些更改。"
+
+#: admin/class-settings.php:444
+msgid ""
+"Tick the checkbox for denied capabilities to always take precedence over "
+"granted capabilities when there is a conflict. This is only relevant when "
+"using multiple roles per user."
+msgstr ""
+"当有冲突时，勾选复选框禁用的权限总是优先于允许的权限。这是当用户拥有多个角色"
+"时相关。"
+
+#: admin/class-settings.php:448
+msgid ""
+"The multiple user roles feature allows you to assign more than one role to "
+"each user from the edit user screen."
+msgstr "多个用户角色功能，可以多个角色分配给从编辑用户屏幕每个用户。"
+
+#: admin/class-settings.php:462
+msgid ""
+"The content permissions features adds a meta box to the edit post screen "
+"that allows you to grant permissions for who can read the post content based "
+"on the user's role. Only users of roles with the %s capability will be able "
+"to use this component."
+msgstr ""
+"<strong>内容权限:</strong>此功能将元框添加到开机自检编辑屏幕使您可以授予的权"
+"限为谁能够读懂文章的内容，基于用户的角色。只有用户的角色与 "
+"<code>restrict_content</code> 能力将能够使用此组件。"
+
+#: admin/class-settings.php:476
+msgid ""
+"The sidebar widgets feature adds additional widgets for use in your theme's "
+"sidebars."
+msgstr "侧边栏小工具功能，增加了额外的小部件在主题的侧边栏使用。"
+
+#: admin/class-settings.php:490
+msgid ""
+"The private site feature redirects all users who are not logged into the "
+"site to the login page, creating an entirely private site. You may also "
+"replace your feed content with a custom error message."
+msgstr ""
+"<strong>私人网站:</strong>此功能允许您重定向未登录到网站到登录页面，创建一个"
+"完全私人的网站的所有用户。也可能将你feed内容替换自定义错误消息。"
+
+#: admin/class-user-edit.php:92
+msgid "User Roles"
+msgstr "用户角色"
+
+#: admin/functions-admin.php:50
+msgid "OK"
+msgstr "确定"
+
+#: admin/functions-admin.php:53
+msgid ""
+"Are you sure you want to delete this role? This is a permanent action and "
+"cannot be undone."
+msgstr "你确定要删除这个角色？此操作无法撤销。"
+
+#: admin/functions-admin.php:180
+msgid "None"
+msgstr "沒有"
+
+#: admin/functions-cap-groups.php:106
+msgid "All"
+msgstr "全部"
+
+#: admin/functions-cap-groups.php:116
+msgid "General"
+msgstr "通用"
+
+#: admin/functions-cap-groups.php:165
+msgid "Taxonomies"
+msgstr "分类"
+
+#: admin/functions-cap-groups.php:175
+msgid "Appearance"
+msgstr "外观"
+
+#: admin/functions-cap-groups.php:184
+msgid "Plugins"
+msgstr "插件"
+
+#: admin/functions-cap-groups.php:202
+msgid "Custom"
+msgstr "自定义"
+
+#: admin/functions-help.php:29
+msgid "For more information:"
+msgstr "更多信息："
+
+#: admin/functions-help.php:78
+msgid "Edit Capabilities"
+msgstr "编辑权限"
+
+#: admin/functions-help.php:109
+msgid "This screen allows you to edit an individual role and its capabilities."
+msgstr "此屏幕在您的网站允许您添加一个新的角色。"
+
+#: admin/functions-help.php:123
+msgid ""
+"The role name field allows you to enter a human-readable name for your role."
+msgstr "角色名称字段允许您为您的角色进入一个人类可读的名称。"
+
+#: admin/functions-help.php:127
+msgid ""
+"The machine-readable version of the role appears below the name field, which "
+"you can edit. This can only have lowercase letters, numbers, or underscores."
+msgstr ""
+"角色的机器可读的版本出现下面的名称字段中，您可以编辑。这只能有小写字母，数字"
+"或下划线。"
+
+#: admin/functions-help.php:141
+msgid ""
+"The capabilities edit box is made up of tabs that separate capabilities into "
+"groups. You may take the following actions for each capability:"
+msgstr ""
+"该功能编辑框是由标签，独立能力成组组成。您可能需要为每个功能执行以下操作："
+
+#: admin/functions-help.php:145
+msgid "<strong>Grant</strong> allows you to grant the role a capability."
+msgstr "<strong>授权</strong>允许授予角色的能力。"
+
+#: admin/functions-help.php:146
+msgid ""
+"<strong>Deny</strong> allows you to explicitly deny the role a capability."
+msgstr "<strong>拒绝</strong>让你明确拒绝角色的能力。"
+
+#: admin/functions-help.php:147
+msgid "You may also opt to neither grant nor deny the role a capability."
+msgstr "您也可以选择既不授予也不拒绝的角色权限。"
+
+#: admin/functions-help.php:161
+msgid ""
+"The custom capability box allows you to create a custom capability for the "
+"role. After hitting the Add New button, it will add the capability to the "
+"Custom tab in the Edit Capabilities box."
+msgstr ""
+"这个界面允许您编辑各项功能所起的作用。您可以勾选复选框以使对用的功能生效。您"
+"可以取消勾选复选框以取消角色所对应的功能。如果有需要，您可以在自定义功能部分"
+"添加更多的自定义功能。"
+
+#: admin/functions-role-groups.php:111
+msgid "Mine"
+msgstr "我的"
+
+#: admin/functions-role-groups.php:121
+msgid "Has Users"
+msgstr "已有用户"
+
+#: admin/functions-role-groups.php:122
+msgid "Has Users %s"
+msgid_plural "Has Users %s"
+msgstr[0] "已有用户  %s"
+
+#: admin/functions-role-groups.php:130
+msgid "No Users"
+msgstr "没有用户"
+
+#: admin/functions-role-groups.php:131
+msgid "No Users %s"
+msgid_plural "No Users %s"
+msgstr[0] "没有用户 %s"
+
+#: admin/functions-role-groups.php:139
+msgid "Editable"
+msgstr "可编辑"
+
+#: admin/functions-role-groups.php:140
+msgid "Editable %s"
+msgid_plural "Editable %s"
+msgstr[0] "编辑 %s"
+
+#: admin/functions-role-groups.php:148
+msgid "Uneditable"
+msgstr "不可编辑"
+
+#: admin/functions-role-groups.php:149
+msgid "Uneditable %s"
+msgid_plural "Uneditable %s"
+msgstr[0] "不可编辑 %s"
+
+#: admin/functions-role-groups.php:157
+msgid "WordPress"
+msgstr "WordPress"
+
+#: admin/tmpl/cap-section.php:20 admin/tmpl/cap-section.php:28
+msgid "Grant"
+msgstr "允许"
+
+#: admin/tmpl/cap-section.php:21 admin/tmpl/cap-section.php:29
+msgid "Deny"
+msgstr "拒絶"
+
+#: inc/class-widget-login.php:42
+msgid "A widget that allows users to log into your site."
+msgstr "允许用户登录网站的小部件。"
+
+#: inc/class-widget-login.php:53
+msgid "Members: Login Form"
+msgstr "用户：登录表单"
+
+#: inc/class-widget-login.php:57 inc/class-widget-login.php:60
+msgid "Log In"
+msgstr "登录"
+
+#: inc/class-widget-login.php:58
+msgid "Username"
+msgstr "用户名"
+
+#: inc/class-widget-login.php:59
+msgid "Password"
+msgstr "密码"
+
+#: inc/class-widget-login.php:61
+msgid "Remember Me"
+msgstr "记住我"
+
+#: inc/class-widget-login.php:71
+msgid "Please log into the site."
+msgstr "请登录到该网站。"
+
+#: inc/class-widget-login.php:72
+msgid "You are currently logged in."
+msgstr "您已经成功登录了。"
+
+#: inc/class-widget-login.php:207 inc/class-widget-users.php:207
+msgid "Title:"
+msgstr "标题："
+
+#: inc/class-widget-login.php:211
+msgid "Username Label:"
+msgstr "用户名标签:"
+
+#: inc/class-widget-login.php:215
+msgid "Password Label:"
+msgstr "密码标签:"
+
+#: inc/class-widget-login.php:219
+msgid "Log In Label:"
+msgstr "登录标签："
+
+#: inc/class-widget-login.php:223
+msgid "Remember Me Label:"
+msgstr "记住我标签："
+
+#: inc/class-widget-login.php:231
+msgid "Username Value:"
+msgstr "用户名:"
+
+#: inc/class-widget-login.php:235
+msgid "Username Field ID:"
+msgstr "用户名字段ID:"
+
+#: inc/class-widget-login.php:239
+msgid "Remember Me Field ID:"
+msgstr "记住我字段ID:"
+
+#: inc/class-widget-login.php:243
+msgid "Password Field ID:"
+msgstr "密码字段ID:"
+
+#: inc/class-widget-login.php:247
+msgid "Submit Button ID:"
+msgstr "提交按鈕ID:"
+
+#: inc/class-widget-login.php:258
+msgid "\"Remember me\" checkbox?"
+msgstr "显示 \"记住我\" 选择框?"
+
+#: inc/class-widget-login.php:264
+msgid "Check \"remember me\"?"
+msgstr "点击 \"记住我\" ?"
+
+#: inc/class-widget-login.php:270
+msgid "Display avatar?"
+msgstr "显示头像?"
+
+#: inc/class-widget-login.php:274
+msgid "Logged out text:"
+msgstr "注销文本："
+
+#: inc/class-widget-login.php:279
+msgid "Logged in text:"
+msgstr "登录文本："
+
+#: inc/class-widget-users.php:42
+msgid "Provides the ability to list the users of the site."
+msgstr "列出网站用户的功能。"
+
+#: inc/class-widget-users.php:53
+msgid "Members: Users"
+msgstr "成员：用户"
+
+#: inc/class-widget-users.php:183
+msgid "Ascending"
+msgstr "升序"
+
+#: inc/class-widget-users.php:184
+msgid "Descending"
+msgstr "降序"
+
+#: inc/class-widget-users.php:188
+msgid "Display Name"
+msgstr "显示姓名"
+
+#: inc/class-widget-users.php:189
+msgid "Email"
+msgstr "Email"
+
+#: inc/class-widget-users.php:190
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-widget-users.php:191
+msgid "Nice Name"
+msgstr "昵称"
+
+#: inc/class-widget-users.php:192
+msgid "Post Count"
+msgstr "文章计数"
+
+#: inc/class-widget-users.php:193
+msgid "Registered"
+msgstr "已注册"
+
+#: inc/class-widget-users.php:194
+msgid "URL"
+msgstr "网址"
+
+#: inc/class-widget-users.php:195
+msgid "Login"
+msgstr "登录"
+
+#: inc/class-widget-users.php:211
+msgid "Order By:"
+msgstr "排序条件"
+
+#: inc/class-widget-users.php:219
+msgid "Order:"
+msgstr "排序"
+
+#: inc/class-widget-users.php:235
+msgid "Limit:"
+msgstr "限制"
+
+#: inc/class-widget-users.php:239
+msgid "Offset:"
+msgstr "偏移:"
+
+#: inc/class-widget-users.php:247
+msgid "Include:"
+msgstr "包括："
+
+#: inc/class-widget-users.php:251
+msgid "Exclude:"
+msgstr "排除："
+
+#: inc/class-widget-users.php:255
+msgid "Search:"
+msgstr "搜索："
+
+#: inc/class-widget-users.php:259
+msgid "Meta Key:"
+msgstr "Meta关键词："
+
+#: inc/class-widget-users.php:267
+msgid "Meta Value:"
+msgstr "Meta值："
+
+#: inc/functions-options.php:116
+msgid "Sorry, but you do not have permission to view this content."
+msgstr "很抱歉，您没有权限查看此内容。"
+
+#: inc/functions-options.php:117
+msgid "You must be logged into the site to view this content."
+msgstr "此内容登陆后可见。"
+
+#: members.php:187
+msgid "Method does not exist."
+msgstr "方式不存在。"
+
+#. Plugin Name of the plugin/theme
+msgid "Members"
+msgstr "成员"
+
+#. Plugin URI of the plugin/theme
+msgid "http://themehybrid.com/plugins/members"
+msgstr "http://themehybrid.com/plugins/members"
+
+#. Description of the plugin/theme
+msgid ""
+"A user and role management plugin that puts you in full control of your "
+"site's permissions. This plugin allows you to edit your roles and their "
+"capabilities, clone existing roles, assign multiple roles per user, block "
+"post content, or even make your site completely private."
+msgstr ""
+"用户和角色管理插件，使你在你的网站的权限的完全控制。这个插件可以让您编辑的角"
+"色和他们的能力，克隆现有的角色，每个用户，块帖子内容分配多个角色，甚至可以使"
+"您的网站完全私人的。"
+
+#. Author of the plugin/theme
+msgid "Justin Tadlock"
+msgstr "Justin Tadlock"
+
+#. Author URI of the plugin/theme
+msgid "http://themehybrid.com"
+msgstr "http://themehybrid.com"
