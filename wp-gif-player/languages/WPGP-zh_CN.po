@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP GIF Player\n"
+"POT-Creation-Date: 2016-11-10 09:16+0800\n"
+"PO-Revision-Date: 2016-11-10 09:18+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: C:/Users/Stefanie/PhpstormProjects/xampp/htdocs/test-junq/wp-content/plugins/wp-gif-player\n"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:74
+msgid "Add GIF"
+msgstr "添加 GIF"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:106
+msgid "Sorry, but we couldn't find a GIF with this ID!"
+msgstr "抱歉，但我们找不到具有此 ID 的 GIF ！"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:259
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页。"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:265
+msgid "WP GIF Player Settings"
+msgstr "WP GIF 设置"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:284
+msgid "Thumbnail Settings"
+msgstr "缩略图设置"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:291
+msgid "Set post thumbnail automatically?"
+msgstr "自动设置文章缩略图吗？"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:304
+msgid "Choose your settings below:"
+msgstr "请在下面输入您的设置:"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:318
+msgid "Don't set a post thumbnail"
+msgstr "设置文章缩略图"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:327
+msgid "Set first frame of first GIF as Thumbnail"
+msgstr "设置第一帧的第一个 GIF 作为缩略图"
+
+#: C:\Users\Stefanie\PhpstormProjects\xampp\htdocs\test-junq\wp-content\plugins\wp-gif-player/gif-player.php:336
+msgid "Set first GIF as Thumbnail"
+msgstr "设置第一个 GIF 作为缩略图"
