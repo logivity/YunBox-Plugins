@@ -31,20 +31,10 @@ class Licensing_Plugin_Admin {
 
 
 	public function w3tc_admin_bar_menu( $menu_items ) {
-		/*
-		$menu_items['00020.licensing'] = array(
-			'id' => 'w3tc_overlay_upgrade',
-			'parent' => 'w3tc',
-			'title' => __(
-				'<span style="color: red; background: none;">Upgrade Performance</span>',
-				'w3-total-cache'
-			),
-			'href' => wp_nonce_url( network_admin_url(
-					'admin.php?page=w3tc_dashboard&amp;' .
-					'w3tc_message_action=licensing_upgrade' ), 'w3tc' )
-		);
-		*/
-		return array();
+		$menu_items['00020.licensing'] = array();
+		$menu_items['40030.generic'] = array();
+		$menu_items['60010.generic'] = array();
+		return $menu_items;
 	}
 
 	public function w3tc_message_action_licensing_upgrade() {

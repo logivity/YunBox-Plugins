@@ -33,31 +33,4 @@ echo implode( " $string ", apply_filters( 'w3tc_dashboard_actions', array() ) ) 
     </p>
 </form>
 
-    <div id="w3tc-dashboard-widgets" class="clearfix widefat metabox-holder">
-        <?php $screen = get_current_screen();
-?>
-        <div id="postbox-container-left" style="float: left;">
-            <div class="content">
-            <div id="dashboard-text" style="display:inline-block;">
-                <h1><?php _e( 'Dashboard', 'w3-total-cache' )?></h1>
-                <p>Thanks for choosing W3TC as your Web Performance Optimization (<acronym title="Web Performance Optimization">WPO</acronym>) framework. Please share <a href="admin.php?page=w3tc_support&amp;request_type=new_feature">your suggestions</a> about the statistics and reporting you would like to see!</p>
-            </div>
-            <div id="widgets-container">
-            <?php do_meta_boxes( $screen->id, 'normal', '' ); ?>
-            </div>
-            </div>
-        </div>
-        <div id="postbox-container-right">
-            <div id='postbox-container-3' class='postbox-container' style="width: 100%;">
-                <?php do_meta_boxes( $screen->id, 'side', '' ); ?>
-            </div>
-        </div>
-        <div style="clear:both"></div>
-
-        <?php
-wp_nonce_field( 'closedpostboxes', 'closedpostboxesnonce', false );
-wp_nonce_field( 'meta-box-order', 'meta-box-order-nonce', false );
-?>
-    </div>
-
 <?php include W3TC_INC_DIR . '/options/common/footer.php'; ?>

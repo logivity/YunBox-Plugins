@@ -27,7 +27,6 @@ class Root_AdminMenu {
 				'menu_text' => __( 'Dashboard', 'w3-total-cache' ),
 				'visible_always' => true
 			),
-			/*
 			'w3tc_general' => array(
 				'page_title' => __( 'General Settings', 'w3-total-cache' ),
 				'menu_text' => __( 'General Settings', 'w3-total-cache' ),
@@ -53,9 +52,7 @@ class Root_AdminMenu {
 				'menu_text' => __( 'Object Cache', 'w3-total-cache' ),
 				'visible_always' => false
 			)
-			 */
 		);
-		/*
 		$pages = array_merge( $pages, array(
 				'w3tc_browsercache' => array(
 					'page_title' => __( 'Browser Cache', 'w3-total-cache' ),
@@ -101,8 +98,7 @@ class Root_AdminMenu {
 			)
 		);
 		$pages = apply_filters( 'w3tc_admin_menu', $pages, $this->_config );
-		$pages = array_merge( $pages, $pages_tail );
-		 */
+		//$pages = array_merge( $pages, $pages_tail );
 		return $pages;
 	}
 
