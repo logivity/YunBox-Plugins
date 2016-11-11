@@ -397,7 +397,7 @@ class nggAdminPanel{
 			$help .= "</div>\n";
 		}
 
-		return $help;
+		return '';
 	}
 
     /**
