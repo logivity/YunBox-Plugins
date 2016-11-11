@@ -31,6 +31,7 @@ class Licensing_Plugin_Admin {
 
 
 	public function w3tc_admin_bar_menu( $menu_items ) {
+		/*
 		$menu_items['00020.licensing'] = array(
 			'id' => 'w3tc_overlay_upgrade',
 			'parent' => 'w3tc',
@@ -42,8 +43,8 @@ class Licensing_Plugin_Admin {
 					'admin.php?page=w3tc_dashboard&amp;' .
 					'w3tc_message_action=licensing_upgrade' ), 'w3tc' )
 		);
-
-		return $menu_items;
+		*/
+		return array();
 	}
 
 	public function w3tc_message_action_licensing_upgrade() {
