@@ -31,9 +31,15 @@ class Licensing_Plugin_Admin {
 
 
 	public function w3tc_admin_bar_menu( $menu_items ) {
-		$menu_items['00020.licensing'] = array();
-		$menu_items['40030.generic'] = array();
-		$menu_items['60010.generic'] = array();
+		$menu_items['00020.licensing'] = array(
+			'id' => 'w3tc_settings_faq'
+		);
+		$menu_items['40030.generic'] = array(
+			'id' => 'w3tc_settings_faq'
+		);
+		$menu_items['60010.generic'] = array(
+			'id' => 'w3tc_support'
+		);
 		return $menu_items;
 	}
 
