@@ -299,19 +299,7 @@ class wpui_options
                         <?php } ?>
 					</h1>
 					<div id="wpui-notice">
-                        <a href="http://wp-alacarte.com/" target="_blank"><img class="wpalacarte-banner" width="300" height="250" src="<?php echo plugins_url('assets/img/wpalacarte-300x250-EN@2x.png', dirname(dirname(__FILE__))); ?>" /></a>
-						<h2><?php _e( 'The ultimate plugin to customize, manage and optimize your WordPress backend!', 'wpui' ); ?></h2>
                         <p class="small">
-                            <span class="dashicons dashicons-wordpress"></span>
-                            <?php _e( 'You like WP Admin UI? Don\'t forget to rate it 5 stars!', 'wpui' ); ?>
-
-                            <div class="wporg-ratings rating-stars">
-                                <a href="//wordpress.org/support/view/plugin-reviews/wp-admin-ui?rate=1#postform" data-rating="1" title="" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
-                                <a href="//wordpress.org/support/view/plugin-reviews/wp-admin-ui?rate=2#postform" data-rating="2" title="" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
-                                <a href="//wordpress.org/support/view/plugin-reviews/wp-admin-ui?rate=3#postform" data-rating="3" title="" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
-                                <a href="//wordpress.org/support/view/plugin-reviews/wp-admin-ui?rate=4#postform" data-rating="4" title="" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
-                                <a href="//wordpress.org/support/view/plugin-reviews/wp-admin-ui?rate=5#postform" data-rating="5" title="" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
-                            </div>
                             <script>
                                 jQuery(document).ready( function($) {
                                     $('.rating-stars').find('a').hover(
@@ -331,13 +319,6 @@ class wpui_options
                                 });
                             </script>
                         </p>
-						<p class="small">
-							<a href="http://twitter.com/wpcloudy" target="_blank"><div class="dashicons dashicons-twitter"></div><?php _e( 'Follow us on Twitter!', 'wpui' ); ?></a>
-                            &nbsp;
-                            <a href="http://www.wpadminui.net/" target="_blank"><div class="dashicons dashicons-info"></div><?php _e( 'Our website', 'wpui' ); ?></a>
-                            &nbsp;
-                            <a href="http://www.wpadminui.net/support" target="_blank"><div class="dashicons dashicons-sos"></div><?php _e( 'Knowledge base', 'wpui' ); ?></a>
-						</p>
 					</div>
                     <table class="wpui-page-list" cellspacing="16">
                         <tbody>
@@ -404,54 +385,6 @@ class wpui_options
                                         <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-editor' ); ?>"><?php _e('Manage','wpui'); ?></a>
                                     </span>
                                 </td>
-                                <?php if ( is_plugin_active( 'wp-admin-ui-pro/wpadminui-pro.php' ) ) { ?>
-                                    <td>  
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-index-card"></span>                                 
-                                        </div> 
-                                        <span class="inner">
-                                            <h4><?php _e('Metaboxes','wpui'); ?></h4>
-                                            <p><?php _e('Hide metaboxes from your custom post types...','wpui'); ?></p>
-                                            <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-metaboxes' ); ?>"><?php _e('Manage','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } else { ?>
-                                    <td>   
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-index-card"></span>                                    
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Metaboxes','wpui'); ?></h4>
-                                            <p><?php _e('Hide metaboxes...','wpui'); ?></p>
-                                            <a class="button-primary" href="http://wpadminui.net/pro" target="_blank"><span class="dashicons dashicons-cart"></span><?php _e('Get it','wpui'); ?></a>                                        
-                                        </span>
-                                    </td>
-                                <?php } ?>
-                                <?php if ( is_plugin_active( 'wp-admin-ui-pro/wpadminui-pro.php' ) ) { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-list-view"></span>                                  
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Columns','wpui'); ?></h4>
-                                            <p><?php _e('Hide columns from list view, add post ID column...','wpui'); ?></p>
-                                            <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-columns' ); ?>"><?php _e('Manage','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } else { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-list-view"></span>                                   
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Columns','wpui'); ?></h4>
-                                            <p><?php _e('Hide columns from list view, add post ID column...','wpui'); ?></p>
-                                            <a class="button-primary" href="http://wpadminui.net/pro" target="_blank"><span class="dashicons dashicons-cart"></span><?php _e('Get it','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
                                 <td>
                                     <div class="img-tool">
                                         <span class="dashicons dashicons-admin-media"></span>                                    
@@ -472,77 +405,8 @@ class wpui_options
                                         <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-profil' ); ?>"><?php _e('Manage','wpui'); ?></a>
                                     </span>
                                 </td>
-                                <?php if ( is_plugin_active( 'wp-admin-ui-pro/wpadminui-pro.php' ) ) { ?>
-                                    <td>   
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-admin-plugins"></span>                                    
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Plugins','wpui'); ?></h4>
-                                            <p><?php _e('Remove WP SEO notifications, WPML Ads, WooThemes updater...','wpui'); ?></p>
-                                            <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-plugins' ); ?>"><?php _e('Manage','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } else { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-admin-plugins"></span>                                    
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Plugins','wpui'); ?></h4>
-                                            <p><?php _e('Remove WP SEO notifications, WPML Ads, WooThemes updater plugin...','wpui'); ?></p>
-                                            <a class="button-primary" href="http://wpadminui.net/pro" target="_blank"><span class="dashicons dashicons-cart"></span><?php _e('Get it','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } ?>
-                                <?php if ( is_plugin_active( 'wp-admin-ui-pro/wpadminui-pro.php' ) ) { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-admin-appearance"></span>                                    
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Themes','wpui'); ?></h4>
-                                            <p><?php _e('Create your own admin theme, or choose a preset one.','wpui'); ?></p>
-                                            <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-themes' ); ?>"><?php _e('Manage','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } else { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-admin-appearance"></span>                                    
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Themes','wpui'); ?></h4>
-                                            <p><?php _e('Create your own admin theme, or choose a preset one.','wpui'); ?></p>
-                                            <a class="button-primary" href="http://wpadminui.net/pro" target="_blank"><span class="dashicons dashicons-cart"></span><?php _e('Get it','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } ?>
                             </tr>
                             <tr>
-                                <?php if ( is_plugin_active( 'wp-admin-ui-pro/wpadminui-pro.php' ) ) { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-email-alt"></span>                                  
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Mails','wpui'); ?></h4>
-                                            <p><?php _e('Optimize WP Mails','wpui'); ?></p>
-                                            <a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=wpui-mails' ); ?>"><?php _e('Manage','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } else { ?>
-                                    <td>
-                                        <div class="img-tool">
-                                            <span class="dashicons dashicons-email-alt"></span>                                   
-                                        </div>
-                                        <span class="inner">
-                                            <h4><?php _e('Mails','wpui'); ?></h4>
-                                            <p><?php _e('Optimize WP Mails','wpui'); ?></p>
-                                            <a class="button-primary" href="http://wpadminui.net/pro" target="_blank"><span class="dashicons dashicons-cart"></span><?php _e('Get it','wpui'); ?></a>
-                                        </span>
-                                    </td>
-                                <?php } ?>
                                 <td>
                                     <div class="img-tool">
                                         <span class="dashicons dashicons-groups"></span>                                    
