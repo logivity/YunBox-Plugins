@@ -31,7 +31,7 @@ class DLM_Admin {
 
 		// Admin menus
 		add_action( 'admin_menu', array( $this, 'admin_menu' ), 12 );
-		add_action( 'admin_menu', array( $this, 'admin_menu_extensions' ), 20 );
+		//add_action( 'admin_menu', array( $this, 'admin_menu_extensions' ), 20 );
 
 		// Settings
 		add_action( 'admin_init', array( $this, 'register_settings' ) );
