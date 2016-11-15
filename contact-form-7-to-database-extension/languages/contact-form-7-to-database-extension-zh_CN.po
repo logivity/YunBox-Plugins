@@ -9,11 +9,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-01-21 12:44+0800\n"
+"PO-Revision-Date: 2016-11-15 18:22+0800\n"
 "Last-Translator: GT <lcs.005@163.com>\n"
 "Language-Team: http://lcs.wang <lcs.005@163.com>\n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: CF7DBOptionsManager.php:278 CF7DBPlugin.php:334
 #: ExportToGoogleLiveData.php:31
@@ -335,7 +335,7 @@ msgstr "(你知道吗?: 你可以制作自己的 short code)"
 
 #: CFDBViewShortCodeBuilder.php:656
 msgid "Short Code"
-msgstr "Short Code"
+msgstr "短码"
 
 #: CFDBViewShortCodeBuilder.php:659
 msgid "* Select a short code *"
@@ -477,7 +477,7 @@ msgstr "[cfdb-json] 选项"
 
 #: CFDBViewShortCodeBuilder.php:824
 msgid "var"
-msgstr "var"
+msgstr "变量"
 
 #: CFDBViewShortCodeBuilder.php:827
 msgid "JS var name"
@@ -489,7 +489,7 @@ msgstr "格式"
 
 #: CFDBViewShortCodeBuilder.php:836
 msgid "map"
-msgstr "map"
+msgstr "地图"
 
 #: CFDBViewShortCodeBuilder.php:837
 msgid "array"
@@ -565,7 +565,7 @@ msgstr "wpautop"
 
 #: CFDBViewShortCodeBuilder.php:903
 msgid "Template"
-msgstr "Template"
+msgstr "模板"
 
 #: CFDBViewShortCodeBuilder.php:907
 msgid "Per-entry HTML using ${field name} variables"

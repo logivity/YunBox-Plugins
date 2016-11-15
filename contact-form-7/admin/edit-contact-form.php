@@ -159,17 +159,6 @@ if ( $post ) :
 </div><!-- #submitdiv -->
 <?php endif; ?>
 
-<div id="informationdiv" class="postbox">
-<h3><?php echo esc_html( __( 'Information', 'contact-form-7' ) ); ?></h3>
-<div class="inside">
-<ul>
-<li><?php echo wpcf7_link( __( 'http://contactform7.com/docs/', 'contact-form-7' ), __( 'Docs', 'contact-form-7' ) ); ?></li>
-<li><?php echo wpcf7_link( __( 'http://contactform7.com/faq/', 'contact-form-7' ), __( 'FAQ', 'contact-form-7' ) ); ?></li>
-<li><?php echo wpcf7_link( __( 'http://contactform7.com/support/', 'contact-form-7' ), __( 'Support', 'contact-form-7' ) ); ?></li>
-</ul>
-</div>
-</div><!-- #informationdiv -->
-
 </div><!-- #postbox-container-1 -->
 
 <div id="postbox-container-2" class="postbox-container">
