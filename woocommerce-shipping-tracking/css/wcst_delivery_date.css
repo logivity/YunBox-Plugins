@@ -1,0 +1,10 @@
+.wcst_input_time, .wcst_input_date
+{
+	width:48%;
+}
+#wcst_order_details_form
+{
+	display:block;
+	margin-top:30px;
+	margin-bottom:50px;
+}

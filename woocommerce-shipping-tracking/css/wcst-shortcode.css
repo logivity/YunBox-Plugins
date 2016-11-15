@@ -1,0 +1,21 @@
+.wcst_shipping_company_select_label
+{
+	display: block;
+}
+.wcst_shipping_company_select
+{
+	display: block;
+	margin-bottom: 20px;
+}
+.wcst_tracking_code_input_label
+{
+	display: block;
+}
+.wcst_loading
+{
+	display:none;
+	height: 24px;
+    width: 24px;	
+    margin-top: 5px;
+    margin-bottom: 25px;
+}

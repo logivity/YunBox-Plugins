@@ -1,0 +1,30 @@
+.button.wcst-remove-shipping
+{
+	color:white;
+	margin-bottom:15px;
+	background-color:#D90000;
+	border-color: #D90000;
+} 
+.button.wcst-remove-shipping:hover
+{
+	color:white;
+	background-color:#660000;
+	border-color: #660000;
+} 
+.form-row input[type="text"].wcst_input_date,
+.form-row input[type="text"].wcst_input_time
+{
+	width:48%;
+	margin-left: 2px;
+}
+.wcst_extra_delivery_row  select.picker__select--year, .wcst_extra_delivery_row select.picker__select--month
+{
+	width: 40%;
+	margin-top: 1px;
+}
+/*Calendar */
+.picker__weekday
+{
+	color:#dedede;
+	font-weight: bold;
+}

@@ -1,0 +1,42 @@
+.input_box
+{
+	margin-top:15px;
+}
+.input_fields_wrap
+{
+	background: white none repeat scroll 0 0;
+	margin-top: 15px;
+	width: 90%;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+textarea
+{
+	margin-bottom: 20px;
+}
+
+.white-box
+{
+	background-color: white;
+    box-shadow: 2px 5px 10px;
+	padding: 15px 0 0 15px;
+}
+.wcst_checkout_tab_input
+{
+	width:350px;
+}
+.wcst_checkout_tab_textarea
+{
+	width:350px;
+	height:150px;
+}
+.wcst_notice
+{
+	background:#71b02f;
+	color:white;
+	padding:5px;
+	font-size:11px;
+}
