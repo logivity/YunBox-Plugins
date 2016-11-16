@@ -102,11 +102,11 @@ function wpseo_admin_bar_menu() {
 
 	// Yoast Icon.
 	$icon_svg = WPSEO_Utils::get_icon_svg();
-	$title = '<div id="yoast-ab-icon" class="ab-item yoast-logo svg" style="background-image: url(\''.$icon_svg.'\');"><span class="screen-reader-text">' . __( 'SEO', 'wordpress-seo' ) . '</span></div>';
+	$title = '<div>&nbsp;SEO工具<div id="yoast-ab-icon" class="ab-item yoast-logo svg" style="background-image: url(\''.$icon_svg.'\');"><span class="screen-reader-text">' . __( 'SEO', 'wordpress-seo' ) . '</span></div></div>';
 
 	$wp_admin_bar->add_menu( array(
 		'id'    => 'wpseo-menu',
-		'title' => $title . $score . $counter,
+		'title' => $title,
 		'href'  => $seo_url,
 		'meta'   => array( 'tabindex' => $top_level_link_tabindex ),
 	) );
