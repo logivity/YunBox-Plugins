@@ -107,6 +107,7 @@ class WPSEO_Help_Center {
 	 * Outputs the help center.
 	 */
 	public function output_help_center() {
+		return;
 		$help_center_items = apply_filters( 'wpseo_help_center_items', $this->help_center_items );
 		$help_center_items = array_filter( $help_center_items, array( $this, 'is_a_help_center_item' ) );
 		if ( empty( $help_center_items ) ) {
