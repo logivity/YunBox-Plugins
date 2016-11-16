@@ -1,23 +1,23 @@
 <?php
 class WCST_WooCommerceAddon
 {
-	
+
 	var $track;
-	function __construct() 
+	function __construct()
 	{
 		add_action( 'add_meta_boxes', array( &$this, 'woocommerce_metaboxes' ) );
 		add_action( 'woocommerce_process_shop_order_meta', array( &$this, 'woocommerce_process_shop_ordermeta' ), 5, 2 );
-		add_action( 'admin_menu', array( &$this, 'ship_select_menu')); 
-		
+		add_action( 'admin_menu', array( &$this, 'ship_select_menu'));
+
 		add_action( 'manage_edit-shop_order_columns', array( &$this, 'add_tracking_column'), 20, 1 );
 		add_action( 'manage_shop_order_posts_custom_column', array( &$this, 'add_tacking_info_to_column'));
-		
-		add_filter( 'manage_edit-product_columns', array(&$this, 'add_estimated_column'),15 );
+
+		//add_filter( 'manage_edit-product_columns', array(&$this, 'add_estimated_column'),15 );
 		add_action( 'manage_product_posts_custom_column', array(&$this, 'add_estimation_info_to_column'), 10, 2 );
-		
+
 		add_action( 'woocommerce_after_my_account', array( &$this, 'add_shipping_tracking_buttons'));
 		add_filter( 'woocommerce_shop_order_search_fields', array( &$this, 'woocommerce_shop_order_search_tracking_number') );
-	
+
 	}
 	function woocommerce_shop_order_search_tracking_number( $search_fields ) {
 
@@ -26,27 +26,27 @@ class WCST_WooCommerceAddon
 		return $search_fields;
 	}
 	//Order list columns
-	function add_tracking_column($columns){ 
-	
+	function add_tracking_column($columns){
+
 		$columns["wcst_tracking_number"] = __('Tracking Number', 'woocommerce-shipping-tracking');
-		
+
 		return $columns;
-		
+
 	}
 	//Order list columns
 	function add_tacking_info_to_column($column)
-	{ 
+	{
 		global $post, $woocommerce, $the_order, $wcst_product_model;
-			
+
 			if ( empty( $the_order ) || $the_order->id != $post->ID )
 				$the_order = new WC_Order( $post->ID );
-				
-			switch ( $column ) 
+
+			switch ( $column )
 			{
 				case "wcst_tracking_number" :
-					
+
 					$order_meta = get_post_custom( $the_order->id );
-								
+
 					//if(isset($order_meta['_wcst_order_trackno']) && isset($order_meta['_wcst_order_trackurl']))
 					if(isset($order_meta['_wcst_order_trackno']) && isset($order_meta['_wcst_order_trackurl']) && isset($order_meta['_wcst_order_trackname']))
 					{
@@ -57,28 +57,28 @@ class WCST_WooCommerceAddon
 						$additiona_companies = unserialize($order_meta['_wcst_additional_companies'][0]);
 						$this->admin_additional_shipping_details_to_column($additiona_companies, $the_order);
 					}
-				break; 
-				
-				
+				break;
+
+
 			}
-			
+
 		}
 	//Product list columns
-	function add_estimated_column($columns){ 
-	
+	function add_estimated_column($columns){
+
 		$columns["wcst_estimated_rule_name"] =__('Estimated shipping rule', 'woocommerce-shipping-tracking');
-		
+
 		return $columns;
-		
+
 	}
 	//Product list columns
-	function add_estimation_info_to_column( $column, $post_id ) 
-	{ 
+	function add_estimation_info_to_column( $column, $post_id )
+	{
 		global $post, $woocommerce, $the_order, $wcst_product_model;
-	
-			switch ( $column ) 
+
+			switch ( $column )
 			{
-					
+
 				case "wcst_estimated_rule_name":
 					$rule = $wcst_product_model->get_estimation_shippment_rule($post_id);
 					if(isset($rule))
@@ -86,68 +86,68 @@ class WCST_WooCommerceAddon
 								$rule['name_id'].
 								'</a><br/>';
 					break;
-				
+
 			}
-			
+
 		}
-		
+
 	function admin_shipping_details_to_column($order_meta , $order)
 	{
-		
+
 		$urltrack =isset($order_meta['_wcst_order_track_http_url'][0]) ? $order_meta['_wcst_order_track_http_url'][0] : "#";
-	
-		if ($order_meta['_wcst_order_trackno'][0] != null && $order_meta['_wcst_order_trackurl'][0] != null && $order_meta['_wcst_order_trackurl'][0] != 'NOTRACK' ) 
+
+		if ($order_meta['_wcst_order_trackno'][0] != null && $order_meta['_wcst_order_trackurl'][0] != null && $order_meta['_wcst_order_trackurl'][0] != 'NOTRACK' )
 		{ ?>
-			<STRONG><?php 
+			<STRONG><?php
 				echo $order_meta['_wcst_order_trackname'][0];
 			?></STRONG><br/>
 			<STRONG><a target="_blank" href="<?php echo $urltrack;?>"><?php _e('Tracking ', 'woocommerce-shipping-tracking'); ?></STRONG>#<?php echo $order_meta['_wcst_order_trackno'][0]; ?></a>
 			<br/>
-		<?php } 
-		
+		<?php }
+
 	}
 	function admin_additional_shipping_details_to_column($additiona_companies , $order)
 	{
 		foreach($additiona_companies as $order_meta)
 		{
 			$urltrack = isset($order_meta['_wcst_order_track_http_url']) ? $order_meta['_wcst_order_track_http_url'] : "#";
-		
-			if ($order_meta['_wcst_order_trackno'] != null && $order_meta['_wcst_order_trackurl'] != null && $order_meta['_wcst_order_trackurl'] != 'NOTRACK' ) 
+
+			if ($order_meta['_wcst_order_trackno'] != null && $order_meta['_wcst_order_trackurl'] != null && $order_meta['_wcst_order_trackurl'] != 'NOTRACK' )
 			{ ?>
-				<br/><STRONG><?php 
+				<br/><STRONG><?php
 					echo $order_meta['_wcst_order_trackname'];
 				?></STRONG><br/>
 				<STRONG><a target="_blank" href="<?php echo $urltrack;?>"><?php _e('Tracking ', 'woocommerce-shipping-tracking'); ?></STRONG>#<?php echo $order_meta['_wcst_order_trackno']; ?></a>
 				<br/>
-			<?php } 
+			<?php }
 		}
-		
+
 	}
-	function woocommerce_process_shop_ordermeta( $post_id, $post ) 
+	function woocommerce_process_shop_ordermeta( $post_id, $post )
 	{
 		$wcst_order_model = new WCST_Order();
 		$wcst_order_model->save_shippings_info_metas( $post_id, $_POST);
 	}
 
-	function woocommerce_metaboxes() 
+	function woocommerce_metaboxes()
 	{
 		global $wcst_html_helper;
 		add_meta_box( 'woocommerce-order-ship', __('Tracking Code', 'woocommerce-shipping-tracking'), array( &$wcst_html_helper, 'render_shipping_companies_tracking_info_configurator_widget' ), 'shop_order', 'side', 'high');
 
 	}
-		
+
 	function ship_select_menu(){
-		
+
 		if (!function_exists('current_user_can') || !current_user_can('manage_options') )
 		return;
-			
+
 	}
-	
+
 	function add_shipping_tracking_buttons()
 	{
 			if(! get_current_user_id())
 				return;
-			
+
 			$args =  array(
 				'numberposts' => -1,
 				'meta_key'    => '_customer_user',
@@ -175,5 +175,5 @@ class WCST_WooCommerceAddon
 			wp_enqueue_style('wcst-order-table', WCST_PLUGIN_PATH.'/css/wcst_order_table.css');
 			include WCST_PLUGIN_ABS_PATH.'template/my_account_orders_table.php';
 		}
-} 
+}
 ?>
