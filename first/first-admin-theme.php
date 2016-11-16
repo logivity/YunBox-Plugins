@@ -369,6 +369,7 @@ class First_Admin_Theme {
 		// remove the wordpress logo
 		$wp_admin_bar->remove_node( 'wp-logo' );
 		$wp_admin_bar->remove_node( 'view-site' );
+		$wp_admin_bar->remove_node( 'view-store' );
 
 		if($this->get_setting('bar_updates_hide')){
 				$wp_admin_bar->remove_node('updates');
