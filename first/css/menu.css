@@ -133,11 +133,10 @@ strong .post-com-count span {
 
 #adminmenu .wp-submenu .wp-submenu-head {
   color: #777; }
-
 #adminmenu .wp-submenu a, #adminmenu .wp-has-current-submenu .wp-submenu a, .folded #adminmenu .wp-has-current-submenu .wp-submenu a, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a {
 	padding-left: 20px;
-	color: 777;
-  /* Admin Menu: current */ 
+	color: #777;
+	/* Admin Menu: current */ 
 }
 #adminmenu .wp-submenu a:focus, #adminmenu .wp-has-current-submenu .wp-submenu a:focus, .folded #adminmenu .wp-has-current-submenu .wp-submenu a:focus, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:focus, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu .wp-has-current-submenu .wp-submenu a:hover, .folded #adminmenu .wp-has-current-submenu .wp-submenu a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:hover, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a:hover {
 	background: #f4f4f4;
