@@ -364,17 +364,18 @@
 }
 
 /************************ 最近评论 ***********************/
-#dashboard-widgets-wrap div#woocommerce_dashboard_recent_reviews.postbox {
-	border: 1px solid #484848;
-	border-radius: 5px;
-}
-#dashboard-widgets-wrap #woocommerce_dashboard_recent_reviews span.toggle-indicator {
-	color: #fff;
-}
 #dashboard-widgets-wrap #woocommerce_dashboard_recent_reviews h2.hndle {
-	color: #f1f1f1;
-	border-radius: 3px 3px 0px 0px;
-	background: #484848;
+	font-size: 0px;
+	padding: 0px;
+}
+#dashboard-widgets-wrap #woocommerce_dashboard_recent_reviews span.toggle-indicator:before {
+	width: 0px;
+	height: 0px;
+	content: '';
+}
+#dashboard-widgets-wrap #woocommerce_dashboard_recent_reviews button.handlediv.button-link {
+	width: 0px;
+	height: 0px;
 }
 
 /************************ seo文章概述 ***********************/
@@ -404,6 +405,7 @@
 	border-radius: 3px 3px 0px 0px;
 	background: #D64541;
 }
+
 /************************ 访问网页排行 ***********************/
 #dashboard-widgets-wrap div#slim_p1_08.postbox {
 	border: 1px solid #f0ad4e;
@@ -416,4 +418,18 @@
 	color: #fff;
 	border-radius: 3px 3px 0px 0px;
 	background: #f0ad4e;
+}
+
+/************************ 浏览器排行 ***********************/
+#dashboard-widgets-wrap div#slim_p2_04.postbox {
+	border: 1px solid #484848;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #slim_p2_04 span.toggle-indicator {
+	color: #fff;
+}
+#dashboard-widgets-wrap #slim_p2_04 h2.hndle {
+	color: #fff;
+	border-radius: 3px 3px 0px 0px;
+	background: #484848;
 }
