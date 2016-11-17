@@ -416,9 +416,10 @@
 	background: #f0ad4e;
 }
 #dashboard-widgets-wrap #slim_p2_02 p.slimstat-tooltip-trigger {
-	color: #555;
+	color: #666;
 	border-bottom: 1px solid #eee;
-	padding: 10px 18px;
+	font-size: 15px;
+	padding: 10px 20px;
 }
 
 /************************ 概览 ***********************/
@@ -435,8 +436,12 @@
 	background: #484848;
 }
 #dashboard-widgets-wrap #slim_p1_03 p.slimstat-tooltip-trigger {
-	color: #555;
+	color: #666;
 	border-bottom: 1px solid #eee;
+	border-left: 1px solid #eee;
 	padding: 10px 18px;
+	font-size: 15px;
+	float: left;
+	width: calc(50% - 40px);
 }
 
