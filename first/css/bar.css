@@ -377,19 +377,43 @@
 	background: #484848;
 }
 
-/************************ 访问网页排行 ***********************/
-#dashboard-widgets-wrap div#slim_p1_08.postbox {
+/************************ seo文章概述 ***********************/
+#dashboard-widgets-wrap div#wpseo-dashboard-overview.postbox {
 	border: 1px solid #c4c4c4;
 	border-radius: 5px;
 }
-#dashboard-widgets-wrap #slim_p1_08 span.toggle-indicator {
+#dashboard-widgets-wrap #wpseo-dashboard-overview span.toggle-indicator {
 	color: #555;
 }
-#dashboard-widgets-wrap #slim_p1_08 div.inside {
-	height: 120%;
-}
-#dashboard-widgets-wrap #slim_p1_08 h2.hndle {
+#dashboard-widgets-wrap #wpseo-dashboard-overview h2.hndle {
 	color: #555;
 	border-radius: 3px 3px 0px 0px;
 	background: #c4c4c4;
+}
+
+/************************ 搜索关键词排行 ***********************/
+#dashboard-widgets-wrap div#slim_p1_12.postbox {
+	border: 1px solid #D64541;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #slim_p1_12 span.toggle-indicator {
+	color: #fff;
+}
+#dashboard-widgets-wrap #slim_p1_12 h2.hndle {
+	color: #fff;
+	border-radius: 3px 3px 0px 0px;
+	background: #D64541;
+}
+/************************ 访问网页排行 ***********************/
+#dashboard-widgets-wrap div#slim_p1_08.postbox {
+	border: 1px solid #f0ad4e;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #slim_p1_08 span.toggle-indicator {
+	color: #fff;
+}
+#dashboard-widgets-wrap #slim_p1_08 h2.hndle {
+	color: #fff;
+	border-radius: 3px 3px 0px 0px;
+	background: #f0ad4e;
 }
