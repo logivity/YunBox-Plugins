@@ -309,3 +309,87 @@
       position: absolute;
       right: 10px;
       top: 10px; } }
+
+
+
+
+/* 
+ * dashboard
+ */
+
+/************************ 产品栏 ***********************/
+#dashboard-widgets-wrap #woocommerce_dashboard_status h2.hndle {
+	font-size: 0px;
+	padding: 0px;
+}
+#dashboard-widgets-wrap #woocommerce_dashboard_status span.toggle-indicator:before {
+	width: 0px;
+	height: 0px;
+	content: '';
+}
+#dashboard-widgets-wrap #woocommerce_dashboard_status button.handlediv.button-link {
+	width: 0px;
+	height: 0px;
+}
+
+/************************ 浏览量 ***********************/
+#dashboard-widgets-wrap div#slim_p1_01.postbox {
+	border: 1px solid #9db36a;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #slim_p1_01 span.toggle-indicator {
+	color: #fff;
+}
+#dashboard-widgets-wrap #slim_p1_01 h2.hndle {
+	color: #f1f1f1;
+	border-radius: 3px 3px 0px 0px;
+	background: #9db36a;
+}
+
+/*********************** 活动日志 *********************/
+#dashboard-widgets-wrap div#slim_p7_02.postbox {
+	border: 1px solid #9785c6;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #slim_p7_02 span.toggle-indicator {
+	color: #fff;
+}
+#dashboard-widgets-wrap #slim_p7_02 h2.hndle {
+	color: #f1f1f1;
+	border-radius: 3px 3px 0px 0px;
+	background: #9785c6;
+}
+[id^=slim_] .header.is-known-user, .little-color-box.is-known-user {
+	background: rgba(151, 133, 198, 0.1);
+}
+
+/************************ 最近评论 ***********************/
+#dashboard-widgets-wrap div#woocommerce_dashboard_recent_reviews.postbox {
+	border: 1px solid #484848;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #woocommerce_dashboard_recent_reviews span.toggle-indicator {
+	color: #fff;
+}
+#dashboard-widgets-wrap #woocommerce_dashboard_recent_reviews h2.hndle {
+	color: #f1f1f1;
+	border-radius: 3px 3px 0px 0px;
+	background: #484848;
+}
+
+/************************ 访问网页排行 ***********************/
+#dashboard-widgets-wrap div#slim_p1_08.postbox {
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+}
+#dashboard-widgets-wrap #slim_p1_08 span.toggle-indicator {
+	color: #555;
+}
+#dashboard-widgets-wrap #slim_p1_08 div.inside {
+	height: 120%;
+}
+#dashboard-widgets-wrap #slim_p1_08 h2.hndle {
+	color: #555;
+	border-radius: 3px 3px 0px 0px;
+	background: #c4c4c4;
+}
