@@ -1,0 +1,1122 @@
+/*# Product Details
+--------------------------------------------------------------------------------------------------*/
+.wdm-tbl-gen,
+.wdm-tbl-gen * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.load-ajax {
+    display: none;
+    background: url('../../images/ring-alt.gif');
+    width: 24px;
+    height: 24px;
+}
+
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+#post-body-content,
+#editCustomerData .handlediv,
+#editCustomerData h3.hndle {
+    display: none;
+}
+
+#editCustomerData .inside {
+    padding: 0;
+    margin: 0;
+}
+
+.cust_section {
+    padding: 23px 24px 12px;
+}
+
+.send-row {
+    margin-bottom: 2%;
+}
+
+/*#poststuff h2.wdm-tbl-gen-header {
+    color: #23282d;
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    font-size: 21px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 0;
+    }*/
+    .wdm-tbl-gen-sec,
+    .wdm-tbl-gen-heading,
+    .wdm-tbl-gen-detail {
+        float: left;
+        width: 50%;
+        color: #777;
+    }
+
+    .wdm-tbl-gen-sec {
+        margin-bottom: 15px;
+    }
+
+    .wdm-tbl-gen-heading {
+        width: 9%;
+    }
+
+    .wdm-tbl-gen-detail {
+        width: 100%;
+    }
+
+    .wdm-tbl-gen-detail div {
+        width: 25%;
+        float: left;
+    }
+
+    .wdm-tbl-gen-sec-1 {
+        width: 100%;
+    }
+
+    .wdm-tbl-gen-heading-1 {
+        width: 5%;
+    }
+
+    .wdm-tbl-gen-detail-1 {
+        width: 80%;
+    }
+
+    .wdm-tblgen-strong,
+    .wdm-tblgen-strong-alt {
+        color: #565656;
+        margin-right: 5px;
+    }
+
+/*## Enquiry Details
+--------------------------------------------------------------------------------------------------*/
+#editProductDetailsData.postbox .inside {
+    padding: 0;
+    margin-top: 0;
+}
+
+.wdmpe-detailtbl-wrap {
+    margin: 0;
+    overflow: auto;
+}
+
+.wdmpe-detailtbl {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.wdmpe-detailtbl td {
+    /*    border: 1px solid lightgray;*/
+    padding: 1%;
+}
+
+/*.wdmpe-detailtbl tr.wdmpe-detailtbl-head-row {
+    background: rgba(223, 233, 236, 0.57);
+    }*/
+
+    .wdmpe-detailtbl .wdmpe-detailtbl-content > tr:nth-child(odd) {
+        background: #F9F9F9;
+    }
+
+    .wdmpe-detailtbl th {
+        padding: 1%;
+        margin: 1%;
+        border-bottom: 1px solid lightgray;
+        border-top: 1px solid lightgray;
+    }
+
+    .total_amount_row {
+        font-weight: bold;
+    }
+
+    .wdmpe-detailtbl-head-item {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .item-head-cost,
+    .item-content-cost {
+        width: 10%;
+        text-align: right;
+    }
+
+    .item-head-count,
+    .item-content-count {
+        width: 3%;
+    }
+
+    .item-head-img,
+    .wdmpe-detailtbl td.item-content-img {
+        width: 5%;
+        padding: 1%;
+    }
+
+    .item-head-detail,
+    .item-content-link {
+        width: 12%;
+        text-align: left;
+    }
+
+    .item-head-Variations,
+    .item-content-variations {
+        width: 23%;
+        text-align: left;
+    }
+
+    .item-head-sku,
+    .item-content-sku {
+        width: 7%;
+        text-align: left;
+        word-wrap: break-word;
+    }
+
+    .item-head-remark,
+    .item-content-remark {
+        width: 15%;
+        text-align: left;
+    }
+
+    .item-content-remark{
+        text-align: justify;
+    }
+
+    .item-head-old-cost,
+    .item-head-newcost,
+    .item-head-qty,
+    .item-content-old-cost,
+    .item-content-newcost,
+    .item-content-qty{
+        width: 8%;
+    }
+
+    .item-head-add-to-quote,
+    .item-content-add-to-quote{
+        width: 8%;
+        text-align: center;
+    }
+
+    .deleted-product{
+        opacity: 0.5;
+        background-color: #cccccc !important;
+        cursor: default;
+    }
+    .item-head-old-cost,
+    .item-content-old-cost{
+        text-align: right;
+    }
+
+    .unchecked, .varProduct{
+        border: none !important;
+        color: #505560 !important;
+        background-color: transparent !important;
+    }
+
+    .wdmpe-detailtbl td.item-content-newcost,
+    .wdmpe-detailtbl td.item-content-qty {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .item-content-newcost input,
+    .item-content-qty input {
+        width: 73%;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .item-content-newcost input:focus,
+    .item-content-qty input:focus {
+        box-shadow: none;
+        background: rgba(223, 233, 236, 0.57);
+    }
+
+    .wdm-prod-img {
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .wdm-prod-head-img{
+        width: 16px;
+    }
+
+    .item-content-cost {
+        white-space: nowrap;
+    }
+
+    .variations select{
+        width: 67%;
+    }
+
+    .variations td.label {
+        width: 30%;
+    }
+
+    form.variations_form.cart > * {
+        display: none;
+    }
+
+    form.variations_form.cart .variations {
+        display: table;
+    }
+
+    .enquiry-history-table-parent {
+        margin-top: -1%;
+    }
+
+    .enquiry-history-table-parent .enquiry-history-table {
+        table-layout: fixed;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    .enquiry-history-table th {
+        border-bottom: 1px solid lightgray;
+        border-top: 1px solid lightgray;
+    }
+    .enquiry-history-table th,
+    .enquiry-history-table td {
+        width: 25%;
+        /*    border: 1px solid lightgray;*/
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+    }
+
+/*.enquiry-history-table th {
+    background: #F8F8E8;
+    }*/
+
+    .enquiry-history-table tr:nth-child(even){
+        background: #F9F9F9;
+    }
+
+    #editPEDetailHistory .inside {
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .quotation-related-buttons {
+        margin-bottom: 1%;
+        margin-left: 1.6%;
+        margin-top: 1%;
+        width: 70%;
+        float: left;
+    }
+
+    .quote-expiration-date{
+        width: 22%;
+        float: right;
+    }
+
+    .wdm-status-box{
+        margin-bottom: 1%;
+        /*margin-top: 1%;*/
+    }
+
+/*## Enquiry Actions & Enquiry Notes
+--------------------------------------------------------------------------------------------------*/
+.reply-div {
+    display: none;
+    width: 580px;
+}
+
+.reply-div,
+.msg-sent,
+.wdm-notes-wrap {
+    margin-top: 14px;
+}
+
+select.wdm-action {
+    margin-top: 7px;
+    width: 100%;
+}
+
+.wdm-notes-label,
+.reply-label {
+    color: #777;
+    display: block;
+    padding: 0 0 3px;
+}
+
+.wdm-notes-fieldwrap,
+.reply-field-wrap {
+    margin-bottom: 9px;
+}
+
+.wdm-notes-field,
+.reply-field {
+    width: 100%;
+}
+
+.msg-sent > hr,
+.reply-div > hr {
+    margin: 0 0 9px;
+}
+
+.reply-field-submitwrap {
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+input[type=text].wdm-notes-field,
+textarea.wdm-notes-field {
+    color: #6f6f6f;
+}
+
+.msg-sent {
+    display: none;
+    color: #3c763d;
+}
+
+.msg-sent .wdm-quoteupicon-done {
+    margin-right: 0;
+    font-size: 1.04em;
+    position: relative;
+    top: 1px;
+}
+
+.wdm-enquirymsg {
+    font-weight: bold;
+}
+
+.input-field {
+    width: 300px
+}
+
+.wdm-edit-user {
+    background: url('../images/pencil2.png');
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.wdm-save-span {
+    display: none
+}
+
+.rply-link {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+hr.msg-border {
+    border-bottom: 0;
+    border-top-color: #EAEAEA;
+}
+
+/**
+ * Adding Adaptive Placeholder Styling to name and email fields 
+ */
+ .wdm-input + label {
+    box-sizing: border-box;
+}
+
+.wdm-input {
+    box-sizing: border-box;
+    width: 18em;
+    background-color: white;
+    height: calc(3em + 2px);
+    padding: 1em;
+    font-size: 1em;
+    border: 1px solid #cccccc;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    box-shadow: none;
+    resize: none;
+    outline: none;
+}
+
+.wdm-input {
+    border: 1px solid #cccccc;
+}
+
+.wdm-input:active,
+.wdm-input:disabled {
+    border: 1px solid #e87e22;
+}
+
+.wdm-input:focus {
+    border: 1px solid #5b9dd9 !important;
+}
+
+.wdm-input:focus + label:before,
+.wdm-input:active + label:before,
+.wdm-input:focus + label:disabled {
+    color: #e87e22;
+}
+
+.wdm-input + label {
+    display: block;
+    font-size: 1em;
+    height: 3em;
+    line-height: 3em;
+    margin-top: calc(-3em - 1px);
+    margin-bottom: 1em;
+    pointer-events: none;
+}
+
+.wdm-input + label:before {
+    content: attr(placeholder);
+    display: inline-block;
+    color: #999999;
+    margin: 0 calc(1em + 2px);
+    white-space: nowrap;
+    -webkit-transition-property: -webkit-transform, color;
+    -webkit-transition-property: color, -webkit-transform;
+    transition-property: color, -webkit-transform;
+    transition-property: transform, color;
+    transition-property: transform, color, -webkit-transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-delay: 0;
+    transition-delay: 0;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.wdm-input:focus + label:before,
+.wdm-input.active + label:before,
+.wdm-input:valid + label:before,
+.wdm-input:disabled + label:before {
+    background: white;
+    line-height: 1;
+    padding: 0 1.5px;
+    -webkit-transform: translateY(calc(-3em / 2 - 1px/2)) scale(0.8, 0.8);
+    transform: translateY(calc(-3em / 2 - 1px/2)) scale(0.8, 0.8);
+}
+
+.wdm-input:valid {
+    border: 1px solid #000000;
+}
+
+.wdm-input:valid + label:before {
+    content: attr(alt);
+    color: #000000;
+}
+
+/*# Media Queries
+--------------------------------------------------------------------------------------------------*/
+.hide {
+    display: none
+}
+
+.msg-wrapper {
+    padding: 5px 0px;
+    padding-left: 20px;
+}
+
+.msg-wrapper:nth-of-type(1){
+    padding: 5px 0px;
+}
+
+/*.msg-wrapper:last-of-type {
+    background-color: lime;
+    }*/
+
+    @media only screen and (max-width:560px) {
+        .reply-div {
+            width: 100%;
+        }
+
+    }
+
+/**
+ * Making the page responsive
+ */
+
+ /* Smartphones (portrait and landscape) ----------- */
+ @media only screen 
+ and (min-width:320px) 
+ and (max-width:560px) {
+
+    /**
+     * Customer Data Section
+     */
+     .wdm-tbl-gen-detail div {
+        float: none;
+    }
+
+}
+
+@media only screen 
+and (min-width:561px) 
+and (max-width:1185px) {
+
+    /**
+     * Customer Data Section
+     */
+     .wdm-tbl-gen-detail div {
+        width: 50%;
+    }
+
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width:760px) {
+
+    /**
+     * Product Details Table Styling
+     */
+
+     /* Force table.wdmpe-detailtbl to not be like table.wdmpe-detailtbls anymore */
+     .wdmpe-detailtbl,
+     .wdmpe-detailtbl-head,
+     .wdmpe-detailtbl-content,
+     .wdmpe-detailtbl th,
+     .wdmpe-detailtbl td,
+     .wdmpe-detailtbl tr {
+        display: block;
+    }
+
+    .wdmpe-detailtbl-head {
+        display: none;
+    }
+
+    .wdmpe-detailtbl {
+        padding: 0px;
+    }
+
+    .wdmpe-detailtbl tr {
+        border: 1px solid #ccc;
+    }
+
+    .item-head-img,
+    .wdmpe-detailtbl td.item-content-img {
+        padding: 0px;
+        padding-left: 50%;
+        width: 50%;
+    }
+
+    .wdm-prod-img {
+        width: 45px;
+        vertical-align: super;
+    }
+
+    .wdmpe-detailtbl td {
+
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 48%;
+    }
+   /* .variations_form .label {
+        display: none;
+    }
+
+    .variations_form .value:before {
+        content: "#";
+    }
+    */
+    .variations_form .label{
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 1%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 25% ;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .variations_form .value{
+        border: none;
+        /*border-bottom: 0px    solid #eee;*/
+        position: relative;
+        padding-left: 1%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 65% ;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .variations_form .value a{
+        display: none;
+    }
+
+    .quote-expiration-date{
+        width: 55%;
+    }
+    .quotation-related-buttons{
+        width: 41%;
+        margin-right: 1%;   
+    }
+    .wdm-input-expiration-date{
+        width: 90%;
+        margin-left: 5%;
+        /*height: 35px;*/
+    }
+
+    .wdmpe-detailtbl tr:nth-child(odd) {
+        background-color: rgba(125, 123, 123, 0.06);
+    }
+
+    .wdmpe-detailtbl td:before {
+
+        /* Now like a table.wdmpe-detailtbl header */
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .wdmpe-detailtbl td.item-content-newcost,
+    .wdmpe-detailtbl td.item-content-qty {
+        padding-left: 50%;
+        width: 45%;
+        text-align: left;
+    }
+
+    .wdmpe-detailtbl td.item-content-cost,
+    .wdmpe-detailtbl td.item-content-old-cost,
+    .wdmpe-detailtbl td.item-content-add-to-quote{
+        text-align: left;
+    }
+
+    .unchecked{
+     text-align: left !important;
+ }
+
+ .item-content-newcost input,
+ .item-content-qty input {
+    width: 40%;
+    font-size: inherit;
+    height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+   /* .item-head-cost,
+    .item-content-cost {
+        text-align: left;
+        }*/
+
+        /*This is for responsive design of Quotation table*/
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-add-to-quote:before {
+            content: "#";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-img:before {
+            content: "Product Image";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-link:before {
+            content: "Item";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-variations:before {
+            content: "Variation";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-sku:before {
+            content: "SKU";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-remark:before {
+            content: "Expected Price";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-old-cost:before {
+            content: "Price";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-newcost:before {
+            content: "New Price";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-qty:before {
+            content: "Quantity";
+        }
+
+        .wdmpe-quotation-table.wdmpe-detailtbl .item-content-cost:before {
+            content: "Amount";
+        }
+
+        /*This is for responsive design of enquiry table*/
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(1):before {
+            content: "Product Image";
+        }
+
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(2):before {
+            content: "Item";
+        }
+
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(3):before {
+            content: "SKU";
+        }
+
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(4):before {
+            content: "Remark";
+        }
+
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(5):before {
+            content: "Price";
+        }
+
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(6):before {
+            content: "Quantity";
+        }
+
+        .wdmpe-enquiry-table.wdmpe-detailtbl td:nth-of-type(7):before {
+            content: "Total Price";
+        }
+
+    /**
+     * Last Row of Total Calculation
+     */
+     .wdmpe-detailtbl tr:last-child .total_span {
+        display: none;
+    }
+
+    .wdmpe-detailtbl tr:last-child .amount-total-label {
+        display: none;
+    }
+
+    .wdmpe-detailtbl tr:last-child td:nth-of-type(3):before {
+        content: "Total";
+    }
+
+    /**
+     * ***************************************************************************
+     * ***************************************************************************
+     * Enquiry History Table
+     * ***************************************************************************
+     * ***************************************************************************
+     */
+     .enquiry-history-table,
+     .enquiry-history-table tbody,
+     .enquiry-history-table th,
+     .enquiry-history-table td,
+     .enquiry-history-table tr {
+        display: block;
+    }
+
+    .enquiry-history-table {
+        padding: 0px;
+    }
+
+    .enquiry-history-table thead {
+        display: none;
+    }
+
+    .enquiry-history-table tr {
+        border: 1px solid #ccc;
+    }
+
+    .enquiry-history-table tr:nth-child(even) {
+        background-color: rgba(0, 185, 235, 0.02);
+    }
+
+    .enquiry-history-table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 48%;
+    }
+
+    .enquiry-history-table td:before {
+
+        /* Now like a table.enquiry-history-table header */
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .enquiry-history-table td:nth-of-type(1):before {
+        content: "Action";
+    }
+
+    .enquiry-history-table td:nth-of-type(2):before {
+        content: "Performed by";
+    }
+
+    .enquiry-history-table td:nth-of-type(3):before {
+        content: "Message";
+    }
+
+    .enquiry-history-table td:nth-of-type(4):before {
+        content: "Date and Time";
+    }
+
+}
+
+/**
+ * Modal Styling
+ */
+ .wdm-quote-modal label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wdm-pdf-modal-content {
+    height: 450px;
+}
+
+@media only screen and (min-width:550px and max-width:699px) {
+    .wdm-pdf-modal-content {
+        width: 450px;
+        height: 550px;
+    }
+}
+
+@media only screen and (min-width:700px and max-width:768px) {
+    .wdm-pdf-modal-content {
+        width: 600px;
+        height: 550px;
+    }
+}
+
+@media only screen and (min-width:769px) {
+    .wdm-pdf-modal-content {
+        width: 700px;
+        height: 550px;
+    }
+}
+
+.wdm-pdf-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.wdm-pdf-modal-body {
+    height: 80%;
+}
+
+.wdm-pdf-body {
+    height: 100%;
+}
+
+/**
+Style Checkbox
+*/
+
+.wdm-checkbox, .wdm-checkbox-quote {
+    /* Hide the input, but have it still be clickable */
+    opacity: 0;
+}
+input[type="checkbox"]:disabled{
+    opacity: 0;
+}
+
+.wdm-checkbox + label, .wdm-checkbox-quote + label {
+    margin: -10px;
+    clear: none;
+    /* Left padding makes room for image */
+    padding: 5px 0 4px 24px;
+
+    /* Make look clickable because they are */
+    cursor: pointer;
+    background: url('../../images/off.png') left center no-repeat; 
+}
+
+.wdm-checkbox:checked + label, .wdm-checkbox-quote:checked + label {
+    background-image: url('../../images/check.png');
+}
+
+@media only screen and (max-width:782px) {
+    .wdm-checkbox + label, .wdm-checkbox-quote + label {
+        margin: -22px;
+    }
+}
+@media only screen and (min-width:783px) {
+    .wdm-checkbox + label, .wdm-checkbox-quote + label {
+        margin: -14px;
+    }
+}
+
+div #text,#txt{
+    visibility: hidden;
+    color: #2081b9;
+    margin-top: 1%;
+    display: inline-block;
+    font-weight: bold;
+}
+#update-text{
+    /*display:none;*/
+    visibility: hidden;
+    margin-top: 1%;
+    font-weight: 600;
+    padding-left: 2.5%;
+    padding: 0.5%;    
+}
+
+#txt {
+    margin-bottom: 4%;
+}
+
+#header{
+    text-align: right;
+}
+
+
+#Enquiry{
+    vertical-align: center;
+}
+
+.wdm_quoteup_pages_list{
+    width: 30%;
+}
+
+#PdfLoad,#Load,#update-customerdata-load{
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: sub;
+    width: 17px;
+}
+
+#Load {
+    vertical-align: middle;
+}
+
+#MessageQuote{
+    vertical-align: center;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 0.5em 0.5em;
+    margin-top:10px
+
+}
+
+.popup-modal-textarea-note{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#MessageQuote label{
+    vertical-align: top;
+}
+
+.enquiry-history-table tbody tr {
+   -webkit-transition: background-color 5s ease;
+   -moz-transition: background-color 5s ease;
+   -o-transition: background-color 5s ease;
+   transition: background-color 5s ease;
+}
+
+.enquiry-history-table .highlight {
+    background: blue;
+}
+
+.save-quote-note {
+    margin-left: 1%;
+}
+
+.quote-status-span {
+    padding: 5px;
+    background: #0073AA;
+    color: white;
+    border-radius: 4px;
+    font-size: small;
+    vertical-align: top;
+}
+
+
+td {
+    position: relative;
+    /*padding: 5px 10px;*/
+}
+
+tr.strikeout td:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #111;
+    width: 100%;
+}
+td > a {
+    text-decoration: none;
+}           
+
+.product .product_meta, .images{
+    display: none;
+}
+
+
+.enquiry-message {
+    text-align: justify;
+}
+
+td.history-message {
+    text-align: justify !important;
+    padding-right: 15px;
+}
+
+
+.variations select{
+    width: 67%;
+}
+
+.wdm-input-expiration-date{
+    border-color: #ccc !important;
+}
+
+.wdm-input-expiration-date:valid + label:before{
+    content: attr(alt);
+    color: #444;
+    font-weight: bold;
+}
+
+.variations td.label {
+    width: 30%;
+}
+
+form.variations_form.cart > * {
+    display: none;
+}
+
+form.variations_form.cart .variations {
+    display: table;
+}
+
+.quoteup-variation-price, .quoteup-regular-price, .quoteup-price {
+    display: none;
+}
+
+.wdmpe-quotation-table .variation-unchecked-data{
+    display: none;
+}
+
+.product .single_variation_wrap {
+    display: none !important;
+}

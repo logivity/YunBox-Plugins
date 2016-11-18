@@ -1,0 +1,788 @@
+.wdm-prod-img
+{
+    width:50px;
+}
+/*.wdm-remark
+{
+        display: none
+}
+*/
+
+/*# Common Style
+------------------------------------------------------------------------------------------------- */
+
+.wdm-quoteup-woo,
+.wdm-quoteup-woo *,
+.wdm-quoteup-woo:before,
+.wdm-quoteup-woo *:before,
+.wdm-quoteup-woo:after,
+.wdm-quoteup-woo *:after,
+.wdm-enquiry-form:before,
+.wdm-enquiry-form *:before,
+.wdm-enquiry-form:after,
+.wdm-enquiry-form *:after,
+.wdm-enquiry-form,
+.wdm-enquiry-form *,
+.wdm-quoteup-form,
+.wdm-quoteup-form *,
+.wdm-quoteup-form:before,
+.wdm-quoteup-form *:before,
+.wdm-quoteup-form:after,
+.wdm-quoteup-form *:after,
+#wdm-cart-count,
+#wdm-cart-count * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.mpe_form_input:before,
+.form_input:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after,
+.mpe_form_input:after,
+.form_input:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.woocommerce ul.products li.product a.wdm-quoteup-links {
+    text-decoration: underline;
+}
+
+/*## animate.css -http://daneden.me/animate
+ * Version - 3.5.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2015 Daniel Eden
+ */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.load-ajax.loading, .load-send-quote-ajax.loading{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.load-ajax.updated {
+    background:url('../images/icon_tick.png') ;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.load-ajax, .load-send-quote-ajax
+{
+    display: none;
+    background:url('../images/ring-alt.gif') ;
+    width:24px;
+    height: 24px;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+/*# Enquiry Cart page
+------------------------------------------------------------------------------------------------- */
+
+.wdm-enquiry-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 15px;
+}
+
+div.wdm-enquiry-form > h4.wdm-enquiry-form-title {
+    border-bottom: 1px solid #ddd;
+    color: #959595;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    padding: 0 0 13px;
+}
+
+.wdm-enquiry-form sup.req,
+.wdm-quoteup-form sup.req {
+    color: #F44336;
+    position: static;
+    font-weight: normal;
+}
+
+.wdm-enquiry-form-indication {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.mpe_form_input,
+.form_input {
+    margin-bottom: 15px;
+}
+
+.form_input:nth-last-of-type(2) {
+    margin-bottom: 5px;
+}
+
+.wdm-quoteupform-btn-wrap {
+    margin-bottom: 25px;
+}
+
+.wdm-enquiry-form-label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.form-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea,
+.mpe_form_input > .mpe-right > .mpe-right-inner > textarea,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text],
+.form_input > .form-wrap > .form-wrap-inner > textarea,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text] {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    color: #555;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    margin: 0;
+    width: 100%;
+}
+
+.mpe_form_input > .mpe-right > .mpe-right-inner > textarea:focus,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text]:focus,
+.form_input > .form-wrap > .form-wrap-inner > textarea:focus,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text]:focus {
+    outline: none;
+}
+
+.mpe_form_input > .mpe-right > .mpe-right-inner > textarea,
+.form_input > .form-wrap > .form-wrap-inner > textarea {
+    vertical-align: top;
+}
+
+.wdm-enquiry-form button::-moz-focus-inner,
+.wdm-quoteup-form button::-moz-focus-inner,
+.wdm-enquiry-form input::-moz-focus-inner,
+.wdm-quoteup-form input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea.wdm-error,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea.wdm-error,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text].wdm-error,
+.form_input > .form-wrap > .form-wrap-inner > textarea.wdm-error,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text].wdm-error {
+    border: 1px solid #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea.wdm-error:focus,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea.wdm-error:focus,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text].wdm-error:focus,
+.form_input > .form-wrap > .form-wrap-inner > textarea.wdm-error:focus,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text].wdm-error:focus {
+    border: 1px solid #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea:focus,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea:focus,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text]:focus,
+.form_input > .form-wrap > .form-wrap-inner > textarea:focus,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text]:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea::-webkit-input-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea::-webkit-input-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text]::-webkit-input-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > textarea::-webkit-input-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text]::-webkit-input-placeholder {
+    color: #A9A9A9;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: normal;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea:-moz-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea:-moz-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text]:-moz-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > textarea:-moz-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text]:-moz-placeholder { /* Firefox 18- */
+    color: #A9A9A9;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: normal;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea::-moz-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea::-moz-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text]::-moz-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > textarea::-moz-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text]::-moz-placeholder {  /* Firefox 19+ */
+    color: #A9A9A9;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: normal;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea:-ms-input-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea:-ms-input-placeholder,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text]:-ms-input-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > textarea:-ms-input-placeholder,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text]:-ms-input-placeholder {
+    color: #A9A9A9;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: normal;
+}
+
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea,
+.mpe_form_input > .mpe-right >.mpe-right-inner > textarea,
+.form_input > .form-wrap > .form-wrap-inner > textarea {
+    height: auto;
+    overflow: auto;
+}
+
+.mpe-right-inner,
+.form-wrap-inner {
+    position: relative;
+}
+
+.wdm-quoteup-woo > .shop_table.cart input[type='button'].wdm-update,
+.wdm-enquiryform-btn-wrap > .mpe-right > input[type=submit],
+.wdm-enquiryform-btn-wrap > .form-wrap > input[type=submit],
+.woocommerce .wdm-remark-form > .wdmquoteup-addRemark-wrap > input.button.btnAddRemark {
+    /*color: #515151 !important;
+    background-color: #ebe9eb !important;*/
+    border: 0 !important;
+    background-image: none;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    display: inline-block;
+    padding: 7px 20px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.42857143;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: button;
+    text-shadow: none !important;
+}
+
+.wdm-enquiryform-btn-wrap > .form-wrap > input[type=submit] {
+    padding: 8px 25px !important;
+}
+
+.wdm-quoteup-woo > .shop_table.cart input[type='button'].wdm-update:hover,
+.wdm-enquiryform-btn-wrap > .mpe-right > input[type=submit]:hover,
+.wdm-enquiryform-btn-wrap > .form-wrap > input[type=submit]:hover,
+.woocommerce .wdm-remark-form > .wdmquoteup-addRemark-wrap > input.button.btnAddRemark:hover {
+    /*background-color: #dad8da;*/
+    text-decoration: none;
+    background-image: none;
+    /*color: #515151;*/
+}
+.td-btn-update
+{
+    text-align: right;
+}
+.contact-cc-wrap {
+    display: block;
+}
+
+input[type="checkbox"]#contact-cc {
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    /* padding: 0 9px; */
+    display: inline-block;
+}
+
+span.contact-cc-txt {
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.wdm-enquiry-success {
+    color: #3c763d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #fcfff5;
+    box-shadow: 0 0 0 1px #a3c293 inset,0 0 0 0 transparent;
+}
+
+.wdm-err-triangle {
+    border-bottom: solid 5px #a94442;
+    border-right: solid 5px #a94442;
+    border-left: solid 5px transparent;
+    border-top: solid 5px transparent;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*.wdm-error:focus + .wdm-err-triangle,
+.wdm-error:focus + .wdm-err-triangle + .wdm-err-inline {
+    display: none;
+}*/
+
+.wdm-modal_textarea {
+    resize: vertical;
+}
+
+.wdm-modal_textarea.wdm-error {
+    resize: none;
+}
+
+.wdm-modal_textarea.wdm-error:focus {
+    resize: vertical;
+}
+
+.wdm-remark-wrap {
+    margin-bottom: 10px;
+}
+
+.wdmquoteup-addRemark-wrap {
+    text-align: center;
+}
+
+/*# Enquiry cart count
+------------------------------------------------------------------------------------------------- */
+
+#wdm-cart-count
+{
+    background-color: #6D6D6D;
+    border: 1px solid #6D6D6D;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    display: inline-block;
+    position: absolute;
+    padding: 13px 15px;
+    text-align: center;
+    z-index: 100000;
+    -webkit-transition: box-shadow .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+    transition: box-shadow .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+    right: 0px;
+}
+
+#wdm-cart-count:hover {
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+#wdm-cart-count > a.wdm-cart-count-link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    -webkit-transition: color .3s ease-out;
+    transition: color .3s ease-out;
+}
+
+.wdm-quoteupicon-count,
+.wdm-quoteupicon-list {
+    display: inline-block;
+}
+
+.wdm-quoteupicon-count {
+    position: absolute;
+    border-radius: 100%;
+}
+
+.wdm-quoteupicon-count {
+    background-color: #fff;
+    color: #6D6D6D;
+    left: -3px;
+    top: -5px;
+    padding: 1px 3px;
+    /* box-shadow: 0 3px 7px rgba(0,0,0,0.23),0 1px 1px rgba(0,0,0,0.16); */
+    border: 2px solid #fff;
+    font-size: 9px;
+    line-height: 9px;
+    -webkit-transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+}
+
+.wdm-quoteupicon-list {
+    position: relative;
+    font-size: 40px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.success
+{
+    display: none
+}
+#nonce_error,
+#error
+{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    display: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.wdm-modal_textarea + .wdm-err-inline {
+    margin-top: -6px;
+}
+
+/*.form-wrap > .wdm-err-inline {
+    margin-top: 8px;
+}*/
+
+.wdm-err-inline {
+    color: #fff;
+    margin-bottom: 3px;
+    text-align: right;
+    position: absolute;
+    z-index: 1;
+    max-width: 70%;
+    right: 0;
+    line-height: 19px;
+}
+
+#nonce_error .wdm-quoteupicon-exclamation-circle,
+#error .wdm-quoteupicon-exclamation-circle,
+.wdm-err-inline .wdm-quoteupicon-exclamation-circle,
+.success_msg .wdm-quoteupicon-done,
+.wdm-enquiry-success-icon {
+    margin-right: 4px;
+    font-size: 1.04em;
+    position: relative;
+    top: 1px;
+}
+
+.success_msg .wdm-quoteupicon-done {
+    margin-right: 0;
+}
+
+.wdmquoteup-err-display {
+    /*line-height: 1;*/
+    display: inline-block;
+    background-color: #a94442;
+    padding: 4px 8px;
+    border-radius: 0 0 2px 2px;
+    /*max-width: 91%;*/
+    text-align: center;
+}
+
+.wdmquoteup-err-display:last-child {
+    margin-bottom: 0;
+}
+
+
+#wdm-cart-count.animated {
+    background-color: #EBE9EB;
+    border: 1px solid #EBE9EB;
+}
+
+#wdm-cart-count.animated > a.wdm-cart-count-link {
+    color: #515151;
+}
+
+#wdm-cart-count.animated > a.wdm-cart-count-link > .wdm-quoteupicon-count {
+    background-color: #515151;
+    border-color: #515151;
+    color: #EBE9EB;
+}
+
+textarea.wdm-remark  {
+    width: 100%;
+}
+
+.wdm-quote-cart-table img {
+    width: 32px;
+    box-shadow: none;
+}
+
+/*# Shop Page
+------------------------------------------------------------------------------------------------- */
+
+#wdm-quoteup-trigger,
+.quote-form button.wdm_enquiry {
+    white-space: normal !important;
+    text-transform: none;
+    padding: .618em 0.5em;
+}
+
+#wdm-quoteup-trigger,
+.quote-form button.wdm_enquiry a {
+    text-decoration: none;
+    border-bottom: none;
+    color: inherit; 
+}
+
+.quote-form button.wdm_enquiry.loading {
+    padding-right: 2.618em;
+}
+
+body.single-product .quote-form button.wdm_enquiry.loading:after, .quote-form button.wdm_enquiry.loading:after{
+    top: 0.618em;
+}
+
+
+.woocommerce ul.products li.product a[id^='wdm-quoteup-trigger'] {
+    text-decoration: underline;
+}
+
+.wdm-msg {
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.wdm-quoteupcart-link {
+    float: right;
+}
+
+.wdmquoteup-loader {
+    width: 32px;
+    height: 34px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.wdmquoteup-success-wrap a.wdm-quoteupcart-link {
+    color: #3c763d;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #d6e9c6;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid #d6e9c6;
+}
+.wdmquoteup-success-wrap a.wdm-quoteupcart-link:hover {
+    background-color: #fff;
+}
+.wdmquoteup-success-wrap {
+    margin-bottom: 20px;
+    color: #3c763d;
+}
+
+/*# Single Product Page
+------------------------------------------------------------------------------------------------- */
+
+.woocommerce.single-product div.product form.cart,
+.woocommerce-page.single-product div.product form.cart {
+    margin: 24px 0 15px !important;
+}
+
+/*.woocommerce.single-product .quote-form {
+    margin-bottom: 39px;
+}*/
+
+/*# Form Errors
+------------------------------------------------------------------------------------------------- */
+
+.form-errors-wrap {
+    display: none;
+    margin-top: 15px;
+}
+
+.form-errors {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.form-errors-wrap > .form-errors > ul.error-list {
+    text-align: left;
+    padding: 0;
+    list-style-position: inside;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-errors-wrap > .form-errors > ul.error-list > li.error-list-item {
+    list-style-position: outside;
+    position: relative;
+    list-style-type: none;
+    margin: 0 0 .3em 1em;
+    padding: 0;
+    color: #a94442;
+}
+
+.form-errors-wrap > .form-errors > ul.error-list > li.error-list-item:before {
+    position: absolute;
+    content: '•';
+    left: -1em;
+    height: 100%;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+
+.form-errors-wrap > .form-errors > ul.error-list > li.error-list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.single-enquiry-form {
+    margin-bottom: 25px;
+}
+
+tr.cart_header{
+    font-size: 16px;
+    text-align: right;
+}
+
+th.cart-remove{
+    width: 8%;
+}
+th.cart-thumbnail{
+    width: 12%;
+    text-align: left;
+}
+
+th.cart-subtotal{
+    width: 32%;
+    text-align: left;
+}
+
+/*
+* Approval Rejection page css
+*/
+.quote-rejection-reason-div{
+    display:none;
+}
+
+.reject-quote-button-with-message, .enquiry-email-address-button, .quote-rejection-reason-div{
+    margin-top: 1%;
+}
+
+
+/**
+* Storewide session note
+*/
+#sessionNote{
+    background-color: red;
+    z-index: 1;
+}
+
+/**
+* Return to Shop Styling
+*/
+.quoteup-return-to-shop{
+    margin-top: 2%;
+}
+
+.quoteup-return-to-shop a {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+}

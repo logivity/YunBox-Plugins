@@ -1,0 +1,20 @@
+/**
+*  Changing width of Name column on Products Listing so that we can get some space
+*  for Visibility Column
+*/
+table.wp-list-table .column-name {
+    width: 12%;
+}
+
+table.wp-list-table .column-quoteup_visibility{
+    text-align: center;
+}
+
+table.wp-list-table .column-product_cat, table.wp-list-table .column-product_tag {
+    /**
+    * Setting width important because woocommerce is already setting this width as 
+    * important. Therefore, we won't be able to change the width if important is 
+    * not applied here.
+    */
+    width: 9% !important;
+}

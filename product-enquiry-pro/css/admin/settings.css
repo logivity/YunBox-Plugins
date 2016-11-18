@@ -1,0 +1,247 @@
+#tab-container,
+#tab-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#tab-container .iris-picker,
+#tab-container .iris-picker * {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#tab-container {
+    margin-bottom: 10px;
+}
+#ask_product_form fieldset {
+    /*    border: 1px solid #ddd;*/
+    padding: 0 0.5em 0.5em;
+    margin-bottom:3%;
+
+}
+
+#ask_product_form, #wquoteupfrm {
+    /*    background: none repeat scroll 0 0 #FFFFFF;*/
+    /*    border: 1px solid #EEEEEE;
+    padding: 1em;*/
+}
+
+.nav-tab:hover, .nav-tab:focus {
+    background-color: transparent;
+}
+
+.fd{
+    clear: both;
+    margin: 0.3em 0;
+}
+
+#ask_product_form {
+    margin-top: 22px;
+}
+
+.left_div label {
+    float: left;
+    margin-right: 1em;
+    text-align: left;
+    width: 16em;
+    font-weight: bold;
+}
+
+#ask_product_form fieldset legend {
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 1.3em;
+    color: #354045;
+}
+.clear {
+    clear: both;
+}
+.license_div{
+    width:98%
+}
+
+
+ul.etabs {
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+}
+ul.etabs:before {
+    content: " ";
+    display: table;
+}
+ul.etabs:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.tab {
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-bottom: -1px;
+    position: relative;
+    display: block;
+}
+.tab a {
+    color: #555;
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-right: 8px;
+    text-decoration: none;
+    line-height: 1.42857143;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+}
+
+.nav-tab:hover {
+    background-color: none;
+    color: inherit;
+}
+
+.nav-tab-active,.nav-tab-active:hover {
+    border-bottom: none;
+    background: none;
+    color: inherit;
+}
+.tab a:hover,
+.tab a.active {
+    color: #961914;
+    -webkit-box-shadow: 0 0 0 0 transparent,0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent,0 0 0 0 transparent;
+    outline: none;
+}
+.tab a:hover {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #464646;
+}
+
+.tab a.active {
+    color: #000;
+    border-bottom-color: transparent;
+    background:#F1F1F1;
+}
+.tab-container .panel-container {
+    background: #fff;
+    border: solid #666 1px;
+    padding: 10px;
+    -moz-border-radius: 0 4px 4px 4px;
+    -webkit-border-radius: 0 4px 4px 4px;
+}
+
+#wdm_general,#wdm_email, #wdm_display, #wdm_quote
+{
+    margin-top: 20px
+}
+.nav-tab
+{
+    margin:-4px -2px -1px 0;
+}
+
+.wdm-migrate-loader-wrap {
+    display: none;
+    opacity: 0;
+}
+
+.wdm-migrate-loader {
+    vertical-align: middle;
+}
+
+.wdm-migrate-txt {
+    opacity: 1;
+}
+
+#ask_abt_product_panel input[type="text"]
+{
+    border-color: #AAAAAA;
+}
+
+#ask_abt_product_panel input[type="text"]:focus
+{
+    border-color: #5897FB;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#ask_abt_product_panel label
+{
+    color: #111111;
+}
+
+.wdm_wpi_text
+{
+    width: 45%;
+}
+
+#ask_product_form select {
+    width: 45%;
+}
+
+#ask_product_table{
+    width:100%;
+}
+
+#ask_product_table tr th{
+    height:30px;
+    width:30%;
+    text-align: left
+
+}
+
+#ask_product_table tr th{
+    padding:10px;
+}
+
+.email_error{
+    color:#800000
+}
+
+.left_div{
+    width:28%;
+    float:left
+}
+
+.right_div{
+    width:72%;
+    float:left
+}
+
+.clear{
+    clear:both
+}
+
+.fd{
+    width:100%;
+    padding-top:10px;
+    margin-bottom: 2%;
+}
+
+.input-without-tip{
+    margin-left: 20px !important;
+}
+
+.wdm-media-upload-button{
+    margin-left: 1% !important; 
+}
+
+#save_notice{
+    margin-left: 1.1%;
+}
+
+.new_page_link{
+    font-size: 11px;
+    font-style: italic;
+}

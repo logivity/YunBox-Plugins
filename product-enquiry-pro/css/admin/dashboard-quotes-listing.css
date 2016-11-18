@@ -1,0 +1,41 @@
+td#cb{
+    width: 5%;
+}
+th#enquiry_id
+{
+	width: 8%;
+}
+th#status{
+    width: 7%;   
+}
+th#name{
+	width: 15%;
+}
+
+th#email{
+	width: 17%;
+}
+
+th#enquiry_date{
+    width: 10%;
+}
+
+th#message{
+    width: 23%;
+}
+
+.message{
+    text-align: justify;
+}
+
+th#order_number{
+    width: 8%;
+}
+
+th#product_details{
+    width: 8%;
+}
+
+th#amount{
+    width: 8%;
+}

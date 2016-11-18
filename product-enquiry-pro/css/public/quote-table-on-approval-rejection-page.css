@@ -1,0 +1,104 @@
+h2 {
+    width:85%;
+}
+
+#header{
+    text-align: right;
+}
+
+table{
+    vertical-align: center;
+    border:1%;
+    padding: 1%;
+    width: 90%;
+}
+
+.PDFLogo{
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+img {
+    display: block;
+    max-width:460px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+}
+
+#Enquiry{
+    vertical-align: center;
+}
+
+#head{
+    margin-left: 6%
+}
+
+.from-data, .to-data, .expiration-data {
+    float: left;
+    padding-left: 5px;
+    border-left: 1px solid gray;
+    text-align: left;
+    width: 50%;
+}
+
+.from-title, .to-title, .expiration-title {
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    width:45%;
+}
+
+.from-info, .to-info, .expiration-info {
+    float:right;
+    width:80%;
+}
+
+.to-info, .expiration-info {
+    margin-top: 2%;
+}
+
+.clear{
+    clear:both;
+}
+
+.wdm_notes {
+    margin-bottom: 5%;
+}
+
+
+.quoteup-quote-table, .quoteup-quote-table td, .quoteup-quote-table th {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/*
+* Approval Rejection page css
+*/
+.quote-rejection-reason-div{
+    display:none;
+}
+
+.reject-quote-button-with-message, .enquiry-email-address-button, .quote-rejection-reason-div{
+    margin-top: 1%;
+}
+
+.product-price{
+    width: 25%
+}
+
+.product{
+    width: 30%;
+}
+
+.sku-price{
+    width: 15%;
+    text-align: left;
+}
+
+.sku{
+    width: 20%;
+    text-align: left;
+}

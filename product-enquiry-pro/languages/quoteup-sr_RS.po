@@ -1,0 +1,1474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Enquiry Pro for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-23 13:09+0530\n"
+"PO-Revision-Date: 2016-06-23 13:09+0530\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: ajax.php:898
+msgid "Enquiry from"
+msgstr "Upit prema"
+
+#: ajax.php:948 includes/settings/email/quoteup-emailing-information.php:41
+msgid "Quote request for a product from "
+msgstr ""
+
+#: ajax.php:982
+msgid "Your quote request at"
+msgstr ""
+
+#: ajax.php:984
+msgid "Thank you for your enquiry. We will get back to you soon."
+msgstr "Hvala vam za upit. Obratićemo vam se uskoro."
+
+#: functions.php:74 includes/class-quoteup-add-custom-field.php:590
+msgid "Please Enter Name"
+msgstr "  Molimo unesite ime"
+
+#: functions.php:75 includes/class-quoteup-add-custom-field.php:592
+msgid "Please Enter Valid Name"
+msgstr "Molimo unesite validno ime"
+
+#: functions.php:76
+msgid "Please Enter Email Address"
+msgstr "Molimo unesite email adresu"
+
+#: functions.php:77 includes/class-quoteup-add-custom-field.php:606
+msgid "Please Enter Valid Email Address"
+msgstr "Molimo unesite validnu email adresu"
+
+#: functions.php:78 includes/class-quoteup-add-custom-field.php:631
+msgid "Please Enter Valid Telephone No"
+msgstr "Molimo unesite važeći broj telefona"
+
+#: functions.php:79 includes/class-quoteup-add-custom-field.php:664
+msgid "Please Enter Message"
+msgstr "Molimo unesite poruku"
+
+#: functions.php:80 includes/class-quoteup-add-custom-field.php:666
+msgid "Message length must be between 15 to 500 characters"
+msgstr "Dužina poruke mora biti između 15 i 500 karaktera "
+
+#: functions.php:81
+msgid "Name*"
+msgstr "Ime*"
+
+#: functions.php:82
+msgid "Email*"
+msgstr "Email*"
+
+#: functions.php:83
+msgid "Please Enter"
+msgstr "Molimo unesite"
+
+#: functions.php:84
+msgid "Please Select"
+msgstr "Molimo selektujte"
+
+#: functions.php:90
+msgid "View Quote Cart"
+msgstr ""
+
+#: functions.php:92
+msgid "products added in Quote Cart"
+msgstr ""
+
+#: functions.php:93
+msgid "product added in Quote Cart"
+msgstr ""
+
+#: functions.php:94
+msgid "Quantity must be greater than 0"
+msgstr ""
+
+#: functions.php:188
+msgid "Invalid URL Provided."
+msgstr ""
+
+#: functions.php:193
+msgid "Could not create Temporary file."
+msgstr ""
+
+#: includes/admin/class-quoteup-admin-notices.php:65
+msgid "Please set a page for Enquiry & QuoteUp Cart"
+msgstr ""
+
+#: includes/admin/class-quoteup-admin-notices.php:65
+msgid "on this page"
+msgstr ""
+
+#: includes/admin/class-quoteup-admin-notices.php:79
+#, php-format
+msgid ""
+"Page you have set for QuoteUp Cart does not have the shortcode "
+"[ENQUIRY_CART]. Please add [ENQUIRY_CART] in the content of that page  %s "
+"here %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-admin-notices.php:88
+#, php-format
+msgid ""
+"Page you have set for QuoteUp Cart is in Trash. Therefore, users won't be "
+"able to Check Cart and make Enquiry. You can change the status of that page "
+"%s here %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-admin-notices.php:97
+#, php-format
+msgid ""
+"Page you have set for QuoteUp Cart does not exist. Please set a new page for "
+"QuoteUp Cart  %s here %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-dashboard-menu.php:49
+msgid "QuoteUp"
+msgstr ""
+
+#: includes/admin/class-quoteup-dashboard-menu.php:49
+msgid "Product Enquiry"
+msgstr "Upit za proizvod"
+
+#: includes/admin/class-quoteup-dashboard-menu.php:50
+msgid "Quote Details"
+msgstr ""
+
+#: includes/admin/class-quoteup-dashboard-menu.php:52
+#: includes/admin/class-quoteup-quote-details.php:77
+msgid "Enquiry Details"
+msgstr "Detalji upita"
+
+#: includes/admin/class-quoteup-dashboard-menu.php:55
+#: includes/admin/class-quoteup-quote-details.php:79
+msgid "Enquiry & Quote Details"
+msgstr ""
+
+#: includes/admin/class-quoteup-dashboard-menu.php:58
+msgid "QuoteUp Settings"
+msgstr ""
+
+#: includes/admin/class-quoteup-dashboard-menu.php:58
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:19
+#: includes/admin/class-quoteup-quotes-list.php:19
+msgid "Enquiry"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:20
+#: includes/admin/class-quoteup-quotes-list.php:20
+msgid "Enquiries"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:115
+msgid "No enquiries avaliable."
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:125
+#: includes/admin/class-quoteup-quotes-list.php:390
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:127
+#: includes/admin/class-quoteup-quotes-list.php:392
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:149
+#: includes/admin/class-quoteup-quotes-list.php:414
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:150
+#: includes/admin/class-quoteup-quotes-list.php:416
+msgid "Items"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:151
+#: includes/admin/class-quoteup-quotes-list.php:417
+#: includes/class-quoteup-add-custom-field.php:736
+msgid "Customer Name"
+msgstr "Ime klijenta"
+
+#: includes/admin/class-quoteup-enquiries-list.php:152
+#: includes/admin/class-quoteup-quotes-list.php:418
+#: includes/class-quoteup-add-custom-field.php:751
+msgid "Customer Email"
+msgstr "Email klijenta"
+
+#: includes/admin/class-quoteup-enquiries-list.php:153
+#: includes/admin/class-quoteup-quotes-list.php:419
+msgid "Enquiry Date"
+msgstr ""
+
+#: includes/admin/class-quoteup-enquiries-list.php:154
+#: includes/admin/class-quoteup-history.php:81
+#: includes/admin/class-quoteup-quote-details-edit.php:977
+#: includes/admin/class-quoteup-quote-details-edit.php:981
+#: includes/class-quoteup-add-custom-field.php:662
+#: includes/class-quoteup-add-custom-field.php:765
+msgid "Message"
+msgstr "Poruka"
+
+#: includes/admin/class-quoteup-generate-pdf.php:33
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:212
+msgid "Quote"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:40
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:232
+msgid "Quote For"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:57
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:248
+msgid "Expiration Date"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:84
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:218
+msgid "From"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:140
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:264
+msgid "Quote Request"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:144
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:94
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:268
+msgid "Product"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:145
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:269
+msgid "Sku"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:149
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:273
+msgid "Old"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:154
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:278
+msgid "New"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:155
+#: includes/admin/class-quoteup-quote-details-edit.php:603
+#: includes/admin/class-quoteup-quote-details-edit.php:1064
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:96
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:279
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:156
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:280
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:242
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:363
+msgid "TOTAL"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:250
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:369
+msgid "TAX"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:251
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:369
+msgid "Quote does not include default store tax"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:255
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:370
+msgid "SHIPPING"
+msgstr ""
+
+#: includes/admin/class-quoteup-generate-pdf.php:256
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:370
+msgid "Quote does not include shipping"
+msgstr ""
+
+#: includes/admin/class-quoteup-handle-quote-approval-rejection.php:71
+#, php-format
+msgid ""
+"It seems you have upgraded from Product Enquiry Pro 2.x to QuoteUp. There "
+"have been database architectural changes in QuoteUp. We strongly recommend "
+"to migrate the previous enquiries to QuoteUp %s here %s before you start "
+"using Quoteup."
+msgstr ""
+
+#: includes/admin/class-quoteup-handle-quote-approval-rejection.php:88
+#, php-format
+msgid ""
+"Please set a page where users can approve or reject the quote %s on this "
+"page %s"
+msgstr ""
+
+#: includes/admin/class-quoteup-handle-quote-approval-rejection.php:103
+#, php-format
+msgid ""
+"Page you have set for approval and rejection of quote does not have the "
+"shortcode [APPROVAL_REJECTION_CHOICE]. Please add "
+"[APPROVAL_REJECTION_CHOICE] in the content of that page  %s here %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-handle-quote-approval-rejection.php:112
+#, php-format
+msgid ""
+"Page you have set for approval and rejection of quote is in Trash. "
+"Therefore, users won't be able to approve/reject quotes. You can change the "
+"status of that page %s here %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-handle-quote-approval-rejection.php:121
+#, php-format
+msgid ""
+"Page you have set for approval and rejection of quote does not exist. Please "
+"set a new page for approval/rejection of quotes  %s here %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-handle-quote-approval-rejection.php:140
+#, php-format
+msgid "Please enter license key %s here %s to activate Product Enquiry Pro."
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:58
+msgid "Quote Status History"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:78
+msgid "Date and Time"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:79
+msgid "Action"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:80
+msgid "Performed by"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:146
+msgid "Quote Approved"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:148
+msgid "Approved"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:166
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:86
+msgid "Quote Rejected"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:168
+msgid "Reject"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:187
+msgid "Quote Sent"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:189
+msgid "Sent"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:207
+msgid "Quote Requested"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:209
+msgid "Requested"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:228
+msgid "Quote Saved"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:230
+msgid "Saved"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:242
+msgid "Quote Expired"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:243
+msgid "System"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:244
+msgid "Expired"
+msgstr ""
+
+#: includes/admin/class-quoteup-history.php:256
+msgid "Order Placed"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:95
+msgid "Saving Data"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:96
+msgid "Generating PDF"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:97
+#, php-format
+msgid "Please select the Approval/Rejection page %s here %s to create quote"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:98
+msgid "PDF Generated"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:99
+msgid "Sending Mail"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:100
+msgid "Total Quantity can not be less than or equal to 0"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:101
+msgid "PDF generation process aborted due to security issue."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:102
+msgid "Data update aborted due to security issue."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:103
+msgid "Saved Successfully"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:104
+msgid "Customer Data updated."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:105
+msgid "Enter valid Name. Customer Data not updated."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:106
+msgid "Enter valid Email Address. Customer Data not updated."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:109
+msgid ""
+"Quote can not be saved because it is already expired. Kindly, change the "
+"date to future date."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:110
+#: includes/admin/class-quoteup-quote-details-edit.php:796
+msgid "Create Quotation"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:111
+#: includes/admin/class-quoteup-quote-details-edit.php:793
+msgid "Preview Quotation"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:112
+#: includes/admin/class-quoteup-quote-details-edit.php:797
+msgid "Save & Send Quotation"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:113
+#: includes/admin/class-quoteup-quote-details-edit.php:794
+#: includes/admin/class-quoteup-quote-details-edit.php:989
+msgid "Send Quotation"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:141
+msgid "No Enquiry Found."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:177
+msgid "Customer Data"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:178
+msgid "Product Details"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:180
+msgid "Enquiry Messages"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:201
+msgid "General details"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:210
+msgid "From "
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:350
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:196
+#: templates/public/class-quoteup-single-product-modal.php:224
+msgid "Send"
+msgstr "Pošalji"
+
+#: includes/admin/class-quoteup-quote-details-edit.php:359
+msgid "Reply sent successfully"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:563
+#: includes/admin/class-quoteup-quotes-list.php:421
+msgid "Total"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:596
+#: includes/admin/class-quoteup-quote-details-edit.php:1055
+msgid "Item"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:597
+#: includes/admin/class-quoteup-quote-details-edit.php:1056
+msgid "SKU"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:599
+msgid "Remark"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:601
+#: includes/admin/class-quoteup-quote-details-edit.php:1060
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:95
+msgid "Price"
+msgstr "Ceni"
+
+#: includes/admin/class-quoteup-quote-details-edit.php:605
+msgid "Total price"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:806
+#: includes/admin/class-quoteup-quote-details-edit.php:810
+msgid "Download PDF"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:828
+msgid "Order associated with the Quote  : "
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:884
+msgid "Quote PDF Preview"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:913
+#: includes/admin/class-quoteup-quote-details-edit.php:971
+msgid "Quotation Details #"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:925
+#: includes/admin/class-quoteup-quote-details-edit.php:978
+#, php-format
+msgid "Quote Request sent from %s"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:934
+#: includes/admin/class-quoteup-quote-details-edit.php:981
+msgid "This email has the quotation attached for your enquiry"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:939
+#: includes/admin/class-quoteup-quote-details-edit.php:983
+msgid "The quotation PDF will be attached to this email"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:943
+msgid "Send Quote"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:978
+#: includes/class-quoteup-add-custom-field.php:648
+msgid "Subject"
+msgstr "Predmet"
+
+#: includes/admin/class-quoteup-quote-details-edit.php:983
+msgid "Note"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1052
+msgid "Add to Quote"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1058
+msgid "Expected Price and Remarks"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1062
+msgid "New Price"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1067
+#, php-format
+msgid "Amount( %s )"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1137
+msgid "Total quantity is 0. Quotation is same as orignal quantity and price"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1246
+#, php-format
+msgid "Stock for %s is only %d. Please make quotation for less quantity"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details-edit.php:1251
+#, php-format
+msgid "Stock not available for %s."
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details.php:56
+msgid "Could not create CSV file because of Security issues"
+msgstr ""
+
+#: includes/admin/class-quoteup-quote-details.php:57
+msgid "Select atleast one enquiry to export"
+msgstr ""
+
+#: includes/admin/class-quoteup-quotes-list.php:257
+msgid "'>All <span class='count'>("
+msgstr ""
+
+#: includes/admin/class-quoteup-quotes-list.php:258
+#: includes/admin/class-quoteup-quotes-list.php:259
+#: includes/admin/class-quoteup-quotes-list.php:260
+#: includes/admin/class-quoteup-quotes-list.php:261
+#: includes/admin/class-quoteup-quotes-list.php:262
+#: includes/admin/class-quoteup-quotes-list.php:263
+#: includes/admin/class-quoteup-quotes-list.php:264
+msgid "<a class='"
+msgstr ""
+
+#: includes/admin/class-quoteup-quotes-list.php:380
+msgid "No enquiry & quote details available."
+msgstr ""
+
+#: includes/admin/class-quoteup-quotes-list.php:415
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-quoteup-quotes-list.php:422
+msgid "Order #"
+msgstr ""
+
+#: includes/admin/class-quoteup-send-quote-mail.php:21
+#: includes/settings/settings-tabs.php:22
+msgid "Quotation"
+msgstr ""
+
+#: includes/admin/class-quoteup-send-quote-mail.php:69
+msgid "Mail Sent"
+msgstr ""
+
+#: includes/class-quoteup-add-custom-field.php:588
+msgid "Name"
+msgstr "Ime"
+
+#: includes/class-quoteup-add-custom-field.php:602
+#: includes/settings/settings-tabs.php:20
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-quoteup-add-custom-field.php:604
+msgid "Please Enter Email"
+msgstr "Molimo unesite email"
+
+#: includes/class-quoteup-add-custom-field.php:627
+msgid "Phone Number"
+msgstr "Broj telefona"
+
+#: includes/class-quoteup-add-custom-field.php:629
+msgid "Please Enter Phone Number"
+msgstr "Molimo unesite broj telefon"
+
+#: includes/class-quoteup-add-custom-field.php:650
+msgid "Please Enter Subject"
+msgstr "Molimo unesite predmet"
+
+#: includes/class-quoteup-add-custom-field.php:652
+msgid "Please Enter Valid Subject"
+msgstr "Molimo unesite validan predmet"
+
+#: includes/class-quoteup-add-custom-field.php:758
+msgid "Telephone"
+msgstr "Telefon"
+
+#: includes/class-quoteup-enable-disable-add-to-cart-button.php:149
+#: includes/class-quoteup-enable-disable-add-to-cart-button.php:166
+msgid "Show Add to Cart button"
+msgstr ""
+
+#: includes/class-quoteup-enable-disable-price.php:67
+#: includes/class-quoteup-enable-disable-price.php:84
+#: includes/settings/general/quoteup-price-and-add-to-cart-visibility.php:35
+msgid "Show Price"
+msgstr ""
+
+#: includes/class-quoteup-enable-disable-quoteup-button.php:74
+#: includes/class-quoteup-enable-disable-quoteup-button.php:90
+msgid "Enable Enquiry/Quote"
+msgstr ""
+
+#: includes/public/class-quoteup-display-quote-button.php:349
+msgid "Request a quote for this product"
+msgstr ""
+
+#: includes/public/class-quoteup-handle-cart.php:240
+msgid ""
+" Your Quotation Session has started. Hence, you cannot add any more "
+"products. To end the session, <input type=\"button\" id=\"endsession\" title="
+"\"Ending Session will clear the current cart.\" value=\"Click Here\">"
+msgstr ""
+
+#: includes/public/class-quoteup-handle-quote-approval-rejection.php:103
+msgid "Approved but order not yet placed"
+msgstr ""
+
+#: includes/public/class-quoteup-handle-quote-approval-rejection.php:126
+msgid "No message from customer"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:58
+msgid "Please enter email address"
+msgstr "Molimo unesite email adresu"
+
+#: includes/settings/class-quoteup-settings.php:59
+msgid ""
+"Please enter valid email address. Multiple email addresses must be comma "
+"separated."
+msgstr ""
+"Molimo unesite važeću email adresu. Višestruke email adrese moraju biti "
+"odvojene zarezom."
+
+#: includes/settings/class-quoteup-settings.php:61
+msgid "Could not migrate enquiries due to security issue."
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:62
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:63
+msgid "Disable"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:64
+msgid "QuoteUp for all products"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:65
+msgid "add to cart for all products"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:66
+msgid "price for all products"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:67
+msgid "Show"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:68
+msgid "Hide"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:69
+msgid "Applying Global Settings will do following things"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:82
+msgid "Upload or Choose Your Custom Image File"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:83
+msgid "Insert Image into Input Field"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:106
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/settings/class-quoteup-settings.php:136
+msgid "Save changes"
+msgstr "Sačuvajte promene"
+
+#: includes/settings/display/quoteup-styling-options.php:17
+msgid "Styling Options "
+msgstr "Opcije stilizovanja"
+
+#: includes/settings/display/quoteup-styling-options.php:21
+msgid " Add Custom CSS "
+msgstr "Dodajte uobičajeni CSS"
+
+#: includes/settings/display/quoteup-styling-options.php:37
+msgid " Custom Styling "
+msgstr "Uobičajeno stilizovanje"
+
+#: includes/settings/display/quoteup-styling-options.php:45
+msgid "  Use Activated Theme CSS "
+msgstr "Koristite aktiviranu CSS temu"
+
+#: includes/settings/display/quoteup-styling-options.php:53
+msgid " Manually specify color settings"
+msgstr "Specifikujte manuelno podešavanja boja"
+
+#: includes/settings/display/quoteup-styling-options.php:82
+msgid "Specify Color Settings "
+msgstr "Specifikujte podešavanja boja"
+
+#: includes/settings/display/quoteup-styling-options.php:84
+msgid ""
+"Button color settings will be applied to Enquiry or Quote Request button and "
+"'Send' button on Enquiry and Quote Request Form."
+msgstr ""
+
+#: includes/settings/display/quoteup-styling-options.php:109
+msgid "  Button Background Color: Gradient Start "
+msgstr "Button pozadinska boja: postepeni start"
+
+#: includes/settings/display/quoteup-styling-options.php:134
+msgid "  Button Background Color: Gradient End "
+msgstr "Button pozadinska boja: postepeni kraj"
+
+#: includes/settings/display/quoteup-styling-options.php:160
+msgid " Button Text Color "
+msgstr "Button boja teksta"
+
+#: includes/settings/display/quoteup-styling-options.php:184
+msgid " Button Border Color "
+msgstr "Button boja ivice"
+
+#: includes/settings/display/quoteup-styling-options.php:208
+msgid " Dialog Background Color "
+msgstr ""
+
+#: includes/settings/display/quoteup-styling-options.php:233
+msgid "  Product Name Color "
+msgstr "Boja naziva proizvoda"
+
+#: includes/settings/display/quoteup-styling-options.php:260
+msgid "  Dialog Text Color "
+msgstr "Boja teksta dijaloga"
+
+#: includes/settings/email/quoteup-emailing-information.php:14
+msgid "Emailing Information"
+msgstr "Informacije o emailing-u"
+
+#: includes/settings/email/quoteup-emailing-information.php:18
+msgid "Recipient Email ID"
+msgstr ""
+
+#: includes/settings/email/quoteup-emailing-information.php:22
+msgid "You can add multiple email addresses separated by comma"
+msgstr ""
+
+#: includes/settings/email/quoteup-emailing-information.php:33
+msgid "Default Subject"
+msgstr "Uobičajeni predmet"
+
+#: includes/settings/email/quoteup-emailing-information.php:37
+msgid "Subject to be used if customer does not enter a subject"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:18
+msgid "Enquiry & Quote Options"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:34
+msgid "Enable Enquiry System"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:38
+msgid ""
+"Enables the enquiry button on the frontend. To apply for all products "
+"checkmark global settings."
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:55
+msgid "Disable Quotation System"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:59
+msgid "Disable quote management system"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:80
+msgid "Display button when 'Out of Stock'"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:85
+msgid "Show enquiry and quote button only when product is out of stock"
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:105
+msgid "Display button on Archive Page "
+msgstr ""
+
+#: includes/settings/general/quoteup-enquiry-and-quote-options.php:110
+msgid "Display enquiry and quote button on Archive(Shop,Categories) Page"
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:15
+msgid "Form Options"
+msgstr "Opcije forme"
+
+#: includes/settings/general/quoteup-form-options.php:43
+msgid " Button Label "
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:48
+msgid "Add custom label for Enquiry or Quote button."
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:52
+msgid "Request a Quote"
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:75
+msgid " Button Location"
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:94
+msgid " After single product summary "
+msgstr "Kratak pregled nakon pojedinačnog proizvoda"
+
+#: includes/settings/general/quoteup-form-options.php:105
+msgid " At the end of single product page "
+msgstr "Stranica na kraju pojedinačnog proizvoda"
+
+#: includes/settings/general/quoteup-form-options.php:131
+msgid " Display QuoteUp Button As A Link "
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:163
+msgid " Display 'Powered by WisdmLabs' "
+msgstr "Prikazivanje ‘Pokrenuto od WisdmLabs'"
+
+#: includes/settings/general/quoteup-form-options.php:191
+msgid " Display 'Send me a copy' "
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:197
+msgid ""
+"This will display 'Send me a copy' checkbox on Enquiry or Quote request form."
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:224
+msgid " Display Telephone Number Field"
+msgstr "Prikazivanje polja za broj telefona"
+
+#: includes/settings/general/quoteup-form-options.php:229
+msgid "Display Telephone number field on Enquiry and Quote Request form."
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:258
+msgid " Make Telephone Number Field Mandatory"
+msgstr "Učinite da polje za broj telefona bude obavezno"
+
+#: includes/settings/general/quoteup-form-options.php:289
+msgid " Select Country for Telephone Number Validation"
+msgstr ""
+
+#: includes/settings/general/quoteup-form-options.php:294
+msgid "To accept any number, do not select a country."
+msgstr ""
+
+#: includes/settings/general/quoteup-global-settings.php:15
+msgid "Global Settings"
+msgstr ""
+
+#: includes/settings/general/quoteup-global-settings.php:19
+msgid " Apply Globally"
+msgstr ""
+
+#: includes/settings/general/quoteup-global-settings.php:24
+msgid ""
+"This will apply the 'Enable Enquiry System' setting and 'Price and Add to "
+"cart visiblity Settings' for all products. Please note: This will override "
+"individual product settings."
+msgstr ""
+
+#: includes/settings/general/quoteup-migrate-enquiries.php:17
+msgid "Migrate Enquiries"
+msgstr ""
+
+#: includes/settings/general/quoteup-migrate-enquiries.php:21
+msgid ""
+"This update includes database architectural changes. We strongly recommend "
+"to migrate the previous enquiries. Previous enquiries will be displayed in "
+"enquiry details table only after migration. No need to migrate enquiries if "
+"already migrated"
+msgstr ""
+
+#: includes/settings/general/quoteup-migrate-enquiries.php:23
+msgid "Please wait"
+msgstr ""
+
+#: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:21
+msgid "Multiproduct Enquiry & Quote Options"
+msgstr ""
+
+#: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:35
+msgid "Enable Multiproduct Enquiry and Quote Request"
+msgstr ""
+
+#: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:39
+msgid ""
+"You can enable/disable multiproduct enquiry or quote. At a time single or "
+"multiproduct enquiry or quote will be available."
+msgstr ""
+
+#: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:62
+msgid "Enquiry and Quote Cart Page"
+msgstr ""
+
+#: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:67
+msgid ""
+"Select Enquiry & Quote cart page. This is a page where Enquiry & Quote Cart "
+"is shown."
+msgstr ""
+
+#: includes/settings/general/quoteup-price-and-add-to-cart-visibility.php:21
+msgid "Price and Add to Cart Visiblity Options"
+msgstr ""
+
+#: includes/settings/general/quoteup-price-and-add-to-cart-visibility.php:39
+msgid ""
+"Show price on the frontend. To hide price for a specific product go to add/"
+"edit screen of the product"
+msgstr ""
+
+#: includes/settings/general/quoteup-price-and-add-to-cart-visibility.php:57
+msgid "Enable Add to Cart"
+msgstr ""
+
+#: includes/settings/general/quoteup-price-and-add-to-cart-visibility.php:61
+msgid ""
+"Shows add to cart on the frontend. To hide add to cart for a specific "
+"product go to add/edit screen of the product"
+msgstr ""
+
+#: includes/settings/general/quoteup-redirection-page-url.php:20
+msgid "Redirect Page URL"
+msgstr "Preusmerenje URL-a stranice"
+
+#: includes/settings/general/quoteup-redirection-page-url.php:24
+msgid "Page Url"
+msgstr "URL stranice"
+
+#: includes/settings/general/quoteup-redirection-page-url.php:28
+msgid ""
+"User will be forwarded to this on successful Quote request. Leave blank if "
+"not needed"
+msgstr ""
+
+#: includes/settings/quote/quoteup-approval-rejection.php:19
+msgid "Quotation Approval/Rejection Page"
+msgstr ""
+
+#: includes/settings/quote/quoteup-approval-rejection.php:23
+msgid "Approval/Rejection Page"
+msgstr ""
+
+#: includes/settings/quote/quoteup-approval-rejection.php:27
+msgid ""
+"Plugin will automatically add shortcode [APPROVAL_REJECTION_CHOICE] on the "
+"selected page, if it is not already present in the page's content"
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:38
+msgid ""
+"These settings will add details to the generated quote when the Quotation "
+"System is enabled."
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:40
+msgid "PDF Settings "
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:46
+msgid "Company Name"
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:56
+msgid "Company Email"
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:66
+msgid "Company Address"
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:77
+msgid "Logo for PDF"
+msgstr ""
+
+#: includes/settings/quote/quoteup-pdf-settings.php:81
+msgid "Upload Image"
+msgstr ""
+
+#: includes/settings/settings-tabs.php:19
+msgid "General"
+msgstr ""
+
+#: includes/settings/settings-tabs.php:21
+msgid "Display"
+msgstr ""
+
+#: product_enquiry_pro.php:105
+msgid ""
+"WooCommerce plugin is not active. In order to make the 'QuoteUp' plugin "
+"work, you need to install and activate WooCommerce first."
+msgstr ""
+
+#: product_enquiry_pro.php:121
+msgid "QuoteUp requires PHP VERSION 5.3 or greater. Please update your PHP."
+msgstr ""
+
+#: product_enquiry_pro.php:131
+msgid ""
+"In order to make the 'QuoteUp' plugin work, Product Enquiry Pro needs to be "
+"deactivated."
+msgstr ""
+
+#: templates/lPage_display.php:34
+msgid "No response from server. Please try again later."
+msgstr ""
+
+#: templates/lPage_display.php:41
+msgid ""
+"License Activation Failed. Please try again or contact support on "
+"support@wisdmlabs.com"
+msgstr ""
+
+#: templates/lPage_display.php:49
+msgid "Please enter license key."
+msgstr "Molimo unesite ključ za licencu"
+
+#: templates/lPage_display.php:56
+msgid "Your license key is activated."
+msgstr "Vaš ključ za licencu je aktiviran"
+
+#: templates/lPage_display.php:63
+msgid ""
+"Your license key has Expired. Please, Renew it. <br/>Your License Key is "
+"already activated at : "
+msgstr ""
+
+#: templates/lPage_display.php:70
+msgid "Your license key has Expired. Please, Renew it."
+msgstr "Vaš ključ za licencu je Istekao. Molimo, Obnovite ga."
+
+#: templates/lPage_display.php:77
+msgid "Your license key is Disabled."
+msgstr "Vaš ključ za licencu je Onemogućen."
+
+#: templates/lPage_display.php:84 templates/lPage_display.php:98
+msgid "Your License Key is already activated at : "
+msgstr ""
+
+#: templates/lPage_display.php:91
+msgid "Please enter valid license key."
+msgstr "Molimo unesite važeći ključ za licencu."
+
+#: templates/lPage_display.php:105
+msgid "Site inactive(Press Activate license to activate plugin)"
+msgstr ""
+"Sajt neaktivan(Pritisnite Aktiviraj licencu da biste aktivirali plugin)"
+
+#: templates/lPage_display.php:112
+msgid "License Key is deactivated"
+msgstr "Ključ za licencu je deaktiviran"
+
+#: templates/lPage_display.php:119
+msgid " License Options"
+msgstr ""
+
+#: templates/lPage_display.php:126
+msgid "License Key"
+msgstr "Ključ za licencu"
+
+#: templates/lPage_display.php:145
+msgid "License Status"
+msgstr "Status licence"
+
+#: templates/lPage_display.php:149 templates/lPage_display.php:161
+msgid "Active"
+msgstr "Aktivno"
+
+#: templates/lPage_display.php:153 templates/lPage_display.php:157
+#: templates/lPage_display.php:164 templates/lPage_display.php:168
+msgid "Not Active"
+msgstr "Neaktivno"
+
+#: templates/lPage_display.php:176 templates/lPage_display.php:189
+#: templates/lPage_display.php:206
+msgid "Activate License"
+msgstr "Aktivirajte licencu"
+
+#: templates/lPage_display.php:182 templates/lPage_display.php:197
+msgid "Deactivate License"
+msgstr "Deaktivirajte licencu"
+
+#: templates/lPage_display.php:192 templates/lPage_display.php:200
+msgid "Renew License"
+msgstr "Obnovite licencu"
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:97
+msgid "Expected Price"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:159
+msgid "Requestor Information"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:168
+#: templates/public/class-quoteup-single-product-modal.php:201
+msgid "Indicates required fields"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:188
+#: templates/public/class-quoteup-single-product-modal.php:255
+msgid "Send me a copy"
+msgstr "Pošaljite mi kopiju"
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:218
+msgid "Enquiry sent successfully!"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:224
+msgid "Your enquiry cart is currently empty."
+msgstr ""
+
+#: templates/public/class-quoteup-handle-enquiry-cart-view.php:229
+msgid "Your enquiry and quotation cart is currently empty."
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:63
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:123
+msgid "The quotation has expired."
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:67
+msgid "Contact site admin to make this order"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:73
+msgid "An earlier session seems to be in progress "
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:90
+msgid "Return To Shop"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:134
+msgid "Approve Quote"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:135
+msgid "Reject Quote"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:137
+msgid "Please add your reason behind rejecting the quote"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:138
+msgid "Reject This Quote"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:167
+msgid "Please provide your email address associated with the quote:"
+msgstr ""
+
+#: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:179
+msgid "Submit"
+msgstr ""
+
+#: templates/public/class-quoteup-single-product-modal.php:166
+msgid "Send Enquiry for"
+msgstr "Pošaljite upit za"
+
+#: templates/public/class-quoteup-single-product-modal.php:207
+msgid "Unauthorized enquiry"
+msgstr "Neovlašćeni upit"
+
+#: templates/public/class-quoteup-single-product-modal.php:237
+msgid "Enquiry email sent successfully!"
+msgstr "Email za upit uspešno poslat!"
+
+#~ msgid "Product Enquiry Details"
+#~ msgstr "Detalji upita za proizvod"
+
+#~ msgid "Sorry, your nonce did not verify."
+#~ msgstr "Žao nam je, vaš nonce nije verifikovan"
+
+#~ msgid "Record deleted successfully"
+#~ msgstr "Zapis uspešno izbrisan"
+
+#~ msgid "Enquiry date"
+#~ msgstr "Datum upita"
+
+#~ msgid "Product name"
+#~ msgstr "Naziv proizvoda"
+
+#~ msgid "Client IP"
+#~ msgstr "IP klijenta"
+
+#~ msgid "The record will be deleted permanently"
+#~ msgstr "Zapis će biti trajno izbrisan"
+
+#~ msgid "Click to Read More"
+#~ msgstr "Kliknite za “čitaj još”"
+
+#~ msgid "Click to shorten"
+#~ msgstr "Kliknite za prečicu"
+
+#~ msgid "Export as CSV"
+#~ msgstr "Izvezite kao CSV"
+
+#~ msgid "Please select any records to export OR click to export all"
+#~ msgstr ""
+#~ "Molimo selektujte bilo koji zapis da izvezete ILI kliknite da izvezete sve"
+
+#~ msgid ""
+#~ "Please select the records to be exported. If no records are selected then "
+#~ "all the records will be exported."
+#~ msgstr ""
+#~ "Molimo selektujte zapise koje treba izvesti. Ukoliko nijedan zapis nije "
+#~ "selektovan, svi će zapisi biti izvezeni."
+
+#~ msgid "Receipient Email ID"
+#~ msgstr "Email ID primaoca"
+
+#~ msgid ""
+#~ "*Enter Multiple Email Addresses (abc@example.com,xyz@example,com,.. )"
+#~ msgstr ""
+#~ "*Enter Multiple Email Addresses (abc@example.com,xyz@example,com,.. )"
+
+#~ msgid "Enquiry for a product from "
+#~ msgstr "Upit za formu proizvoda"
+
+#~ msgid "will be used if customer does not enter a subject"
+#~ msgstr "koristiće se ukoliko klijent ne unese predmet"
+
+#~ msgid ""
+#~ "User will be forwarded to this on successful enquiry. Leave blank if not "
+#~ "needed."
+#~ msgstr ""
+#~ "Korisnik će biti prosleđen na ovo kod uspešnog upita. Ostavite prazno "
+#~ "ukoliko nije potrebno."
+
+#~ msgid " Enquiry Button Label "
+#~ msgstr "Oznaka tastera za upit"
+
+#~ msgid "Make an enquiry for this product"
+#~ msgstr "Sprovedite upit za ovaj proizvod"
+
+#~ msgid " Enquiry Button Location"
+#~ msgstr "Lokacija tastera za ispitivanje "
+
+#~ msgid "Show enquiry button only when product is out of stock"
+#~ msgstr "Taster za prikazivanje upita samo kada proizvod nije na zalihama"
+
+#~ msgid " Display Enquiry Button As A Link "
+#~ msgstr "Taster za prikazivanje upita kao A link"
+
+#~ msgid "Enable 'Send me a copy' Option "
+#~ msgstr "Omogućavanje opcije ‘Pošalji mi kopiju’"
+
+#~ msgid ""
+#~ "Button color settings will be applied to Enquiry button and Send button "
+#~ "on Enquiry Form."
+#~ msgstr ""
+#~ "Podešavanja za button color će biti primenjena na taster (button) za "
+#~ "ispitivanje i taster za slanje kod Forme ispitivanja"
+
+#~ msgid " Dialog Color "
+#~ msgstr "Boja dijaloga"
+
+#~ msgid "Product Enquiry Pro License Options"
+#~ msgstr "Opcije za pro licencu za upit za proizvod"
+
+#~ msgid " plugin is not active. In order to make "
+#~ msgstr "plugin nije aktivan. Da biste pokrenuli"
+
+#~ msgid " plugin work, you need to install and activate "
+#~ msgstr "plugin, treba da instalirate i aktivirate"
+
+#~ msgid " first."
+#~ msgstr "pre svega."
+
+#~ msgid "Product Name"
+#~ msgstr "Imenu proizvoda"
+
+#~ msgid "Your enquiry at"
+#~ msgstr "Vaš upit kod  "
+
+#~ msgid "Message*"
+#~ msgstr "Poruka*"
+
+#~ msgid "* Indicates required fields"
+#~ msgstr "*Ukazuje na tražena polja"
+
+#~ msgid "Enable Add to Cart for this Product:"
+#~ msgstr "Osposobite “Dodaj u kolica” za ovaj proizvod"
+
+#~ msgid "Yes"
+#~ msgstr "Da"
+
+#~ msgid "No"
+#~ msgstr "Ne"
+
+#~ msgid "Enable/Disable Add to Cart for all Products"
+#~ msgstr "Osposobi/Onesposobi “Dodaj u kolica” za sve proizvode"
+
+#~ msgid "Enable Add to Cart for all products?"
+#~ msgstr "Osposobi “Dodaj u kolica” za sve proizvode?"
+
+#~ msgid ""
+#~ "You can selectively enable Add to Cart for a specific product from 'Add/"
+#~ "Edit Product' screen if this button is set to No"
+#~ msgstr ""
+#~ "Možete selektivno da osposobite “Dodaj u kolica” za određeni proizvod iz "
+#~ "‘Dodaj/Izmeni Proizvod’ ekrana ukoliko je ovaj taster podešen na Ne"
+
+#~ msgid "Disable Enquiry for this Product:"
+#~ msgstr "Onemogući Upit za ovaj Proizvod"
+
+#~ msgid "Enable/Disable PEP for all Products"
+#~ msgstr "Osposobi/Onesposobi PEP za sve Proizvode"
+
+#~ msgid "Enable PEP for all products?"
+#~ msgstr "Osposobi PEP za sve proizvode?"
+
+#~ msgid ""
+#~ "You can selectively disable PEP for a specific product from 'Add/Edit "
+#~ "Product' screen if this button is set to Yes"
+#~ msgstr ""
+#~ "Možete selektivno da onesposobite PEP za određeni proizvod iz ‘Dodaj/"
+#~ "Izmeni Proizvod’ ekrana ukoliko je ovaj taster podešen na Da"

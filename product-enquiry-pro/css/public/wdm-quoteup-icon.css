@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'wdmquoteupicon';
+    src:    url('fonts/wdmquoteupicon.eot?bg72vx');
+    src:    url('fonts/wdmquoteupicon.eot?bg72vx#iefix') format('embedded-opentype'),
+    url('fonts/wdmquoteupicon.ttf?bg72vx') format('truetype'),
+    url('fonts/wdmquoteupicon.woff?bg72vx') format('woff'),
+    url('fonts/wdmquoteupicon.svg?bg72vx#wdmquoteupicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wdm-quoteupicon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'wdmquoteupicon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wdm-quoteupicon-done:before {
+    content: "\e876";
+}
+.wdm-quoteupicon-exclamation-circle:before {
+    content: "\f06a";
+}
+.wdm-quoteupicon-spinner:before {
+    content: "\e900";
+}
+.wdm-quoteupicon-spinner-alt:before {
+    content: "\e901";
+}
+.wdm-quoteupicon-list:before {
+    content: "\e902";
+}
+.wdm-tbl-gen-header
+{
+    font-size: 16px !important
+}
+
+.error-quote-cart{
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,128 @@
+h2 {
+    width:85%;
+}
+
+#header{
+    text-align: right;
+}
+
+table{
+    table-layout: fixed;
+    vertical-align: center;
+    border:1%;
+    padding: 1%;
+    width: 90%;
+}
+
+.PDFLogo{
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-top: 70%;
+    margin-left: 1%;
+}
+
+img {
+    display: block;
+    max-width:460px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+}
+
+#Enquiry{
+    vertical-align: center;
+}
+
+#head{
+    margin-left: 1%;
+}
+
+.from-data, .to-data, .expiration-data {
+    float: left;
+    padding-left: 5px;
+    border-left: 1px solid gray;
+    text-align: justify;
+    width: 50%;
+}
+
+.from-title, .to-title, .expiration-title {
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    width:45%;
+}
+
+.from-info, .to-info, .expiration-info {
+    float:right;
+    width:80%;
+}
+
+.to-info, .expiration-info {
+    margin-top: 2%;
+}
+
+.clear{
+    clear:both;
+}
+
+table tr th, table tr td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.quote_table tr th, .quote_table tr td {
+    border-bottom:0.5px solid gray;
+}
+
+dt{
+    display: inline;
+}
+
+dd{
+    display:inline;
+}
+
+.product-price{
+    text-align: left;
+    width: 25%
+}
+
+.product{
+    text-align: left;
+    width: 30%;
+}
+
+.sku-price{
+    text-align: left;
+    width: 15%;
+}
+
+.sku{
+    text-align: left;
+    width: 20%;
+}
+
+.product-head{
+    text-align: left;
+    width: 30%;
+}
+
+.sku-head{
+    text-align: left;
+    width: 10%;
+}
+
+.new-price-head,
+.qty-head,
+.old-price-head,
+.old-price-content,
+.new-price-content,
+.qty-content{
+    text-align: left;
+}
+
+.amount-head,
+.amount-content{
+    text-align: right;
+}
