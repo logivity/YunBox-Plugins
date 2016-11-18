@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QuoteUp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 09:04+0800\n"
-"PO-Revision-Date: 2016-11-18 09:35+0800\n"
+"POT-Creation-Date: 2016-11-18 10:28+0800\n"
+"PO-Revision-Date: 2016-11-18 10:28+0800\n"
 "Last-Translator: \n"
 "Language-Team: support@wisdmlabs.com\n"
 "Language: zh_CN\n"
@@ -26,11 +26,11 @@ msgstr ""
 
 #: ajax.php:937
 msgid "Products"
-msgstr ""
+msgstr "产品"
 
 #: ajax.php:1007 ajax.php:1023
 msgid "Product Name"
-msgstr ""
+msgstr "产品名称"
 
 #: ajax.php:1012 ajax.php:1029 ajax.php:1080 ajax.php:1113
 msgid "Variation"
@@ -38,7 +38,7 @@ msgstr "变量"
 
 #: ajax.php:1018 ajax.php:1036
 msgid "Product Price"
-msgstr ""
+msgstr "产品价格"
 
 #: ajax.php:1076 ajax.php:1109
 #: includes/admin/class-quoteup-quote-details-edit.php:1109
@@ -55,12 +55,12 @@ msgstr "价格"
 #: templates/admin/pdf-quote/quote-table-header.php:8
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:76
 msgid "Quantity"
-msgstr ""
+msgstr "数量"
 
 #: ajax.php:1078 ajax.php:1111
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:78
 msgid "Expected Price"
-msgstr ""
+msgstr "預期價格"
 
 #: ajax.php:1079 ajax.php:1112
 #: includes/admin/class-quoteup-quote-details-edit.php:1105
@@ -70,15 +70,15 @@ msgstr "SKU"
 
 #: ajax.php:1201
 msgid "Enquiry from"
-msgstr ""
+msgstr "询盘来源"
 
 #: ajax.php:1211
 msgid "Enquiry And Quote Request From"
-msgstr ""
+msgstr "从询价和报价请求"
 
 #: ajax.php:1265
 msgid "Enquiry or Quote Request for Products from  "
-msgstr ""
+msgstr "查询或从产品的报价请求"
 
 #: ajax.php:1301
 msgid "Your enquiry at"
@@ -98,11 +98,11 @@ msgstr "谢谢您的查询/报价，我们将尽快给您回复。"
 
 #: includes/admin/class-quoteup-admin-notices.php:65
 msgid "Please set a page for Enquiry & QuoteUp Cart"
-msgstr ""
+msgstr "请设置一个页面显示查询和报价。"
 
 #: includes/admin/class-quoteup-admin-notices.php:65
 msgid "on this page"
-msgstr ""
+msgstr "在此頁"
 
 #: includes/admin/class-quoteup-admin-notices.php:79
 #, php-format
@@ -111,6 +111,8 @@ msgid ""
 "[ENQUIRY_CART]. Please add [ENQUIRY_CART] in the content of that page  %s "
 "here %s."
 msgstr ""
+"你設置的報價頁面沒有短代碼[ENQUIRY_CART]。請添加[ENQUIRY_CART]到頁面%s內"
+"容%s。"
 
 #: includes/admin/class-quoteup-admin-notices.php:88
 #, php-format
@@ -119,31 +121,32 @@ msgid ""
 "able to Check Cart and make Enquiry. You can change the status of that page "
 "%s here %s."
 msgstr ""
+"你設置的報價頁面已放入回收站，用戶無法核對和查詢，你可以更改頁面%s狀態%s。"
 
 #: includes/admin/class-quoteup-admin-notices.php:97
 #, php-format
 msgid ""
 "Page you have set for QuoteUp Cart does not exist. Please set a new page for "
 "QuoteUp Cart  %s here %s."
-msgstr ""
+msgstr "你設置的報價頁面不存在，請設置%s一個新報價頁面%s。"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:49
 msgid "QuoteUp"
-msgstr ""
+msgstr "報價"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:49
 msgid "Product Enquiry"
-msgstr ""
+msgstr "產品查詢"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:50
 msgid "Quote Details"
-msgstr ""
+msgstr "報價詳情"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:52
 #: includes/admin/class-quoteup-quote-details-edit.php:347
 #: includes/admin/class-quoteup-quote-details.php:77
 msgid "Enquiry Details"
-msgstr ""
+msgstr "查询详情"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:55
 #: includes/admin/class-quoteup-quote-details.php:79
@@ -152,7 +155,7 @@ msgstr "询盘和报价详情"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:58
 msgid "QuoteUp Settings"
-msgstr ""
+msgstr "報價設置"
 
 #: includes/admin/class-quoteup-dashboard-menu.php:58
 msgid "Settings"
@@ -160,11 +163,11 @@ msgstr "设置"
 
 #: includes/admin/class-quoteup-display-history.php:51
 msgid "Quote Status History"
-msgstr ""
+msgstr "報價狀態歷史記錄"
 
 #: includes/admin/class-quoteup-display-history.php:71
 msgid "Date and Time"
-msgstr ""
+msgstr "日期和时间"
 
 #: includes/admin/class-quoteup-display-history.php:72
 msgid "Action"
@@ -172,7 +175,7 @@ msgstr "操作"
 
 #: includes/admin/class-quoteup-display-history.php:73
 msgid "Performed by"
-msgstr ""
+msgstr "执行"
 
 #: includes/admin/class-quoteup-display-history.php:74
 #: includes/admin/class-quoteup-enquiries-list.php:162
@@ -181,11 +184,11 @@ msgstr ""
 #: includes/class-quoteup-add-custom-field.php:708
 #: includes/class-quoteup-add-custom-field.php:851
 msgid "Message"
-msgstr ""
+msgstr "信息"
 
 #: includes/admin/class-quoteup-display-history.php:135
 msgid "Quote Approved"
-msgstr ""
+msgstr "報價批准"
 
 #: includes/admin/class-quoteup-display-history.php:137
 #: includes/admin/class-quoteup-quote-details-edit.php:336
@@ -198,7 +201,7 @@ msgstr "已批准"
 #: includes/settings/quote/quoteup-approval-rejection.php:153
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:101
 msgid "Quote Rejected"
-msgstr ""
+msgstr "報價拒絕"
 
 #: includes/admin/class-quoteup-display-history.php:156
 msgid "Reject"
@@ -206,7 +209,7 @@ msgstr "拒绝"
 
 #: includes/admin/class-quoteup-display-history.php:174
 msgid "Quote Sent"
-msgstr ""
+msgstr "報價發送"
 
 #: includes/admin/class-quoteup-display-history.php:176
 #: includes/admin/class-quoteup-quote-details-edit.php:335
@@ -217,7 +220,7 @@ msgstr "发送"
 
 #: includes/admin/class-quoteup-display-history.php:193
 msgid "Quote Requested"
-msgstr ""
+msgstr "報價"
 
 #: includes/admin/class-quoteup-display-history.php:195
 #: includes/admin/class-quoteup-quote-details-edit.php:333
@@ -228,7 +231,7 @@ msgstr "请求于"
 
 #: includes/admin/class-quoteup-display-history.php:213
 msgid "Quote Saved"
-msgstr ""
+msgstr "報價已保存"
 
 #: includes/admin/class-quoteup-display-history.php:215
 #: includes/admin/class-quoteup-quote-details-edit.php:334
@@ -239,7 +242,7 @@ msgstr "已保存"
 
 #: includes/admin/class-quoteup-display-history.php:226
 msgid "Quote Expired"
-msgstr ""
+msgstr "報價過期"
 
 #: includes/admin/class-quoteup-display-history.php:227
 msgid "System"
@@ -250,14 +253,14 @@ msgstr "系统"
 #: includes/admin/class-quoteup-quotes-list.php:81
 #: includes/admin/class-quoteup-quotes-list.php:222
 msgid "Expired"
-msgstr ""
+msgstr "過期"
 
 #: includes/admin/class-quoteup-display-history.php:240
 #: includes/admin/class-quoteup-quote-details-edit.php:338
 #: includes/admin/class-quoteup-quotes-list.php:75
 #: includes/admin/class-quoteup-quotes-list.php:221
 msgid "Order Placed"
-msgstr ""
+msgstr "已下订单"
 
 #: includes/admin/class-quoteup-enable-disable-add-to-cart-button.php:53
 msgid "Show Add to Cart button"
@@ -270,12 +273,12 @@ msgstr "显示价格"
 
 #: includes/admin/class-quoteup-enable-disable-quoteup-button.php:45
 msgid "Enable Enquiry Button when Product goes out of Stock"
-msgstr ""
+msgstr "產品缺貨時啟用查詢按鈕"
 
 #: includes/admin/class-quoteup-enable-disable-quoteup-button.php:47
 #: includes/admin/class-quoteup-enable-disable-quoteup-button.php:50
 msgid "Enable Enquiry Button"
-msgstr ""
+msgstr "啟用查詢按鈕"
 
 #: includes/admin/class-quoteup-enquiries-list.php:19
 #: includes/admin/class-quoteup-quotes-list.php:19
@@ -285,24 +288,24 @@ msgstr "询盘"
 #: includes/admin/class-quoteup-enquiries-list.php:20
 #: includes/admin/class-quoteup-quotes-list.php:20
 msgid "Enquiries"
-msgstr ""
+msgstr "查詢"
 
 #: includes/admin/class-quoteup-enquiries-list.php:123
 msgid "No enquiries avaliable."
-msgstr ""
+msgstr "没有可用询盘"
 
 #: includes/admin/class-quoteup-enquiries-list.php:133
 #: includes/admin/class-quoteup-products-table.php:87
 #: includes/admin/class-quoteup-quotes-list.php:424
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: includes/admin/class-quoteup-enquiries-list.php:135
 #: includes/admin/class-quoteup-enquiries-list.php:195
 #: includes/admin/class-quoteup-quotes-list.php:426
 #: includes/admin/class-quoteup-quotes-list.php:490
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: includes/admin/class-quoteup-enquiries-list.php:157
 #: includes/admin/class-quoteup-quotes-list.php:448
@@ -314,20 +317,20 @@ msgstr "ID"
 #: includes/admin/class-quoteup-quotes-list.php:231
 #: includes/admin/class-quoteup-quotes-list.php:450
 msgid "Items"
-msgstr ""
+msgstr "个"
 
 #: includes/admin/class-quoteup-enquiries-list.php:159
 #: includes/admin/class-quoteup-quotes-list.php:451
 #: includes/class-quoteup-add-custom-field.php:572
 #: includes/class-quoteup-add-custom-field.php:822
 msgid "Customer Name"
-msgstr ""
+msgstr "客户称呼"
 
 #: includes/admin/class-quoteup-enquiries-list.php:160
 #: includes/admin/class-quoteup-quotes-list.php:452
 #: includes/class-quoteup-add-custom-field.php:837
 msgid "Customer Email"
-msgstr ""
+msgstr "客户 Email"
 
 #: includes/admin/class-quoteup-enquiries-list.php:161
 #: includes/admin/class-quoteup-quote-details-edit.php:430
@@ -338,17 +341,17 @@ msgstr "查盘日期"
 #: includes/admin/class-quoteup-enquiries-list.php:193
 #: includes/admin/class-quoteup-quotes-list.php:488
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: includes/admin/class-quoteup-enquiries-list.php:194
 #: includes/admin/class-quoteup-quotes-list.php:489
 msgid "Export all enquiries"
-msgstr ""
+msgstr "导出所有查询"
 
 #: includes/admin/class-quoteup-enquiries-list.php:259
 #: includes/admin/class-quoteup-quotes-list.php:555
 msgid "enquiries are deleted"
-msgstr ""
+msgstr "查询已删除"
 
 #: includes/admin/class-quoteup-enquiries-list.php:263
 #: includes/admin/class-quoteup-quotes-list.php:559
@@ -359,32 +362,32 @@ msgstr "选择要删除的询盘"
 #: templates/admin/pdf-quote/quote-pdf.php:6
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:251
 msgid "Quote"
-msgstr ""
+msgstr "报价"
 
 #: includes/admin/class-quoteup-generate-pdf.php:38
 #: templates/admin/pdf-quote/recipient-info.php:3
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:271
 msgid "Quote For"
-msgstr ""
+msgstr "报价"
 
 #: includes/admin/class-quoteup-generate-pdf.php:55
 #: includes/admin/class-quoteup-quote-details-edit.php:1365
 #: templates/admin/pdf-quote/expiration-date.php:4
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:288
 msgid "Expiration Date"
-msgstr ""
+msgstr "到期时间："
 
 #: includes/admin/class-quoteup-generate-pdf.php:81
 #: templates/admin/pdf-quote/sender-info.php:3
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:257
 msgid "From"
-msgstr ""
+msgstr "来源"
 
 #: includes/admin/class-quoteup-generate-pdf.php:224
 #: templates/admin/pdf-quote/quote-pdf.php:17
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:304
 msgid "Quote Request"
-msgstr ""
+msgstr "创建报价请求"
 
 #: includes/admin/class-quoteup-generate-pdf.php:228
 #: templates/admin/pdf-quote/quote-table-header.php:2
@@ -392,7 +395,7 @@ msgstr ""
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:312
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:318
 msgid "Product"
-msgstr ""
+msgstr "产品"
 
 #: includes/admin/class-quoteup-generate-pdf.php:229
 #: templates/admin/pdf-quote/quote-table-header.php:3
@@ -405,13 +408,13 @@ msgstr "库存"
 #: templates/admin/pdf-quote/quote-table-header.php:5
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:314
 msgid "Old"
-msgstr ""
+msgstr "旧的"
 
 #: includes/admin/class-quoteup-generate-pdf.php:238
 #: templates/admin/pdf-quote/quote-table-header.php:7
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:324
 msgid "New"
-msgstr ""
+msgstr "新的"
 
 #: includes/admin/class-quoteup-generate-pdf.php:240
 #: templates/admin/pdf-quote/quote-table-header.php:9
@@ -435,7 +438,7 @@ msgstr "税款"
 #: templates/admin/pdf-quote/tax-shipping-note.php:7
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:427
 msgid "Quote does not include default store tax"
-msgstr ""
+msgstr "报价不含默认税款"
 
 #: includes/admin/class-quoteup-generate-pdf.php:272
 #: templates/admin/pdf-quote/tax-shipping-note.php:12
@@ -447,7 +450,7 @@ msgstr "运输跟踪"
 #: templates/admin/pdf-quote/tax-shipping-note.php:15
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:428
 msgid "Quote does not include shipping"
-msgstr ""
+msgstr "报价不含运费"
 
 #: includes/admin/class-quoteup-generate-pdf.php:279
 #: templates/admin/pdf-quote/quote-link.php:2
@@ -460,7 +463,7 @@ msgstr "%s 批准或拒绝报价 %s 点击这里 %s %s"
 msgid ""
 "Please set a page where users can approve or reject the quote %s on this "
 "page %s"
-msgstr ""
+msgstr "请设置在那里用户可以批准或拒绝报价 %s%s 此页上的网页"
 
 #: includes/admin/class-quoteup-handle-quote-approval-rejection.php:67
 #, php-format
@@ -469,6 +472,8 @@ msgid ""
 "shortcode [APPROVAL_REJECTION_CHOICE]. Please add "
 "[APPROVAL_REJECTION_CHOICE] in the content of that page  %s here %s."
 msgstr ""
+"页设置为批准和拒绝的报价没有简码 [APPROVAL_REJECTION_CHOICE]。请在 %s%s 在此"
+"页面的内容中添加 [APPROVAL_REJECTION_CHOICE]。"
 
 #: includes/admin/class-quoteup-handle-quote-approval-rejection.php:99
 #, php-format
@@ -478,6 +483,8 @@ msgid ""
 "to migrate the previous enquiries to QuoteUp %s here %s before you start "
 "using Quoteup."
 msgstr ""
+"看来你已经升级从产品查询临 2.x 到 QuoteUp。QuoteUp 有数据库的体系结构更改。我"
+"们强烈建议之前您开始使用 Quoteup 到 QuoteUp  %s 这里  %s  迁移以前的查询。"
 
 #: includes/admin/class-quoteup-handle-quote-approval-rejection.php:125
 #, php-format
@@ -486,6 +493,8 @@ msgid ""
 "Therefore, users won't be able to approve/reject quotes. You can change the "
 "status of that page %s here %s."
 msgstr ""
+"页面设置了批准和拒绝是报价的垃圾。因此，用户将无法批准拒绝报价。您可以更改该"
+"页面在这里 %s%s 的状态。"
 
 #: includes/admin/class-quoteup-handle-quote-approval-rejection.php:134
 #, php-format
@@ -493,27 +502,29 @@ msgid ""
 "Page you have set for approval and rejection of quote does not exist. Please "
 "set a new page for approval/rejection of quotes  %s here %s."
 msgstr ""
+"您已批准和拒绝的报价为设置的页面不存在。请设置一个新的批准/拒绝的报价网页 %s"
+"%s 在这里。"
 
 #: includes/admin/class-quoteup-handle-quote-approval-rejection.php:153
 #, php-format
 msgid "Please enter license key %s here %s to activate Product Enquiry Pro."
-msgstr ""
+msgstr "请输入许可证密钥 %s  这里 %s 来激活产品查询临。"
 
 #: includes/admin/class-quoteup-products-table.php:46
 msgid "Enable Enquiry"
-msgstr ""
+msgstr "啟用查詢"
 
 #: includes/admin/class-quoteup-products-table.php:47
 msgid "Disable Enquiry"
-msgstr ""
+msgstr "關閉查詢"
 
 #: includes/admin/class-quoteup-products-table.php:48
 msgid "Enable Add to Cart"
-msgstr ""
+msgstr "启用加入购物车信息"
 
 #: includes/admin/class-quoteup-products-table.php:49
 msgid "Disable Add to Cart"
-msgstr ""
+msgstr "禁用产品 \"加入购物车\" 按钮"
 
 #: includes/admin/class-quoteup-products-table.php:51
 msgid "Hide Price"
@@ -529,25 +540,25 @@ msgstr "添加到购物车已禁用"
 
 #: includes/admin/class-quoteup-products-table.php:59
 msgid "Price Visible"
-msgstr ""
+msgstr "價格可見"
 
 #: includes/admin/class-quoteup-products-table.php:60
 msgid "Price Hidden"
-msgstr ""
+msgstr "價格隱藏"
 
 #: includes/admin/class-quoteup-products-table.php:61
 msgid "Enquiry Enabled"
-msgstr ""
+msgstr "查詢已啟用"
 
 #: includes/admin/class-quoteup-products-table.php:62
 msgid ""
 "Enquiry is enabled but Enquiry button will be shown when product goes out of "
 "stock"
-msgstr ""
+msgstr "產品缺貨時啟用查詢按鈕"
 
 #: includes/admin/class-quoteup-products-table.php:63
 msgid "Enquiry Disabled"
-msgstr ""
+msgstr "查询已禁用"
 
 #: includes/admin/class-quoteup-products-table.php:72
 msgid ""
@@ -561,11 +572,11 @@ msgstr "还原"
 
 #: includes/admin/class-quoteup-products-table.php:94
 msgid "Delete Permanently"
-msgstr ""
+msgstr "永久刪除"
 
 #: includes/admin/class-quoteup-products-table.php:96
 msgid "Move to Trash"
-msgstr ""
+msgstr "移动到垃圾桶"
 
 #: includes/admin/class-quoteup-products-table.php:122
 #, php-format
@@ -613,31 +624,31 @@ msgstr "你不是允许编辑 %s。因此，你不可以在此产品禁用添加
 #, php-format
 msgid "Enquiry disabled for %s product."
 msgid_plural "Enquiries disabled for %s products."
-msgstr[0] ""
+msgstr[0] "为 %s 产品禁用的查询。"
 
 #: includes/admin/class-quoteup-products-table.php:453
 #, php-format
 msgid "Price visible for %s product."
 msgid_plural "Price visible for %s products."
-msgstr[0] ""
+msgstr[0] "可见对 %s 产品的价格。"
 
 #: includes/admin/class-quoteup-products-table.php:454
 #, php-format
 msgid "'Add to Cart' & Price hidden for %s products."
 msgid_plural "'Add to Cart' & Price hidden for %s products."
-msgstr[0] ""
+msgstr[0] "添加到购物车 & 隐藏为 %s 产品的价格。"
 
 #: includes/admin/class-quoteup-products-table.php:455
 #, php-format
 msgid "Add to Cart enabled for %s in stock product."
 msgid_plural "Add to Cart enabled for %s in stock products."
-msgstr[0] ""
+msgstr[0] "添加到购物车启用为 %s 的库存产品。"
 
 #: includes/admin/class-quoteup-products-table.php:456
 #, php-format
 msgid "Add to Cart disabled for %s product."
 msgid_plural "Add to Cart disabled for %s products."
-msgstr[0] ""
+msgstr[0] "添加到购物车禁用 %s 产品。"
 
 #: includes/admin/class-quoteup-products-table.php:457
 #, php-format
@@ -647,7 +658,7 @@ msgid ""
 msgid_plural ""
 "Enabling 'Add to Cart' skipped for %s products because price is hidden for "
 "those products."
-msgstr[0] ""
+msgstr[0] "启用添加到购物车的跳过 %s 产品因为价格隐藏该产品。"
 
 #: includes/admin/class-quoteup-products-table.php:458
 #, php-format
@@ -669,6 +680,8 @@ msgid_plural ""
 "%s products skipped because their product types are not supported by Product "
 "Enquiry Pro (A.K.A QuoteUp). It works only with Simple and Variable Products."
 msgstr[0] ""
+"%s 产品跳过，因为它是的产品类型不是支持产品查询临 (又名 QuoteUp)。它仅适用于"
+"简单和变型产品。"
 
 #: includes/admin/class-quoteup-products-table.php:495
 #, php-format
@@ -678,13 +691,13 @@ msgid ""
 msgid_plural ""
 "Enquiries enabled for %s in stock products. Enquiry button will be displayed "
 "on those products only when those products run out of stock."
-msgstr[0] ""
+msgstr[0] "为 %s 的库存产品启用的查询。该产品运行缺货时，将显示查询按钮。"
 
 #: includes/admin/class-quoteup-products-table.php:497
 #, php-format
 msgid "Enquiry enabled for %s out of stock product"
 msgid_plural "Enquiries enabled for %s out of stock products"
-msgstr[0] ""
+msgstr[0] "为 %s 库存不足的产品启用查询"
 
 #: includes/admin/class-quoteup-products-table.php:499
 #, php-format
@@ -694,13 +707,13 @@ msgid ""
 msgid_plural ""
 "and %s in stock products. Enquiry button will be displayed only when the "
 "products run out of stock"
-msgstr[0] ""
+msgstr[0] "和 %s 的库存产品。仅产品跑出股票时，将显示查询按钮"
 
 #: includes/admin/class-quoteup-products-table.php:502
 #, php-format
 msgid "Enquiry enabled for %s product."
 msgid_plural "Enquiries enabled for %s products."
-msgstr[0] ""
+msgstr[0] "为 %s 产品启用的查询。"
 
 #: includes/admin/class-quoteup-products-table.php:569
 msgid "Use Bulk Actions to change visibility"
@@ -713,7 +726,7 @@ msgstr "可见性"
 #: includes/admin/class-quoteup-quote-details-edit.php:71
 #: includes/class-quoteup-add-custom-field.php:637
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:72
 #: includes/class-quoteup-add-custom-field.php:638
@@ -729,18 +742,18 @@ msgstr "显示不同月份"
 msgid ""
 "Sorry, no products matched your selection. Please choose a different "
 "combination."
-msgstr ""
+msgstr "很抱歉，沒有商品符合您的選擇，請重新選擇其他組合。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:127
 msgid ""
 "Please select some product options before adding this product to your cart."
-msgstr ""
+msgstr "請先選取任一商品項選再加商品進購物車"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:128
 #: includes/admin/variation.php:26
 msgid ""
 "Sorry, this product is unavailable. Please choose a different combination."
-msgstr ""
+msgstr "对不起，此产品不可用。请选择一个不同的组合."
 
 #: includes/admin/class-quoteup-quote-details-edit.php:166
 msgid "Saving Data"
@@ -753,11 +766,11 @@ msgstr "生成 PDF 中"
 #: includes/admin/class-quoteup-quote-details-edit.php:175
 #, php-format
 msgid "Please select the Approval/Rejection page %s here %s to create quote"
-msgstr ""
+msgstr "请选择批准/拒绝页面 %s%s 在这里创建报价单"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:182
 msgid "PDF Generated"
-msgstr ""
+msgstr "生成的 PDF"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:186
 msgid "Sending Mail"
@@ -769,11 +782,11 @@ msgstr "总数量不能小于或等于 0"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:194
 msgid "PDF generation process aborted due to security issue."
-msgstr ""
+msgstr "PDF 生成过程由于安全问题而中止。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:198
 msgid "Data update aborted due to security issue."
-msgstr ""
+msgstr "数据更新由于安全问题而中止。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:202
 msgid "Saved Successfully"
@@ -781,23 +794,23 @@ msgstr "保存成功"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:206
 msgid "Customer Data updated."
-msgstr ""
+msgstr "已更新客户数据"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:210
 msgid "Quantity can not be in decimal."
-msgstr ""
+msgstr "数量不能为小数"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:214
 msgid "Enter valid name. Customer Data not updated."
-msgstr ""
+msgstr "请输入有效的名字"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:218
 msgid "Enter valid email address. Customer Data not updated."
-msgstr ""
+msgstr "请输入有效的电邮地址。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:222
 msgid "Please select a valid variation for"
-msgstr ""
+msgstr "请输入一个有效的变量。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:226
 msgid "Same variation of a product cannot be added twice."
@@ -807,17 +820,17 @@ msgstr "一种产品的同一个变量不能添加两次。"
 msgid ""
 "Quote can not be saved because it is already expired. Kindly, change the "
 "date to future date."
-msgstr ""
+msgstr "因为它已经过期，不能保存报价单。请将日期更改为将来的日期。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:243
 #: includes/admin/class-quoteup-quote-details-edit.php:1260
 msgid "Create Quotation"
-msgstr ""
+msgstr "创建报价单"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:247
 #: includes/admin/class-quoteup-quote-details-edit.php:1254
 msgid "Preview Quotation"
-msgstr ""
+msgstr "预览报价"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:251
 #: includes/admin/class-quoteup-quote-details-edit.php:1258
@@ -832,7 +845,7 @@ msgstr "发送报价单"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:322
 msgid "No Enquiry Found."
-msgstr ""
+msgstr "发现没有查询。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:337
 #: includes/admin/class-quoteup-quotes-list.php:70
@@ -842,19 +855,19 @@ msgstr "已拒绝"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:342
 msgid "Quotation Details"
-msgstr ""
+msgstr "报价单详细信息"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:368
 msgid "Customer Data"
-msgstr ""
+msgstr "客戶數據"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:371
 msgid "Product Details"
-msgstr ""
+msgstr "产品详情"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:374
 msgid "Enquiry Messages"
-msgstr ""
+msgstr "查询消息"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:399
 msgid "General details"
@@ -862,7 +875,7 @@ msgstr "基本信息"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:408
 msgid "From "
-msgstr ""
+msgstr "来源"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:416
 msgid "Client's Full Name"
@@ -881,7 +894,7 @@ msgstr "客户邮箱"
 #: includes/class-quoteup-add-custom-field.php:586
 #: includes/settings/settings-tabs.php:19
 msgid "Email"
-msgstr ""
+msgstr "邮箱"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:426
 msgid "Client's IP Address"
@@ -889,7 +902,7 @@ msgstr "访客来源IP地址"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:426
 msgid "IP Address"
-msgstr ""
+msgstr "IP地址"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:453
 #: includes/class-quoteup-add-custom-field.php:844
@@ -913,7 +926,7 @@ msgstr "您的回复发送成功"
 #: includes/admin/class-quoteup-quote-details-edit.php:838
 #: includes/admin/class-quoteup-quote-details-edit.php:912
 msgid "N/A"
-msgstr ""
+msgstr "无。"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1035
 #: includes/admin/class-quoteup-quotes-list.php:454
@@ -939,7 +952,7 @@ msgstr "重新生成 PDF"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1273
 msgid "Download PDF"
-msgstr ""
+msgstr "下载PDF"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1304
 msgid "Show Old Price in Quotation"
@@ -947,20 +960,20 @@ msgstr "在报价中显示旧价格"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1375
 msgid "Order associated with the Quote  : "
-msgstr ""
+msgstr "与报价单关联的订单︰"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1480
 msgid "Quote PDF Preview"
-msgstr ""
+msgstr "报价 PDF 预览"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1510
 msgid "Quotation Details #"
-msgstr ""
+msgstr "报价单详细信息 #"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1522
 #, php-format
 msgid "Quote Request sent from %s"
-msgstr ""
+msgstr "从 %s 发送报价请求"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1531
 msgid "This email has the quotation attached for your enquiry"
@@ -976,7 +989,7 @@ msgstr "发送报价"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1654
 msgid "Add to Quote"
-msgstr ""
+msgstr "加入询价"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1658
 msgid "Variations"
@@ -984,16 +997,16 @@ msgstr "包括变化"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1661
 msgid "Expected Price and Remarks"
-msgstr ""
+msgstr "预期价格和附注"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1665
 msgid "New Price"
-msgstr ""
+msgstr "新的价格"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1670
 #, php-format
 msgid "Amount( %s )"
-msgstr ""
+msgstr "金额： %s"
 
 #: includes/admin/class-quoteup-quote-details-edit.php:1767
 msgid "Total quantity is 0. Quotation is same as orignal quantity and price"
@@ -1001,7 +1014,7 @@ msgstr "总数量为 0。报价是相同正本数量和价格"
 
 #: includes/admin/class-quoteup-quote-details.php:56
 msgid "Could not create CSV file because of Security issues"
-msgstr ""
+msgstr "不能因为安全问题创建 CSV 文件"
 
 #: includes/admin/class-quoteup-quote-details.php:57
 msgid "Select atleast one enquiry to export"
@@ -1013,7 +1026,7 @@ msgstr "全部"
 
 #: includes/admin/class-quoteup-quotes-list.php:414
 msgid "No enquiry & quote details available."
-msgstr ""
+msgstr "没有查询及报价的详细资料。"
 
 #: includes/admin/class-quoteup-quotes-list.php:449
 msgid "Status"
@@ -1021,11 +1034,11 @@ msgstr "状态"
 
 #: includes/admin/class-quoteup-quotes-list.php:455
 msgid "Order #"
-msgstr ""
+msgstr "订单 #"
 
 #: includes/admin/class-quoteup-send-quote-mail.php:21
 msgid "Quotation"
-msgstr ""
+msgstr "报价"
 
 #: includes/admin/class-quoteup-send-quote-mail.php:39
 #, php-format
@@ -1038,45 +1051,45 @@ msgstr "邮件发送"
 
 #: includes/class-quoteup-add-custom-field.php:565
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #: includes/class-quoteup-add-custom-field.php:567 quoteup-functions.php:97
 msgid "Please Enter Name"
-msgstr ""
+msgstr "请输入名字"
 
 #: includes/class-quoteup-add-custom-field.php:569 quoteup-functions.php:98
 msgid "Please Enter Valid Name"
-msgstr ""
+msgstr "请输入有效的名字"
 
 #: includes/class-quoteup-add-custom-field.php:581
 msgid "Please Enter Email"
-msgstr ""
+msgstr "请输入电子邮箱"
 
 #: includes/class-quoteup-add-custom-field.php:583 quoteup-functions.php:100
 msgid "Please Enter Valid Email Address"
-msgstr ""
+msgstr "请输入有效的电邮地址"
 
 #: includes/class-quoteup-add-custom-field.php:603
 #: includes/class-quoteup-add-custom-field.php:610
 msgid "Phone Number"
-msgstr ""
+msgstr "电话"
 
 #: includes/class-quoteup-add-custom-field.php:605
 msgid "Please Enter Phone Number"
-msgstr ""
+msgstr "请输入电话号码"
 
 #: includes/class-quoteup-add-custom-field.php:607 quoteup-functions.php:101
 msgid "Please Enter Valid Telephone No"
-msgstr ""
+msgstr "请输入有效的电话号码"
 
 #: includes/class-quoteup-add-custom-field.php:659
 #: includes/settings/general/quoteup-form-options.php:337
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: includes/class-quoteup-add-custom-field.php:670
 msgid "Please Enter Date"
-msgstr ""
+msgstr "请输入日期"
 
 #: includes/class-quoteup-add-custom-field.php:687
 #: includes/class-quoteup-add-custom-field.php:694
@@ -1085,19 +1098,19 @@ msgstr "标题"
 
 #: includes/class-quoteup-add-custom-field.php:689
 msgid "Please Enter Subject"
-msgstr ""
+msgstr "请输入主题"
 
 #: includes/class-quoteup-add-custom-field.php:691
 msgid "Please Enter Valid Subject"
-msgstr ""
+msgstr "请输入有效的主题"
 
 #: includes/class-quoteup-add-custom-field.php:703 quoteup-functions.php:102
 msgid "Please Enter Message"
-msgstr ""
+msgstr "请输入信息"
 
 #: includes/class-quoteup-add-custom-field.php:705 quoteup-functions.php:103
 msgid "Message length must be between 15 to 500 characters"
-msgstr ""
+msgstr "查询内容长度需在15到500个字符之间"
 
 #: includes/public/class-quoteup-display-quote-button.php:464
 #: includes/settings/general/quoteup-form-options.php:56
@@ -1110,6 +1123,9 @@ msgid ""
 "products. To end the session, <input type=\"button\" id=\"endsession\" title="
 "\"Ending Session will clear the current cart.\" value=\"Click Here\">"
 msgstr ""
+"你的报价会话已启动。因此，您不能添加任何更多的产品。若要结束会话，<input "
+"type=\"button\" id=\"endsession\" title=\"Ending Session will clear the "
+"current cart.\" value=\"Click Here\">"
 
 #: includes/public/class-quoteup-handle-quote-approval-rejection.php:101
 msgid "Approved but order not yet placed"
@@ -1117,33 +1133,33 @@ msgstr "批准但未找到任何订单"
 
 #: includes/public/class-quoteup-handle-quote-approval-rejection.php:124
 msgid "No message from customer"
-msgstr ""
+msgstr "没有客户的消息"
 
 #: includes/settings/class-quoteup-settings.php:58
 msgid "Please enter email address"
-msgstr ""
+msgstr "请输入邮箱地址"
 
 #: includes/settings/class-quoteup-settings.php:59
 msgid ""
 "Please enter valid email address. Multiple email addresses must be comma "
 "separated."
-msgstr ""
+msgstr "请输入有效的电子邮件地址。多个电子邮件地址必须用逗号分隔。"
 
 #: includes/settings/class-quoteup-settings.php:61
 msgid "Could not migrate enquiries due to security issue."
-msgstr ""
+msgstr "无法迁移由于安全问题的查询。"
 
 #: includes/settings/class-quoteup-settings.php:62
 msgid "Enable"
-msgstr ""
+msgstr "启用"
 
 #: includes/settings/class-quoteup-settings.php:63
 msgid "Disable"
-msgstr ""
+msgstr "禁用"
 
 #: includes/settings/class-quoteup-settings.php:64
 msgid "enquiry system for all products"
-msgstr ""
+msgstr "所有产品的查询系统"
 
 #: includes/settings/class-quoteup-settings.php:65
 msgid "add to cart for all products"
@@ -1163,7 +1179,7 @@ msgstr "隐藏"
 
 #: includes/settings/class-quoteup-settings.php:69
 msgid "Applying Global Settings will do following things"
-msgstr ""
+msgstr "应用全局设置将做以下事情"
 
 #: includes/settings/class-quoteup-settings.php:82
 msgid "Upload or Choose Your Custom Image File"
@@ -1171,7 +1187,7 @@ msgstr "上传或选择您的自定义图像文件"
 
 #: includes/settings/class-quoteup-settings.php:83
 msgid "Insert Image into Input Field"
-msgstr ""
+msgstr "输入字段中插入图像"
 
 #: includes/settings/class-quoteup-settings.php:106
 msgid "Settings Saved"
@@ -1210,6 +1226,7 @@ msgid ""
 "Button color settings will be applied to Enquiry or Quote Request button and "
 "'Send' button on Enquiry and Quote Request Form."
 msgstr ""
+"按钮的颜色设置将应用于查询或报价请求按钮和发送按钮在询价和报价请求窗体上。"
 
 #: includes/settings/display/quoteup-styling-options.php:109
 msgid "  Button Background Color: Gradient Start "
@@ -1241,11 +1258,11 @@ msgstr "对话框中的文本颜色"
 
 #: includes/settings/email/quoteup-emailing-information.php:14
 msgid "Emailing Information"
-msgstr ""
+msgstr "电子邮件信息"
 
 #: includes/settings/email/quoteup-emailing-information.php:30
 msgid "Recipient Email ID"
-msgstr ""
+msgstr "收件人邮箱"
 
 #: includes/settings/email/quoteup-emailing-information.php:34
 msgid "You can add multiple email addresses separated by comma"
@@ -1271,7 +1288,7 @@ msgstr "选中时，将查询电子邮件发送给作者/所有者的产品"
 
 #: includes/settings/email/quoteup-emailing-information.php:97
 msgid "Default Subject"
-msgstr ""
+msgstr "默认主题"
 
 #: includes/settings/email/quoteup-emailing-information.php:101
 msgid "Subject to be used if customer does not enter a subject"
@@ -1279,40 +1296,40 @@ msgstr "如果客户不输入主题使用的课题"
 
 #: includes/settings/email/quoteup-emailing-information.php:105
 msgid "Quote request for a product from "
-msgstr ""
+msgstr "从产品的报价请求"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:16
 msgid "Enquiry & Quote Options"
-msgstr ""
+msgstr "询价及报价选项"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:31
 msgid "Disable Quotation System"
-msgstr ""
+msgstr "禁用报价系统"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:35
 msgid "Disable quote management system"
-msgstr ""
+msgstr "禁用报价管理系统"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:56
 msgid "Display Enquiry or Quote button only when 'Out of Stock'"
-msgstr ""
+msgstr "显示查询或报价按钮仅当脱销"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:61
 msgid ""
 "Display enquiry and quote button only after the product runs out of stock"
-msgstr ""
+msgstr "只有在产品运行脱销后显示询价和报价按钮"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:81
 msgid "Display Enquiry or Quote button on Archive Page "
-msgstr ""
+msgstr "在存档页上显示查询或报价单按钮"
 
 #: includes/settings/general/quoteup-enquiry-and-quote-options.php:86
 msgid "Display enquiry and quote button on Archive (Shop, Categories) Page"
-msgstr ""
+msgstr "在存档 （商店、 类别） 页上显示询价和报价按钮"
 
 #: includes/settings/general/quoteup-form-options.php:15
 msgid "Form Options"
-msgstr ""
+msgstr "表单选项"
 
 #: includes/settings/general/quoteup-form-options.php:47
 msgid " Enquiry Button Label "
@@ -1320,7 +1337,7 @@ msgstr "查询按钮标签"
 
 #: includes/settings/general/quoteup-form-options.php:52
 msgid "Add custom label for Enquiry or Quote button."
-msgstr ""
+msgstr "添加自定义按钮标签，用于查询或报价。"
 
 #: includes/settings/general/quoteup-form-options.php:77
 #: quoteup-functions.php:89
@@ -1334,11 +1351,11 @@ msgstr "查看询盘单"
 
 #: includes/settings/general/quoteup-form-options.php:87
 msgid " View Cart Button Label "
-msgstr ""
+msgstr "查询按钮标签"
 
 #: includes/settings/general/quoteup-form-options.php:92
 msgid "Add custom label for Enquiry or Quote cart button."
-msgstr ""
+msgstr "添加查询或报价单购物车按钮的自定义标签。"
 
 #: includes/settings/general/quoteup-form-options.php:121
 msgid " Alternate word for Enquiry "
@@ -1346,7 +1363,7 @@ msgstr "替换单词查询"
 
 #: includes/settings/general/quoteup-form-options.php:126
 msgid "Alternate word for Enquiry."
-msgstr ""
+msgstr "替换单词查询"
 
 #: includes/settings/general/quoteup-form-options.php:154
 msgid " Button Location"
@@ -1391,7 +1408,7 @@ msgstr "日期字段标签"
 
 #: includes/settings/general/quoteup-form-options.php:333
 msgid "Add custom label for Date Field."
-msgstr ""
+msgstr "为日期字段添加自定义标签。"
 
 #: includes/settings/general/quoteup-form-options.php:365
 msgid " Make Date Field Mandatory"
@@ -1403,7 +1420,7 @@ msgstr "显示电话号码字段"
 
 #: includes/settings/general/quoteup-form-options.php:398
 msgid "Display Telephone number field on Enquiry and Quote Request form."
-msgstr ""
+msgstr "在询价和报价请求窗体上显示电话号码字段。"
 
 #: includes/settings/general/quoteup-form-options.php:427
 msgid " Make Telephone Number Field Mandatory"
@@ -1411,7 +1428,7 @@ msgstr "让电话号码字段强制性"
 
 #: includes/settings/general/quoteup-form-options.php:458
 msgid " Select Country for Telephone Number Validation"
-msgstr ""
+msgstr "要接受任何数目，请不要选中一个国家。"
 
 #: includes/settings/general/quoteup-form-options.php:463
 msgid "To accept any number, do not select a country."
@@ -1423,7 +1440,7 @@ msgstr "选择一个"
 
 #: includes/settings/general/quoteup-migrate-enquiries.php:17
 msgid "Migrate Enquiries"
-msgstr ""
+msgstr "迁移查询"
 
 #: includes/settings/general/quoteup-migrate-enquiries.php:21
 msgid ""
@@ -1437,15 +1454,15 @@ msgstr ""
 
 #: includes/settings/general/quoteup-migrate-enquiries.php:23
 msgid "Please wait"
-msgstr ""
+msgstr "请稍候"
 
 #: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:18
 msgid "Multiproduct Enquiry & Quote Options"
-msgstr ""
+msgstr "多产品询价及报价选项"
 
 #: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:32
 msgid "Enable Multiproduct Enquiry and Quote Request"
-msgstr ""
+msgstr "启用多产品询价和报价请求"
 
 #: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:36
 msgid ""
@@ -1456,7 +1473,7 @@ msgstr ""
 
 #: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:57
 msgid "Enquiry and Quote Cart Page"
-msgstr ""
+msgstr "询价和报价购物车页"
 
 #: includes/settings/general/quoteup-multiproduct-enquiry-and-quote-options.php:62
 msgid ""
@@ -1471,11 +1488,11 @@ msgstr "选择页面"
 
 #: includes/settings/general/quoteup-redirection-page-url.php:20
 msgid "Redirect Page URL"
-msgstr ""
+msgstr "重定向页面"
 
 #: includes/settings/general/quoteup-redirection-page-url.php:24
 msgid "Page Url"
-msgstr ""
+msgstr "页面网址"
 
 #: includes/settings/general/quoteup-redirection-page-url.php:28
 msgid ""
@@ -1485,17 +1502,19 @@ msgstr "用户将对成功报价请求转发到这。如果不需要，保留为
 
 #: includes/settings/quote/quoteup-approval-rejection.php:18
 msgid "Quotation Approval/Rejection"
-msgstr ""
+msgstr "报价批准/拒绝"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:40
 msgid "Approval/Rejection Page"
-msgstr ""
+msgstr "批准/拒绝页"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:44
 msgid ""
 "Plugin will automatically add shortcode [APPROVAL_REJECTION_CHOICE] on the "
 "selected page, if it is not already present in the page's content"
 msgstr ""
+"如果它已不存在于页面的内容插件将自动在所选页上，添加简码 "
+"[APPROVAL_REJECTION_CHOICE]"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:80
 msgid " Approve Button Label "
@@ -1503,7 +1522,7 @@ msgstr "批准的按钮标签"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:85
 msgid "Add custom label for approve quotation button."
-msgstr ""
+msgstr "添加自定义标签为批准报价按钮。"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:89
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:153
@@ -1516,7 +1535,7 @@ msgstr "拒绝的按钮标签"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:117
 msgid "Add custom label for reject quotation button."
-msgstr ""
+msgstr "添加自定义按钮标签，用于拒绝报价。"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:121
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:159
@@ -1529,7 +1548,7 @@ msgstr "拒绝消息"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:149
 msgid "Add custom message to display when customer rejects quote."
-msgstr ""
+msgstr "访问时由于访问受限则显示该信息"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:176
 msgid " Alternate word for Quote "
@@ -1537,7 +1556,7 @@ msgstr "报价的的可选单词"
 
 #: includes/settings/quote/quoteup-approval-rejection.php:181
 msgid "Alternate word for Quote and Quotation."
-msgstr ""
+msgstr "报价及报价的替代词。"
 
 #: includes/settings/quote/quoteup-pdf-settings.php:38
 msgid ""
@@ -1547,7 +1566,7 @@ msgstr "报价系统启用时，这些设置将添加到生成报价单的详细
 
 #: includes/settings/quote/quoteup-pdf-settings.php:40
 msgid "PDF Settings "
-msgstr ""
+msgstr "PDF 设置"
 
 #: includes/settings/quote/quoteup-pdf-settings.php:46
 msgid "Company Name"
@@ -1575,11 +1594,11 @@ msgstr "常规"
 
 #: includes/settings/settings-tabs.php:20
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 #: includes/settings/settings-tabs.php:21
 msgid "Quotation  "
-msgstr ""
+msgstr "报价"
 
 #: product_enquiry_pro.php:292
 msgid ""
@@ -1592,57 +1611,57 @@ msgstr ""
 
 #: quoteup-functions.php:99
 msgid "Please Enter Email Address"
-msgstr ""
+msgstr "请输入邮箱地址"
 
 #: quoteup-functions.php:104
 msgid "Name*"
-msgstr ""
+msgstr "姓名*"
 
 #: quoteup-functions.php:105
 msgid "Email*"
-msgstr ""
+msgstr "邮箱*"
 
 #: quoteup-functions.php:106
 msgid "Please Enter"
-msgstr ""
+msgstr "请输入"
 
 #: quoteup-functions.php:107
 msgid "Please Select"
-msgstr ""
+msgstr "请选择"
 
 #: quoteup-functions.php:115
 msgid "products added in Quote Cart"
-msgstr ""
+msgstr "产品已添加到报价单"
 
 #: quoteup-functions.php:116
 msgid "Please select variation before sending enquiry"
-msgstr ""
+msgstr "请选择发送查询之前的变化"
 
 #: quoteup-functions.php:117
 msgid "product added in Quote Cart"
-msgstr ""
+msgstr "产品已添加到报价单"
 
 #: quoteup-functions.php:118
 msgid "Enter valid Quantity"
-msgstr ""
+msgstr "请输入有效的数量"
 
 #: quoteup-functions.php:220
 msgid "Invalid URL Provided."
-msgstr ""
+msgstr "无效的URL。"
 
 #: quoteup-functions.php:225
 msgid "Could not create Temporary file."
-msgstr ""
+msgstr "无法创建临时文件。"
 
 #: quoteup-functions.php:328
 #, php-format
 msgid "Stock for %s is only %d. Please make quotation for less quantity"
-msgstr ""
+msgstr "%s的库存只剩%d。请修改报价产品数量。"
 
 #: quoteup-functions.php:350
 #, php-format
 msgid "Stock for %s(%s) is only %d. Please make quotation for less quantity"
-msgstr ""
+msgstr "%s(%s)的库存只剩%d。请修改报价产品数量。"
 
 #: quoteup-functions.php:390
 #, php-format
@@ -1656,7 +1675,7 @@ msgstr "%s(%s)库存不足。"
 
 #: templates/lPage_display.php:34
 msgid "No response from server. Please try again later."
-msgstr ""
+msgstr "服务器没有响应。请稍后再试。"
 
 #: templates/lPage_display.php:41
 msgid ""
@@ -1666,7 +1685,7 @@ msgstr "许可证激活失败。请重试或联系对 support@wisdmlabs.com 的�
 
 #: templates/lPage_display.php:49
 msgid "Please enter license key."
-msgstr ""
+msgstr "请输入许可证密钥。"
 
 #: templates/lPage_display.php:56
 msgid "Your license key is activated."
@@ -1696,7 +1715,7 @@ msgstr "您的许可证已经在 %s 上激活"
 
 #: templates/lPage_display.php:91
 msgid "Please enter valid license key."
-msgstr ""
+msgstr "请输入有效的许可证密钥。"
 
 #: templates/lPage_display.php:105
 msgid "Site inactive(Press Activate license to activate plugin)"
@@ -1709,7 +1728,7 @@ msgstr "停用许可证密钥"
 #: templates/lPage_display.php:119
 #, php-format
 msgid "%s License Options"
-msgstr ""
+msgstr "%s - 许可证选项"
 
 #: templates/lPage_display.php:126
 msgid "License Key"
@@ -1726,7 +1745,7 @@ msgstr "激活"
 #: templates/lPage_display.php:153 templates/lPage_display.php:157
 #: templates/lPage_display.php:164 templates/lPage_display.php:168
 msgid "Not Active"
-msgstr ""
+msgstr "用户没激活。"
 
 #: templates/lPage_display.php:176 templates/lPage_display.php:189
 #: templates/lPage_display.php:206
@@ -1735,7 +1754,7 @@ msgstr "激活许可"
 
 #: templates/lPage_display.php:182 templates/lPage_display.php:197
 msgid "Deactivate License"
-msgstr ""
+msgstr "取消许可"
 
 #: templates/lPage_display.php:192 templates/lPage_display.php:200
 msgid "Renew License"
@@ -1748,7 +1767,7 @@ msgstr "备注"
 
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:166
 msgid "Expected price and remarks"
-msgstr ""
+msgstr "预期价格和附注"
 
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:181
 msgid "Update Enquiry Cart"
@@ -1765,7 +1784,7 @@ msgstr "询盘方信息"
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:203
 #: templates/public/class-quoteup-single-product-modal.php:196
 msgid "Indicates required fields"
-msgstr ""
+msgstr "表示必填項"
 
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:223
 #: templates/public/class-quoteup-single-product-modal.php:249
@@ -1774,7 +1793,7 @@ msgstr "抄送给我"
 
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:253
 msgid "Enquiry sent successfully!"
-msgstr ""
+msgstr "查询发送成功！"
 
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:253
 #: templates/public/class-quoteup-handle-enquiry-cart-view.php:260
@@ -1799,15 +1818,15 @@ msgstr "报价已失效。"
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:69
 #, php-format
 msgid "'%s%s' is not in stock. Contact site admin to make this order"
-msgstr ""
+msgstr "'%s%s'没有库存。请联系网站管理员确认。"
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:82
 msgid "An earlier session seems to be in progress "
-msgstr ""
+msgstr "有更早的会话正在处理"
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:174
 msgid "Please add your reason behind rejecting the quote"
-msgstr ""
+msgstr "请添加拒绝报价的原因"
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:175
 msgid "Reject This Quote"
@@ -1819,10 +1838,11 @@ msgid ""
 "%s is not a valid email address or Quotation has been updated. Please "
 "contact site admin for new Quotation mail %s"
 msgstr ""
+"%s不是一个有效的邮件地址或者报价已更新。请联系网站管理员获取新的报价邮件%s。"
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:207
 msgid "Please provide your email address associated with the quote:"
-msgstr ""
+msgstr "请提供与报价相关的邮件地址："
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:219
 msgid "Submit"
@@ -1830,13 +1850,13 @@ msgstr "提交"
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:325
 msgid "Qty"
-msgstr ""
+msgstr "数量"
 
 #: templates/public/class-quoteup-handle-quote-approval-rejection-view.php:436
 msgid ""
 "One or more products from the quotation have been deleted from the store and "
 "are currently unavailable. Please contact site admin for more information."
-msgstr ""
+msgstr "一個或多個報價產品已經從庫存刪除。請聯繫網站管理員獲取更多信息。"
 
 #: templates/public/class-quoteup-single-product-modal.php:161
 msgid "Send Enquiry for"
@@ -1848,4 +1868,4 @@ msgstr "非法查询"
 
 #: templates/public/class-quoteup-single-product-modal.php:232
 msgid "Enquiry email sent successfully!"
-msgstr ""
+msgstr "查询邮件发送成功！"
