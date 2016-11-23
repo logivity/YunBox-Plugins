@@ -101,9 +101,8 @@ function wpseo_admin_bar_menu() {
 	}
 
 	// Yoast Icon.
-	$icon_svg = WPSEO_Utils::get_icon_svg();
-	$title = '<div>&nbsp;SEO工具<div id="yoast-ab-icon" class="ab-item yoast-logo svg" style="background-image: url(\''.$icon_svg.'\');"><span class="screen-reader-text">' . __( 'SEO', 'wordpress-seo' ) . '</span></div></div>';
-
+	//$icon_svg = WPSEO_Utils::get_icon_svg();  <div id="yoast-ab-icon" class="ab-item yoast-logo svg" style="background-image: url(\''.$icon_svg.'\');"><span class="screen-reader-text">' . __( 'SEO', 'wordpress-seo' ) . '</span></div>
+	$title = '<div>&nbsp;&nbsp;SEO工具&nbsp;&nbsp;</div>';
 	$wp_admin_bar->add_menu( array(
 		'id'    => 'wpseo-menu',
 		'title' => $title,
@@ -137,6 +136,34 @@ function wpseo_admin_bar_menu() {
 		'id'     => 'wpseo-googleinsights',
 		'title'  => __( 'Google Trends', 'wordpress-seo' ),
 		'href'   => 'https://www.google.com/trends/explore#q=' . urlencode( $focuskw ),
+		'meta'   => array( 'target' => '_blank' ),
+	) );
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'wpseo-kwresearch',
+		'id'     => 'wpseo-googleglobalmarketfinder',
+		'title'  => __( 'Google全球商机洞察', 'wordpress-seo' ),
+		'href'   => 'http://translate.google.com/globalmarketfinder/g/index.html?locale=zh_CN',
+		'meta'   => array( 'target' => '_blank' ),
+	) );
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'wpseo-kwresearch',
+		'id'     => 'wpseo-baiduindex',
+		'title'  => __( '百度指数', 'wordpress-seo' ),
+		'href'   => 'http://index.baidu.com/?tpl=trend&word=' . urlencode( $focuskw ),
+		'meta'   => array( 'target' => '_blank' ),
+	) );
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'wpseo-kwresearch',
+		'id'     => 'wpseo-baidutop',
+		'title'  => __( '百度搜索风云榜', 'wordpress-seo' ),
+		'href'   => 'http://top.baidu.com',
+		'meta'   => array( 'target' => '_blank' ),
+	) );
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'wpseo-kwresearch',
+		'id'     => 'wpseo-wordtracker',
+		'title'  => __( 'baiduwangdan', 'wordpress-seo' ),
+		'href'   => 'http://wangdan.baidu.com/echannel/login.action',
 		'meta'   => array( 'target' => '_blank' ),
 	) );
 	$wp_admin_bar->add_menu( array(
