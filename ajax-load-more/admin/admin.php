@@ -341,7 +341,7 @@ function alm_admin_menu() {
       'ajax-load-more-shortcode-builder',
       'alm_shortcode_builder_page'
    );
-
+	/*
    $alm_addons_page = add_submenu_page(
       'ajax-load-more',
       'Add-ons',
@@ -349,7 +349,7 @@ function alm_admin_menu() {
       'edit_theme_options',
       'ajax-load-more-add-ons',
       'alm_add_ons_page'
-   );
+  );*/
 
    $alm_examples_page = add_submenu_page(
       'ajax-load-more',
@@ -400,7 +400,7 @@ function alm_admin_menu() {
    add_action( 'load-' . $alm_shortcode_page, 'alm_set_admin_nonce' );
    add_action( 'load-' . $alm_examples_page, 'alm_load_admin_js' );
    add_action( 'load-' . $alm_help_page, 'alm_load_admin_js' );
-   add_action( 'load-' . $alm_addons_page, 'alm_load_admin_js' );
+   //add_action( 'load-' . $alm_addons_page, 'alm_load_admin_js' );
    //add_action( 'load-' . $alm_licenses_page, 'alm_load_admin_js' );
    //add_action( 'load-' . $alm_licenses_page, 'alm_set_admin_nonce' );
 }
