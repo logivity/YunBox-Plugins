@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy WP SMTP\n"
+"POT-Creation-Date: 2016-11-24 14:24+0800\n"
+"PO-Revision-Date: 2016-11-24 14:29+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: easy-wp-smtp.php:21
+msgid "Easy WP SMTP"
+msgstr "SMTP"
+
+#: easy-wp-smtp.php:82 easy-wp-smtp.php:99
+msgid "Settings"
+msgstr "设置"
+
+#: easy-wp-smtp.php:183 easy-wp-smtp.php:221
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "请在“发件人”字段中输入一个有效的电子邮件地址。"
+
+#: easy-wp-smtp.php:198
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "请在“SMTP端口”字段中输入有效的端口。"
+
+#: easy-wp-smtp.php:207
+msgid "Settings saved."
+msgstr "设置已保存"
+
+#: easy-wp-smtp.php:210
+msgid "Settings are not saved."
+msgstr "设置未保存"
+
+#: easy-wp-smtp.php:231
+msgid "Easy WP SMTP Settings"
+msgstr "SMTP设置"
+
+#: easy-wp-smtp.php:240
+msgid "Notice:"
+msgstr "注意："
+
+#: easy-wp-smtp.php:240
+msgid ""
+"The plugin's settings have been changed. In order to save them please don't "
+"forget to click the 'Save Changes' button."
+msgstr "该插件的设置已被更改，为了修改生效，请不要忘记点击“保存更改”按钮。"
+
+#: easy-wp-smtp.php:242
+msgid "General Settings"
+msgstr "常规设置"
+
+#: easy-wp-smtp.php:246
+msgid "From Email Address"
+msgstr "发件人 Email 地址"
+
+#: easy-wp-smtp.php:249
+msgid "This email address will be used in the 'From' field."
+msgstr "此邮件地址将在“发件人”信息中使用。"
+
+#: easy-wp-smtp.php:253
+msgid "From Name"
+msgstr "发件人"
+
+#: easy-wp-smtp.php:256
+msgid "This text will be used in the 'FROM' field"
+msgstr "文本将在“发件人”信息中使用"
+
+#: easy-wp-smtp.php:260
+msgid "SMTP Host"
+msgstr "SMTP 主机"
+
+#: easy-wp-smtp.php:263
+msgid "Your mail server"
+msgstr "您的邮件服务器"
+
+#: easy-wp-smtp.php:267
+msgid "Type of Encription"
+msgstr "加密类型"
+
+#: easy-wp-smtp.php:269
+msgid "None"
+msgstr "无"
+
+#: easy-wp-smtp.php:270
+msgid "SSL"
+msgstr "SSL"
+
+#: easy-wp-smtp.php:271
+msgid "TLS"
+msgstr "TLS"
+
+#: easy-wp-smtp.php:272
+msgid "For most servers SSL is the recommended option"
+msgstr "对于大多数服务器建议选择SSL选项"
+
+#: easy-wp-smtp.php:276
+msgid "SMTP Port"
+msgstr "SMTP 端口"
+
+#: easy-wp-smtp.php:279
+msgid "The port to your mail server"
+msgstr "您的邮件服务器端口"
+
+#: easy-wp-smtp.php:283
+msgid "SMTP Authentication"
+msgstr "SMTP 认证"
+
+#: easy-wp-smtp.php:285
+msgid "No"
+msgstr "否"
+
+#: easy-wp-smtp.php:286
+msgid "Yes"
+msgstr "是"
+
+#: easy-wp-smtp.php:287
+msgid "This options should always be checked 'Yes'"
+msgstr "若您不懂此选项含义，请保持默认选项“Yes”"
+
+#: easy-wp-smtp.php:291
+msgid "SMTP username"
+msgstr "SMTP 用户名"
+
+#: easy-wp-smtp.php:294
+msgid "The username to login to your mail server"
+msgstr "登录到您的邮件服务器的用户名"
+
+#: easy-wp-smtp.php:298
+msgid "SMTP Password"
+msgstr "SMTP 密码"
+
+#: easy-wp-smtp.php:301
+msgid "The password to login to your mail server"
+msgstr "登录到您的邮件服务器的密码"
+
+#: easy-wp-smtp.php:306
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: easy-wp-smtp.php:315
+msgid "Testing And Debugging Settings"
+msgstr "测试和调试设置"
+
+#: easy-wp-smtp.php:319
+msgid "To"
+msgstr "至"
+
+#: easy-wp-smtp.php:322
+msgid "Enter the email address to recipient"
+msgstr "输入送达邮件的地址"
+
+#: easy-wp-smtp.php:326
+msgid "Subject"
+msgstr "主题"
+
+#: easy-wp-smtp.php:329
+msgid "Enter a subject for your message"
+msgstr "为你的邮件内容输入一个主题"
+
+#: easy-wp-smtp.php:333
+msgid "Message"
+msgstr "内容"
+
+#: easy-wp-smtp.php:336
+msgid "Write your message"
+msgstr "输入您的邮件内容"
+
+#: easy-wp-smtp.php:341
+msgid "Send Test Email"
+msgstr "发送测试邮件"
+
+#: easy-wp-smtp.php:458
+msgid ""
+"Please configure your SMTP credentials in the settings in order to send "
+"email using Easy WP SMTP plugin."
+msgstr "请设置您的SMTP，您的SMTP设置正确才能使用SMTP插件发送电子邮件。"
