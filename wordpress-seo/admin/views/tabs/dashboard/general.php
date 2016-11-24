@@ -27,21 +27,6 @@ if ( WPSEO_Utils::is_api_available() ) :
 <?php
 endif;
 
-echo '<h2>' . esc_html__( 'Credits', 'wordpress-seo' ) . '</h2>';
-?>
-<p>
-	<?php
-		/* translators: %1$s expands to Yoast SEO */
-		printf( __( 'Take a look at the people that create %1$s.', 'wordpress-seo' ), 'Yoast SEO' );
-	?>
-</p>
-
-<p>
-	<a class="button"
-	   href="<?php echo esc_url( admin_url( 'admin.php?page=' . WPSEO_Admin::PAGE_IDENTIFIER . '&intro=1' ) ); ?>"><?php _e( 'View Credits', 'wordpress-seo' ); ?></a>
-</p>
-<br/>
-<?php
 echo '<h2>' . esc_html__( 'Restore default settings', 'wordpress-seo' ) . '</h2>';
 ?>
 <p>
