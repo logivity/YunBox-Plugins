@@ -176,7 +176,6 @@ function wpseo_admin_bar_menu() {
 
 	if ( ! is_admin() ) {
 		$url = WPSEO_Frontend::get_instance()->canonical( false );
-
 		if ( is_string( $url ) ) {
 			$wp_admin_bar->add_menu( array(
 				'parent' => 'wpseo-menu',
@@ -271,10 +270,8 @@ function wpseo_admin_bar_menu() {
 			) );
 		}
 	}
-
 	// @todo: add links to bulk title and bulk description edit pages.
 	if ( $user_is_admin_or_networkadmin ) {
-
 		$advanced_settings = wpseo_advanced_settings_enabled( $options );
 
 		$wp_admin_bar->add_menu( array(
@@ -296,12 +293,14 @@ function wpseo_admin_bar_menu() {
 				'title'  => __( 'Titles &amp; Metas', 'wordpress-seo' ),
 				'href'   => admin_url( 'admin.php?page=wpseo_titles' ),
 			) );
+			/*
 			$wp_admin_bar->add_menu( array(
 				'parent' => 'wpseo-settings',
 				'id'     => 'wpseo-social',
 				'title'  => __( 'Social', 'wordpress-seo' ),
 				'href'   => admin_url( 'admin.php?page=wpseo_social' ),
 			) );
+			*/
 			$wp_admin_bar->add_menu( array(
 				'parent' => 'wpseo-settings',
 				'id'     => 'wpseo-xml',
@@ -314,20 +313,22 @@ function wpseo_admin_bar_menu() {
 				'title'  => __( 'Advanced', 'wordpress-seo' ),
 				'href'   => admin_url( 'admin.php?page=wpseo_advanced' ),
 			) );
+			/*
 			$wp_admin_bar->add_menu( array(
 				'parent' => 'wpseo-settings',
 				'id'     => 'wpseo-tools',
 				'title'  => __( 'Tools', 'wordpress-seo' ),
 				'href'   => admin_url( 'admin.php?page=wpseo_tools' ),
 			) );
+			*/
 		}
+		/*
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'wpseo-settings',
 			'id'     => 'wpseo-search-console',
 			'title'  => __( 'Search Console', 'wordpress-seo' ),
 			'href'   => admin_url( 'admin.php?page=wpseo_search_console' ),
 		) );
-		/*
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'wpseo-settings',
 			'id'     => 'wpseo-licenses',
