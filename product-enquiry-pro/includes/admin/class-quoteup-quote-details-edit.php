@@ -90,10 +90,10 @@ class QuoteupQuoteDetailsEdit
          * Include WooCommerce's add-to-cart-variation.js which is used by WooCommerce on Frontend
          * (On variable product) to get appropriate variations from database and filter values
          * in variations dropdown
-         * 
+         *
          * Mimic the way WooCommerce handles variation dropdown. Therefore enqueing the script
          * it requires and localizing scripts with object names which are used in add-to-cart-variation.js
-         * 
+         *
          * This was figured out after studying woocommerce/includes/class-wc-frontend-scripts.php
          */
                 $assets_path = str_replace(array('http:', 'https:'), '', WC()->plugin_url()).'/assets/';
@@ -135,7 +135,7 @@ class QuoteupQuoteDetailsEdit
                 $uiVersion = $wp_scripts->query('jquery-ui-core');
         // tell WordPress to load the Smoothness theme from Google CDN
                 $protocol = is_ssl() ? 'https' : 'http';
-                $url = "$protocol://ajax.googleapis.com/ajax/libs/jqueryui/{$uiVersion->ver}/themes/smoothness/jquery-ui.min.css";
+                $url = "$protocol://cdnjs.cloudflare.com/ajax/libs/jqueryui/{$uiVersion->ver}/themes/smoothness/jquery-ui.min.css";//ajax.aspnetcdn.com
                 wp_enqueue_style('jquery-ui-smoothness', $url, false, null);
                 wp_enqueue_style('jquery-ui-datepicker', QUOTEUP_PLUGIN_URL.'/css/admin/datepicker.css');
 
@@ -277,7 +277,7 @@ class QuoteupQuoteDetailsEdit
         foreach ($ArrayToStrip as $objArrayItem) {
             $NewArray[] =  $objArrayItem;
         }
-     
+
         return( $NewArray );
     }
 
@@ -420,7 +420,7 @@ class QuoteupQuoteDetailsEdit
 							<input id="input-email" type='email' value='<?php echo $this->enquiry_details->email; ?>' class='wdm-input input-field input-email' name='cust_email' required>
 							<label placeholder="<?php _e('Client\'s Email Address', 'quoteup') ?>" alt="<?php _e('Email', 'quoteup') ?>"></label>
 						</div>
-		
+
                 <div class='wdm-user-ip'>
                     <input type='text' value='<?php echo $this->enquiry_details->enquiry_ip; ?>' class='wdm-input-ip wdm-input' disabled name='cust_ip' required>
                     <label placeholder="<?php _e('Client\'s IP Address', 'quoteup') ?>" alt="<?php _e('IP Address', 'quoteup') ?>"></label>
@@ -511,7 +511,7 @@ class QuoteupQuoteDetailsEdit
     {
         global $pep_admin_menu;
         ?>
-		<div id="postbox-container-1" class=""> 
+		<div id="postbox-container-1" class="">
 		<?php
         $this->editPEDetailEnquiryNotesFn();
         do_meta_boxes($pep_admin_menu, 'side', '');
@@ -798,7 +798,7 @@ class QuoteupQuoteDetailsEdit
                          * exists or not. And if it does not exist, that means it is an
                          * old enquiry
                          */
-                        
+
                         if (! isset($prod[ 'variation_id' ])) {
                             $GLOBALS[ 'product' ] = wc_get_product($id);
 
@@ -840,7 +840,7 @@ class QuoteupQuoteDetailsEdit
                                             </div>
                                             <!-- Content of this class is filled by WC automatically when variation is changed -->
                                             <div class="single_variation">
-                                            </div>   
+                                            </div>
                                 <?php
                                 $this->getAttributeValue($attributes, $productData, $product);
                                 add_filter('woocommerce_locate_template', array($this, 'changeVariableTemplatePath'), 10, 2);
@@ -863,7 +863,7 @@ class QuoteupQuoteDetailsEdit
                                         <div>
                                         <?php
                                         $this->printVariations($productData[ 'variation' ]);
-                                        ?>                                                    
+                                        ?>
                                        </div>
                                         <?php
 
@@ -911,7 +911,7 @@ class QuoteupQuoteDetailsEdit
                                             <div class="product_meta">
                                                 <span class="sku_wrapper">SKU: <span class="sku" itemprop="sku"><?php echo ( $sku                        = $product->get_sku() ) ? $sku : __('N/A', 'quoteup'); ?></span></span>
 
-                                            </div>   
+                                            </div>
                                             <?php
                                             $attribute_value_saved_in_db = "";
                                             foreach ($attributes as $attribute_name => $options) {
@@ -962,7 +962,7 @@ class QuoteupQuoteDetailsEdit
                                                     echo "<b>" . wc_attribute_label(trim($attributeKey)) . " :</b>" . $attributeValue . "<br>";
                                                     $_product_variation = wc_get_product($prod[ 'variation_id' ]);
                                                 }
-                                                ?>                                                    
+                                                ?>
 											</div>
 											<?php
                                         }
@@ -1209,7 +1209,7 @@ class QuoteupQuoteDetailsEdit
 						<td colspan="5">
 						</td>
 						<td class='wdmpe-detailtbl-head-item'>Total </td>
-						<td class="wdmpe-detailtbl-content-item item-content-cost" id="amount_total"> 
+						<td class="wdmpe-detailtbl-content-item item-content-cost" id="amount_total">
 						<?php echo wc_price($total_price); ?></td>
 					</tr>
 		        </tbody>

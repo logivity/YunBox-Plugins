@@ -443,7 +443,7 @@ class QuoteUpAddCustomField {
 
         $temp .= $this->addClassToField($val);
         $temp .= ' >';
-        
+
         if (count($val[ 'options' ]) > 0) {
             if (isset($val['default_text'])) {
                 $temp .= "<option value='#'>".$val['default_text'].'</option>';
@@ -592,7 +592,7 @@ class QuoteUpAddCustomField {
                 $ph_req = 'no';
 
                 $ph_req = $this->phoneMandatory($ph_req, $form_data);
-                
+
 
                 $custname = array_merge(
 				$custname, array(
@@ -626,11 +626,11 @@ class QuoteUpAddCustomField {
                 $ui = $wp_scripts->query('jquery-ui-core');
                 // tell WordPress to load the Smoothness theme from Google CDN
                 $protocol = is_ssl() ? 'https' : 'http';
-                $url = "$protocol://ajax.googleapis.com/ajax/libs/jqueryui/{$ui->ver}/themes/smoothness/jquery-ui.min.css";
+                $url = "$protocol://cdnjs.cloudflare.com/ajax/libs/jqueryui/{$ui->ver}/themes/smoothness/jquery-ui.min.css";//ajax.aspnetcdn.com
                 wp_enqueue_style('jquery-ui-smoothness', $url, false, null);
                 wp_enqueue_style('jquery-ui-datepicker', QUOTEUP_PLUGIN_URL.'/css/admin/datepicker.css');
                 // wp_enqueue_style('wdm_datepicker_css', plugins_url('css/public/wdm_date_picker_css.css', __FILE__));
-                // 
+                //
                 global $wp_locale;
 
                 $aryArgs = array(
@@ -742,29 +742,29 @@ class QuoteUpAddCustomField {
         foreach ($ArrayToStrip as $objArrayItem) {
             $NewArray[] =  $objArrayItem;
         }
-     
+
         return( $NewArray );
     }
 
-    /** 
-     * Convert a date format to a jQuery UI DatePicker format  
-     * 
-     * @param string $dateFormat a date format 
-     * @return string 
-     */ 
-    function dateFormatTojQueryUIDatePickerFormat($dateFormat) { 
+    /**
+     * Convert a date format to a jQuery UI DatePicker format
+     *
+     * @param string $dateFormat a date format
+     * @return string
+     */
+    function dateFormatTojQueryUIDatePickerFormat($dateFormat) {
 
-        $chars = array( 
+        $chars = array(
             // Day
             'd' => 'dd', 'j' => 'd', 'l' => 'DD', 'D' => 'D',
-            // Month 
-            'm' => 'mm', 'n' => 'm', 'F' => 'MM', 'M' => 'M', 
-            // Year 
-            'Y' => 'yy', 'y' => 'y', 
-        ); 
+            // Month
+            'm' => 'mm', 'n' => 'm', 'F' => 'MM', 'M' => 'M',
+            // Year
+            'Y' => 'yy', 'y' => 'y',
+        );
 
-        return strtr((string)$dateFormat, $chars); 
-    } 
+        return strtr((string)$dateFormat, $chars);
+    }
 
     public function phoneMandatory($ph_req, $form_data)
     {
@@ -830,7 +830,7 @@ class QuoteUpAddCustomField {
     {
         $email = '';
         $email .= $this->custnameID($val);
-        
+
         if ($val[ 'id' ] == 'txtemail' && $val[ 'include_in_admin_mail' ] == 'yes') {
             $email .= "
            <tr >
