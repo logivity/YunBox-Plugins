@@ -3,11 +3,11 @@
 	namespace WP_Piwik\Widget;
 
 	class Overview extends \WP_Piwik\Widget {
-	
+
 		public $className = __CLASS__;
 
 		protected function configure($prefix = '', $params = array()) {
-			$timeSettings = $this->getTimeSettings();		
+			$timeSettings = $this->getTimeSettings();
 			$this->parameter = array(
 				'idSite' => self::$wpPiwik->getPiwikSiteId($this->blogId),
 				'period' => isset($params['period'])?$params['period']:$timeSettings['period'],
@@ -17,7 +17,7 @@
 			$this->title = !$this->isShortcode?$prefix.__('Overview', 'wp-piwik').' ('.__($this->pageId == 'dashboard'?$this->rangeName():$timeSettings['description'],'wp-piwik').')':($params['title']?$params['title']:'');
 			$this->method = 'VisitsSummary.get';
 		}
-		
+
 		public function show() {
 			$response = self::$wpPiwik->request($this->apiID[$this->method]);
 			if (!empty($response['result']) && $response['result'] ='error')
@@ -36,7 +36,7 @@
 						$result['bounce_rate'] = $result['nb_visits'] > 0 ? round($result['bounce_count'] / $result['nb_visits'] * 100, 1) . '%' : 0;
 						$result['avg_time_on_site'] = $result['nb_visits'] > 0 ? round($result['sum_visit_length'] / $result['nb_visits'], 0) : 0;
 					}
-					$response = $result;	
+					$response = $result;
 				}
 				$time = isset($response['sum_visit_length'])?$this->timeFormat($response['sum_visit_length']):'-';
 				$avgTime = isset($response['avg_time_on_site'])?$this->timeFormat($response['avg_time_on_site']):'-';
@@ -51,9 +51,9 @@
 				);
 				if ($this->parameter['date'] != 'last30')
 					array_push($tableBody, array(__('Time/visit', 'wp-piwik').':', $avgTime), array(__('Max. page views in one visit', 'wp-piwik').':', $this->value($response, 'max_actions')));
-				$tableFoot = (self::$settings->getGlobalOption('piwik_shortcut')?array(__('Shortcut', 'wp-piwik').':', '<a href="'.self::$settings->getGlobalOption('piwik_url').'">Piwik</a>'.(isset($aryConf['inline']) && $aryConf['inline']?' - <a href="?page=wp-piwik_stats">WP-Piwik</a>':'')):null);
+				$tableFoot = (self::$settings->getGlobalOption('piwik_shortcut')?array(__('Shortcut', 'wp-piwik').':', '<a href="'.self::$settings->getGlobalOption('piwik_url').'">云监控</a>'.(isset($aryConf['inline']) && $aryConf['inline']?' - <a href="?page=wp-piwik_stats">WP-Piwik</a>':'')):null);
 				$this->table($tableHead, $tableBody, $tableFoot);
 			}
 		}
-		
+
 	}

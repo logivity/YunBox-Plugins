@@ -88,10 +88,6 @@ class Settings extends \WP_Piwik\Admin {
 				'icon' => 'lightbulb',
 				'name' => __('Support', 'wp-piwik')
 		);
-		$tabs ['credits'] = array (
-				'icon' => 'groups',
-				'name' => __('Credits', 'wp-piwik')
-		);
 
 		echo '<tr><td colspan="2"><h2 class="nav-tab-wrapper">';
 		foreach ( $tabs as $tab => $details ) {
@@ -341,13 +337,6 @@ class Settings extends \WP_Piwik\Admin {
 				?></td></tr>
 			</tbody>
 		</table>
-		<table id="credits" class="wp-piwik_menu-tab hidden">
-			<tbody>
-				<tr><td colspan="2"><?php
-					echo $this->showCredits();
-				?></td></tr>
-			</tbody>
-		</table>
 		<input type="hidden" name="wp-piwik[proxy_url]"
 			value="<?php echo self::$settings->getGlobalOption('proxy_url'); ?>" />
 	</form>
@@ -486,49 +475,7 @@ class Settings extends \WP_Piwik\Admin {
 	 * Show donation info
 	 */
 	private function showDonation() {
-		?>
-<div class="wp-piwik-donate">
-	<p>
-		<strong><?php _e('Donate','wp-piwik'); ?></strong>
-	</p>
-	<p>
-		<?php _e('If you like WP-Piwik, you can support its development by a donation:', 'wp-piwik'); ?>
-	</p>
-	<script type="text/javascript">
-	/* <![CDATA[ */
-	window.onload = function() {
-		FlattrLoader.render({
-        	'uid': 'flattr',
-            'url': 'http://wp.local',
-            'title': 'Title of the thing',
-            'description': 'Description of the thing'
-		}, 'element_id', 'replace');
-	}
-	/* ]]> */
-	</script>
-	<div>
-		<a class="FlattrButton" style="display:none;" title="WordPress Plugin WP-Piwik" rel="flattr;uid:braekling;category:software;tags:wordpress,piwik,plugin,statistics;" href="https://www.braekling.de/wp-piwik-wpmu-piwik-wordpress">This WordPress plugin adds a Piwik stats site to your WordPress dashboard. It's also able to add the Piwik tracking code to your blog using wp_footer. You need a running Piwik installation and at least view access to your stats.</a>
-	</div>
-	<div>
-		Paypal
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick" />
-			<input type="hidden" name="hosted_button_id" value="6046779" />
-			<input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online." />
-			<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
-		</form>
-	</div>
-	<div>
-		<a href="bitcoin:32FMBngRne9wQ7XPFP2CfR25tjp3oa4roN">Bitcoin<br />
-		<img style="border:none;" src="<?php echo self::$wpPiwik->getPluginURL(); ?>bitcoin.png" width="100" height="100" alt="Bitcoin Address" title="32FMBngRne9wQ7XPFP2CfR25tjp3oa4roN" /></a>
-	</div>
-	<div>
-		<a href="http://www.amazon.de/gp/registry/wishlist/111VUJT4HP1RA?reveal=unpurchased&amp;filter=all&amp;sort=priority&amp;layout=standard&amp;x=12&amp;y=14"><?php _e('My Amazon.de wishlist', 'wp-piwik'); ?></a>
-	</div>
-	<div>
-		<?php _e('Please don\'t forget to vote the compatibility at the','wp-piwik'); ?> <a href="http://wordpress.org/extend/plugins/wp-piwik/">WordPress.org Plugin Directory</a>.
-	</div>
-</div><?php
+
 	}
 
 	/**
@@ -551,26 +498,10 @@ class Settings extends \WP_Piwik\Admin {
 	}
 
 	/**
-	 * Show credits
-	 */
-	public function showCredits() {
-		?>
-		<p><strong><?php _e('Thank you very much for your donation', 'wp-piwik'); ?>:</strong> Marco L., Rolf W., Tobias U., Lars K., Donna F., Kevin D., Ramos S., Thomas M., John C., Andreas G., Ben M., Myra R. I., Carlos U. R.-S., Oleg I., M. N., Daniel K., James L., Jochen K., Cyril P., Thomas K., Patrik K., Zach, Sebastian W., Peakkom, Patrik K., Kati K., Helmut O., Valerie S., Jochen D., <?php _e('the Piwik team itself','wp-piwik');?><?php _e(', and all people flattering this','wp-piwik'); ?>!</p>
-		<p><?php _e('Graphs powered by <a href="http://www.jqplot.com/">jqPlot</a> (License: GPL 2.0 and MIT) and <a href="http://omnipotent.net/jquery.sparkline/">jQuery Sparklines</a> (License: New BSD License).','wp-piwik'); ?></p>
-		<p><?php _e('Thank you very much','wp-piwik'); ?> <a href="https://www.transifex.com/projects/p/wp-piwik/">Transifex Translation Community</a> <?php _e('for your translation work','wp-piwik'); ?>!</p>
-		<p><?php _e('Thank you very much, all users who send me mails containing criticism, commendation, feature requests and bug reports! You help me to make WP-Piwik much better.','wp-piwik'); ?></p>
-		<p><?php _e('Thank <strong>you</strong> for using my plugin. It is the best commendation if my piece of code is really used!','wp-piwik'); ?></p>
-		<?php
-	}
-
-	/**
 	 * Show support information
 	 */
 	public function showSupport() {
-		?><ul>
-			<li><?php _e('The best place to get help:', 'wp-piwik'); ?> <a href="https://wordpress.org/support/plugin/wp-piwik"><?php _e('WP-Piwik support forum','wp-piwik'); ?></a></li>
-			<li><?php _e('Please don\'t forget to vote the compatibility at the','wp-piwik'); ?> <a href="http://wordpress.org/extend/plugins/wp-piwik/">WordPress.org Plugin Directory</a>.</li>
-		</ul>
+		?>
 		<h3><?php _e('Debugging', 'wp-piwik'); ?></h3>
 		<p><?php _e('Either allow_url_fopen has to be enabled <em>or</em> cURL has to be available:', 'wp-piwik'); ?></p>
 		<ol>
@@ -597,14 +528,7 @@ class Settings extends \WP_Piwik\Admin {
 			<li><a href="<?php echo admin_url( (self::$settings->checkNetworkActivation () ? 'network/settings' : 'options-general').'.php?page='.$_GET['page'].'&clear=1' ); ?>"><?php _e('Clear cache', 'wp-piwik'); ?></a></li>
 			<li><a onclick="return confirm('<?php _e('Are you sure you want to clear all settings?', 'wp-piwik'); ?>')" href="<?php echo admin_url( (self::$settings->checkNetworkActivation () ? 'network/settings' : 'options-general').'.php?page='.$_GET['page'].'&clear=2' ); ?>"><?php _e('Reset WP-Piwik', 'wp-piwik'); ?></a></li>
 		</ol>
-		<h3><?php _e('Latest support threads on WordPress.org', 'wp-piwik'); ?></h3><?php
-		$supportThreads = $this->readRSSFeed('http://wordpress.org/support/rss/plugin/wp-piwik');
-		if (!empty($supportThreads)) {
-			echo '<ol>';
-			foreach ($supportThreads as $supportThread)
-				echo '<li><a href="'.$supportThread['url'].'">'.$supportThread['title'].'</a></li>';
-			echo '</ol>';
-		}
+		<?php
 	}
 
 	/**

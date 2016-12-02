@@ -3,7 +3,7 @@
 	namespace WP_Piwik\Widget;
 
 	class Post extends \WP_Piwik\Widget {
-	
+
 		public $className = __CLASS__;
 
 		protected function configure($prefix = '', $params = array()) {
@@ -18,7 +18,7 @@
 			$this->title = $prefix.__('Overview', 'wp-piwik').' ('.__($this->parameter['date'],'wp-piwik').')';
 			$this->method = 'Actions.getPageUrl';
 		}
-		
+
 		public function show() {
 			$response = self::$wpPiwik->request($this->apiID[$this->method]);
 			if (!empty($response['result']) && $response['result'] ='error')
@@ -42,10 +42,10 @@
 					array(__('Bounce count', 'wp-piwik').':', $this->value($response, 'entry_bounce_count').' ('.$this->value($response, 'bounce_rate').')'),
 					array(__('Min. generation time', 'wp-piwik').':', $this->value($response, 'min_time_generation')),
 					array(__('Max. generation time', 'wp-piwik').':', $this->value($response, 'max_time_generation'))
-				); 
-				$tableFoot = (self::$settings->getGlobalOption('piwik_shortcut')?array(__('Shortcut', 'wp-piwik').':', '<a href="'.self::$settings->getGlobalOption('piwik_url').'">Piwik</a>'.(isset($aryConf['inline']) && $aryConf['inline']?' - <a href="?page=wp-piwik_stats">WP-Piwik</a>':'')):null);
+				);
+				$tableFoot = (self::$settings->getGlobalOption('piwik_shortcut')?array(__('Shortcut', 'wp-piwik').':', '<a href="'.self::$settings->getGlobalOption('piwik_url').'">云监控</a>'.(isset($aryConf['inline']) && $aryConf['inline']?' - <a href="?page=wp-piwik_stats">WP-Piwik</a>':'')):null);
 				$this->table($tableHead, $tableBody, $tableFoot);
 			}
 		}
-		
+
 	}
