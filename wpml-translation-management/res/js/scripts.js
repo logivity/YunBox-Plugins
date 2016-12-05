@@ -216,7 +216,7 @@ jQuery(document).ready(function () {
 	var icl_xliff_options_form = jQuery('#icl_xliff_options_form');
 	if (icl_xliff_options_form !== undefined) {
         /** @namespace jQuery.browser.msie */
-        if (jQuery.browser.msie) {
+        if ( /msie/.test(navigator.userAgent.toLowerCase()) ) { // jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase())
             icl_xliff_options_form.submit(icl_xliff_set_newlines);
         } else {
             jQuery(document).undelegate("#icl_xliff_options_form");
