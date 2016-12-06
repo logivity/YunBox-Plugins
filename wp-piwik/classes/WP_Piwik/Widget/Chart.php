@@ -5,11 +5,11 @@
 	use WP_Piwik\Widget;
 
 	class Chart extends Widget {
-	
+
 		public $className = __CLASS__;
 
 		protected function configure($prefix = '', $params = array()) {
-			$timeSettings = $this->getTimeSettings();			
+			$timeSettings = $this->getTimeSettings();
 			$this->parameter = array(
 				'idSite' => self::$wpPiwik->getPiwikSiteId($this->blogId),
 				'period' => isset($params['period'])?$params['period']:$timeSettings['period'],
@@ -24,13 +24,13 @@
 			wp_enqueue_style('wp-piwik', self::$wpPiwik->getPluginURL().'css/wp-piwik.css',array(),self::$wpPiwik->getPluginVersion());
 			add_action('admin_head-index.php', array($this, 'addHeaderLines'));
 		}
-		
+
 		public function addHeaderLines() {
 			echo '<!--[if IE]><script language="javascript" type="text/javascript" src="'.self::$wpPiwik->getPluginURL().'js/jqplot/excanvas.min.js"></script><![endif]-->';
 			echo '<link rel="stylesheet" href="'.self::$wpPiwik->getPluginURL().'js/jqplot/jquery.jqplot.min.css" type="text/css"/>';
-			echo '<script type="text/javascript">var $j = jQuery.noConflict();</script>';			
+			echo '<script type="text/javascript">var $j = jQuery.noConflict();</script>';
 		}
-		
+
 		public function show() {
 			$response = array();
 			$success = true;
@@ -56,7 +56,7 @@
 						} else $textKey = substr($date, -2);
 						$labels .= '['.$count.',"'.$textKey.'"],';
 						$uniqueSum += $response['VisitsSummary.getActions'][$date];
-					} 
+					}
 				else {
 					$values = '0,';
 					$labels = '[0,"-"],';
@@ -74,5 +74,5 @@
 				echo '</script>';
 			}
 		}
-		
+
 	}

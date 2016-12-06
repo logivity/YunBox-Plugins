@@ -139,7 +139,7 @@ class WP_Piwik {
 						'addPiwikAnnotation'
 				), 10, 3 );
 		}
-		
+
 	}
 
 	/**
@@ -346,19 +346,26 @@ class WP_Piwik {
 				global $current_user;
 				$userRoles = $current_user->roles;
 				$allowed = self::$settings->getGlobalOption ( 'capability_read_stats' );
-				if (is_array($userRoles) && is_array($allowed)) 
+				if (is_array($userRoles) && is_array($allowed))
 					foreach ($userRoles as $userRole)
 						if (isset( $allowed[$userRole] ) && $allowed[$userRole]) {
 							$cap = 'read';
 							break;
 						}
 			}
+			$FramePage = new WP_Piwik\Admin\Frame ( $this, self::$settings );
+			add_menu_page( 'data ctenter', '数据中心', $cap, 'yc-piwik-center', array (
+					$FramePage,
+					'show'
+			) );
+			/*
 			$statsPage = new WP_Piwik\Admin\Statistics ( $this, self::$settings );
 			$this->statsPageId = add_dashboard_page ( __ ( 'Piwik Statistics', 'wp-piwik' ), self::$settings->getGlobalOption ( 'plugin_display_name' ), $cap, 'wp-piwik_stats', array (
 					$statsPage,
 					'show'
 			) );
 			$this->loadAdminStatsHeader ( $this->statsPageId, $statsPage );
+			*/
 		}
 		if (! self::$settings->checkNetworkActivation ()) {
 			$optionsPage = new WP_Piwik\Admin\Settings ( $this, self::$settings );
@@ -373,7 +380,7 @@ class WP_Piwik {
 	/**
 	 * Register network admin menu components
 	 */
-	public function buildNetworkAdminMenu() {		
+	public function buildNetworkAdminMenu() {
 		if (self::isConfigured ()) {
 			$statsPage = new WP_Piwik\Admin\Network ( $this, self::$settings );
 			$this->statsPageId = add_dashboard_page ( __ ( 'Piwik Statistics', 'wp-piwik' ), self::$settings->getGlobalOption ( 'plugin_display_name' ), 'manage_sites', 'wp-piwik_stats', array (
@@ -457,6 +464,7 @@ class WP_Piwik {
 	 * Register WordPress toolbar components
 	 */
 	public function extendWordPressToolbar($toolbar) {
+		/*
 		if (current_user_can ( 'wp-piwik_read_stats' ) && is_admin_bar_showing ()) {
 			$id = WP_Piwik\Request::register ( 'VisitsSummary.getUniqueVisitors', array (
 					'period' => 'day',
@@ -478,6 +486,14 @@ class WP_Piwik {
 				'href' => $url
 			) );
 		}
+		*/
+		$toolbar->add_menu( array(
+			'id'     => 'menu-piwik',
+			'parent' => 'top-secondary',
+			'title'  => __( '云数据中心', 'kadima' ),
+			'href'   => self::$settings->getGlobalOption ( 'piwik_url' ) . '/index.php?module=Login&action=logme&login=' . self::$settings->getGlobalOption ( 'piwik_account_name' ) .'&password=' . md5(self::$settings->getGlobalOption ( 'piwik_account_pwd' )) .'&idSite=' . self::$settings->getOption ( 'site_id' ),
+			'meta'   => array( 'target' => '_blank' ),
+		) );
 	}
 
 	/**
@@ -502,10 +518,12 @@ class WP_Piwik {
 	 */
 	public function loadToolbarRequirements() {
 		if (is_admin_bar_showing ()) {
+			/*
 			wp_enqueue_script ( 'wp-piwik-sparkline', $this->getPluginURL () . 'js/sparkline/jquery.sparkline.min.js', array (
 					'jquery'
 			), self::$version );
 			wp_enqueue_style ( 'wp-piwik', $this->getPluginURL () . 'css/wp-piwik-spark.css', array (), $this->getPluginVersion () );
+			*/
 		}
 	}
 
@@ -1239,7 +1257,7 @@ class WP_Piwik {
 
 	/**
 	 * Check if WP-Piwik options page
-	 * 
+	 *
 	 * @return boolean True if current page is WP-Piwik's option page
 	 */
 	public static function isValidOptionsPost() {

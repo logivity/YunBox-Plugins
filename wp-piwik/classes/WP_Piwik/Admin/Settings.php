@@ -52,7 +52,7 @@ class Settings extends \WP_Piwik\Admin {
 			<tbody>
 			<?php
 		$submitButton = '<tr><td colspan="2"><p class="submit"><input name="Submit" type="submit" class="button-primary" value="' . esc_attr__ ( 'Save Changes' ) . '" /></p></td></tr>';
-		printf ( '<tr><td colspan="2">%s</td></tr>', __ ( 'Thanks for using WP-Piwik!', 'wp-piwik' ) );
+		//printf ( '<tr><td colspan="2">%s</td></tr>', __ ( 'Thanks for using WP-Piwik!', 'wp-piwik' ) );
 		if (self::$wpPiwik->isConfigured ()) {
 			if (! empty ( $piwikVersion ) && !is_array( $piwikVersion )) {
 				$this->showText ( sprintf ( __ ( 'WP-Piwik %s is successfully connected to Piwik %s.', 'wp-piwik' ), self::$wpPiwik->getPluginVersion (), $piwikVersion ) . ' ' . (! self::$wpPiwik->isNetworkMode () ? sprintf ( __ ( 'You are running WordPress %s.', 'wp-piwik' ), get_bloginfo ( 'version' ) ) : sprintf ( __ ( 'You are running a WordPress %s blog network (WPMU). WP-Piwik will handle your sites as different websites.', 'wp-piwik' ), get_bloginfo ( 'version' ) )) );
@@ -116,6 +116,8 @@ class Settings extends \WP_Piwik\Admin {
 		$this->showInput ( 'piwik_path', __ ( 'Piwik path', 'wp-piwik' ), __( 'Enter the file path to your Piwik instance, e.g. /var/www/piwik/.', 'wp-piwik' ), self::$settings->getGlobalOption ( 'piwik_mode' ) != 'php', 'wp-piwik-mode-option', 'php', self::$wpPiwik->isConfigured (), true );
 		$this->showInput ( 'piwik_user', __ ( 'Piwik user', 'wp-piwik' ), __( 'Enter your Piwik Pro username. It is also part of your URL: http://USERNAME.piwik.pro.', 'wp-piwik' ), self::$settings->getGlobalOption ( 'piwik_mode' ) != 'pro', 'wp-piwik-mode-option', 'pro', self::$wpPiwik->isConfigured () );
 		$this->showInput ( 'piwik_token', __ ( 'Auth token', 'wp-piwik' ), __( 'Enter your Piwik auth token here. It is an alphanumerical code like 0a1b2c34d56e78901fa2bc3d45678efa.', 'wp-piwik' ).' '.sprintf ( __ ( 'See %sWP-Piwik FAQ%s.', 'wp-piwik' ), '<a href="https://wordpress.org/plugins/wp-piwik/faq/">', '</a>' ), false, '', '', self::$wpPiwik->isConfigured (), true );
+		$this->showInput ( 'piwik_account_name', __ ( 'Account Name', 'wp-piwik' ), __( 'Enter Account Name.', 'wp-piwik' ), false, '', '', self::$wpPiwik->isConfigured (), true );
+		$this->showInput ( 'piwik_account_pwd', __ ( 'Account Password', 'wp-piwik' ), __( 'Enter Account Password', 'wp-piwik' ), false, '', '', self::$wpPiwik->isConfigured (), true );
 
 		// Site configuration
 		$piwikSiteId = self::$wpPiwik->isConfigured () ? self::$wpPiwik->getPiwikSiteId () : false;

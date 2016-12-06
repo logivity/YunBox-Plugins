@@ -42,6 +42,8 @@ class Settings {
 			'piwik_path' => '',
 			'piwik_user' => '',
 			'piwik_token' => '',
+			'piwik_account_name' => '',
+			'piwik_account_pwd' => '',
 			'auto_site_config' => true,
 			// User settings: Stats configuration
 			'default_date' => 'yesterday',
