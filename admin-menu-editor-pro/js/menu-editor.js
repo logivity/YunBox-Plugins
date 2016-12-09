@@ -837,7 +837,7 @@ var knownMenuFields = {
 	'css_class' : $.extend({}, baseField, {
 		caption: 'CSS classes',
 		advanced : true,
-		onlyForTopMenus: true
+		onlyForTopMenus: false
 	}),
 
 	'open_in' : $.extend({}, baseField, {
